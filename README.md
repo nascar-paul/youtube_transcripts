@@ -1,6 +1,4 @@
 
-markdown
-Copy code
 # YouTube Transcript Extractor
 
 This repository contains a Python script that can generate a text file containing the transcript of any YouTube video. It uses the `youtube_transcript_api` to fetch the transcripts.
