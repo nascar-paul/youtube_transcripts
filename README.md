@@ -11,24 +11,28 @@ This repository contains a Python script that can generate a text file containin
 ## Installation
 
 1. Clone this repository:
+  ```
 git clone https://github.com/nascar-paul/youtube_transcripts.git
-
+  ```
 
 2. Navigate to the cloned directory:
+  ```
 cd youtube_transcripts
-
+  ```
 
 ### Setting Up a Virtual Environment (Highly Suggested)
 
 Using a virtual environment is not mandatory, but it is highly recommended to avoid potential conflicts with other Python packages you may have installed.
 
 1. Install `virtualenv` if you haven't:
+  ```
 pip install virtualenv
+  ```
 
-
-2. Create a virtual environment. While "Youtube" is a suggested name for the virtual environment, you can choose any name you prefer:
+2. Create a virtual environment. While "Youtube" is the suggested name for the virtual environment, you can choose any name you prefer:
+  ```
 virtualenv Youtube
-
+  ```
 
 3. Activate the virtual environment:
 
@@ -45,8 +49,9 @@ virtualenv Youtube
 ### Installing the Required Library
 
 1. Install the `youtube_transcript_api` library:
+  ```
 pip install youtube_transcript_api
-
+  ```
 
 ## Usage
 
