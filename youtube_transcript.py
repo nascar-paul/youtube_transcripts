@@ -22,7 +22,7 @@ def write_transcript_to_file(video_id, transcript):
             file.write(entry['text'] + '\n')
 
 # Set the ID of the video you want to get the transcript for
-video_id = 'u8vDZZa-88Y'
+video_id = input("Enter the YouTube video ID: ")
 
 # Get the transcript of the video
 
