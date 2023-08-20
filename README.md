@@ -49,8 +49,9 @@ virtualenv Youtube
 ### Installing the Required Library
 
 1. Install the `youtube_transcript_api` library:
+  ```
 pip install youtube_transcript_api
-
+  ```
 
 ## Usage
 
