@@ -1,4 +1,8 @@
+# Imports the string module, which contains a number of useful string constants and functions
+import string
+
 # Import the youtube transcription module
+from lib2to3.pgen2.token import STRING
 from youtube_transcript_api import YouTubeTranscriptApi
 import os
 
