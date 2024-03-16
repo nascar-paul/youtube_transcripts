@@ -52,7 +52,7 @@ virtualenv Youtube
   ```
 pip install youtube_transcript_api
   ```
-2. Install the Google API Client Library:
+2. Install the `google_api` client library:
   ```
 pip to install: pip install --upgrade google-api-python-client
   ```
