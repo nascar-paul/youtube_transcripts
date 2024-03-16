@@ -51,6 +51,10 @@ virtualenv Youtube
 1. Install the `youtube_transcript_api` library:
   ```
 pip install youtube_transcript_api
+
+2. Install the Google API Client Library:
+
+pip to install: pip install --upgrade google-api-python-client
   ```
 
 ## Usage
@@ -61,6 +65,11 @@ python youtube_transcript.py
 2. When prompted, enter the YouTube video ID for which you want to fetch the transcript.
 
 3. The script will generate a text file containing the transcript of the video.
+
+4. The script will use the YouTube Data API v3 to Fetch Video Titles
+
+### Note: You will need to set up a project in the Google Developers Console, enable the YouTube Data API v3 for your project, and obtain an API key.
+
 
 ## Contributing
 
