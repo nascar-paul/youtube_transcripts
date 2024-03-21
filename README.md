@@ -54,7 +54,7 @@ pip install youtube_transcript_api
   ```
 2. Install the `google_api` client library:
   ```
-pip to install: pip install --upgrade google-api-python-client
+pip install youtube_transcript_api pytube
   ```
 
 ## Usage
