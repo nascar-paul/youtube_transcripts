@@ -19,7 +19,7 @@ def get_transcript(video_id):
     return transcript
 
 # Defines a function to write the transcript to a file
-def write_transcript_to_file(video_id, transcript):
+def write_transcript_to_file(video_id, transcript, output_format):
     # Use pytube to get the video object, which includes the title
     video = YouTube(f'https://www.youtube.com/watch?v={video_id}')
     video_title = video.title
@@ -51,4 +51,4 @@ if output_format not in ['text', 'json']:
 transcript = get_transcript(video_id)
 
 # Write the transcript to a file in the selected format
-transcript = write_transcript_to_file(video_id, output_format)
+write_transcript_to_file(video_id, transcript, output_format)  # Fixed function call
