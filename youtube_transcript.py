@@ -47,11 +47,8 @@ if output_format not in ['text', 'json']:
     print("Invalid output format selected. Defaulting to text.")
     output_format = 'text'
 
-# Set the ID of the video you want to get the transcript for
-video_id = input("Enter the YouTube video ID: ")
-
 # Get the transcript of the video
 transcript = get_transcript(video_id)
 
 # Write the transcript to a file in the selected format
-write_transcript_to_file(video_id, transcript, output_format)
+transcript = write_transcript_to_file(video_id, output_format)
