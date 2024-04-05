@@ -60,6 +60,10 @@ pip install youtube_transcript_api pytube
   ```
 pip3 install pytube
   ```
+4. Install the openapi python library:
+  ```
+pip install openai
+  ```
 
 ## Usage
 
