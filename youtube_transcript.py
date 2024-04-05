@@ -56,5 +56,21 @@ write_transcript_to_file(video_id, transcript, output_format)  # Fixed function 
 
 # Ask the user if they want to engage with the assistant
 engage_option = input("Would you like to forward this transcript to the assistant for summarization and analysis? (yes/no): ").lower()
+
+# Assuming openai_assistant.py is in the same directory
+from openai_assistant import get_api_key, initialize_openai_client, interact_with_custom_assistant
+
+# Later in your script, after obtaining the transcript:
 if engage_option == 'yes':
-    os.system("openai_assistant.py")
+    api_key = get_api_key()  # Get the API key from the user
+    initialize_openai_client(api_key)
+    
+    # Combine the transcript into a single string if necessary
+    combined_transcript = ' '.join([entry['text'] for entry in transcript])
+    response = interact_with_custom_assistant(combined_transcript)
+    if response:
+        print("Assistant Response:\n", response)
+    else:
+        print("Failed to get a response from the custom assistant.")
+
+
