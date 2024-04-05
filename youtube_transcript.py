@@ -1,9 +1,10 @@
-# Imports the string module, which contains a number of useful string constants and functions
+# Imports the string module, used to rename the transcript file
 import string
 
 # Import the youtube transcription module
 from youtube_transcript_api import YouTubeTranscriptApi
 import os
+
 # Import pytube to fetch the video title
 from pytube import YouTube
 
@@ -52,3 +53,8 @@ transcript = get_transcript(video_id)
 
 # Write the transcript to a file in the selected format
 write_transcript_to_file(video_id, transcript, output_format)  # Fixed function call
+
+# Ask the user if they want to engage with the assistant
+engage_option = input("Would you like to forward this transcript to the assistant for summarization and analysis? (yes/no): ").lower()
+if engage_option == 'yes':
+    os.system("openai assistant.py")
