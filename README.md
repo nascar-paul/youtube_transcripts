@@ -46,7 +46,7 @@ virtualenv Youtube
   source Youtube/bin/activate
   ```
 
-### Installing the Required Library
+### Installing the Required Libraries
 
 1. Install the `youtube_transcript_api` library:
   ```
@@ -55,6 +55,10 @@ pip install youtube_transcript_api
 2. Install the `google_api` client library:
   ```
 pip install youtube_transcript_api pytube
+  ```
+3. Install the `pytube` python library and all dependencies:
+  ```
+pip3 install pytube
   ```
 
 ## Usage
