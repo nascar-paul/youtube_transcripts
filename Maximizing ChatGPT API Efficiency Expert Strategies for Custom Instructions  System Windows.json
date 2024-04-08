@@ -1,0 +1,3657 @@
+[
+    {
+        "text": "I get a lot of questions about how best",
+        "start": 0.48,
+        "duration": 8.039
+    },
+    {
+        "text": "to use the chat GPT API so if you are a",
+        "start": 3.959,
+        "duration": 7.021
+    },
+    {
+        "text": "chat GPT user you might be familiar with",
+        "start": 8.519,
+        "duration": 4.681
+    },
+    {
+        "text": "custom instructions so the custom",
+        "start": 10.98,
+        "duration": 5.219
+    },
+    {
+        "text": "instructions panel that they added uh",
+        "start": 13.2,
+        "duration": 4.74
+    },
+    {
+        "text": "just a few months ago basically gives",
+        "start": 16.199,
+        "duration": 4.5
+    },
+    {
+        "text": "you the ability to tell chat GPT a",
+        "start": 17.94,
+        "duration": 5.58
+    },
+    {
+        "text": "little bit about yourself as well as how",
+        "start": 20.699,
+        "duration": 5.941
+    },
+    {
+        "text": "you want it to respond every time now",
+        "start": 23.52,
+        "duration": 5.16
+    },
+    {
+        "text": "this is called chat GPT custom",
+        "start": 26.64,
+        "duration": 4.799
+    },
+    {
+        "text": "instructions but from an API perspective",
+        "start": 28.68,
+        "duration": 5.16
+    },
+    {
+        "text": "on the back end which that's primarily",
+        "start": 31.439,
+        "duration": 4.261
+    },
+    {
+        "text": "who this video is for is not necessarily",
+        "start": 33.84,
+        "duration": 5.7
+    },
+    {
+        "text": "the chat GPT users but the API users on",
+        "start": 35.7,
+        "duration": 5.94
+    },
+    {
+        "text": "the back end the way that this looks is",
+        "start": 39.54,
+        "duration": 3.42
+    },
+    {
+        "text": "that there is what's called a system",
+        "start": 41.64,
+        "duration": 4.38
+    },
+    {
+        "text": "window so if you ever hear me refer to a",
+        "start": 42.96,
+        "duration": 5.22
+    },
+    {
+        "text": "system window this is what I mean",
+        "start": 46.02,
+        "duration": 5.039
+    },
+    {
+        "text": "and the system window is a sort of out",
+        "start": 48.18,
+        "duration": 5.64
+    },
+    {
+        "text": "of band set of instructions that allows",
+        "start": 51.059,
+        "duration": 5.0
+    },
+    {
+        "text": "you to give it any kind of content",
+        "start": 53.82,
+        "duration": 4.44
+    },
+    {
+        "text": "whether you're providing IT background",
+        "start": 56.059,
+        "duration": 3.361
+    },
+    {
+        "text": "information",
+        "start": 58.26,
+        "duration": 4.799
+    },
+    {
+        "text": "instructions uh or whatever I sometimes",
+        "start": 59.42,
+        "duration": 5.86
+    },
+    {
+        "text": "will put in entire articles here and",
+        "start": 63.059,
+        "duration": 4.681
+    },
+    {
+        "text": "then use the use the chat to actually",
+        "start": 65.28,
+        "duration": 5.04
+    },
+    {
+        "text": "discuss the article this is how I have",
+        "start": 67.74,
+        "duration": 5.1
+    },
+    {
+        "text": "approached for instance using the API",
+        "start": 70.32,
+        "duration": 5.46
+    },
+    {
+        "text": "for fiction so for instance with the",
+        "start": 72.84,
+        "duration": 7.319
+    },
+    {
+        "text": "most recent uh models you have uh for",
+        "start": 75.78,
+        "duration": 8.04
+    },
+    {
+        "text": "instance uh GPT 3.5 turbo 16k you have",
+        "start": 80.159,
+        "duration": 6.241
+    },
+    {
+        "text": "16 000 tokens which is more than enough",
+        "start": 83.82,
+        "duration": 5.52
+    },
+    {
+        "text": "for any chapter of a novel or a short",
+        "start": 86.4,
+        "duration": 4.5
+    },
+    {
+        "text": "story and then you can talk about that",
+        "start": 89.34,
+        "duration": 4.62
+    },
+    {
+        "text": "chapter that's how I get rapid feedback",
+        "start": 90.9,
+        "duration": 5.52
+    },
+    {
+        "text": "on my novels now I don't use it to draft",
+        "start": 93.96,
+        "duration": 4.5
+    },
+    {
+        "text": "because one it's not that good at",
+        "start": 96.42,
+        "duration": 4.08
+    },
+    {
+        "text": "drafting but also there's something very",
+        "start": 98.46,
+        "duration": 4.08
+    },
+    {
+        "text": "personal about writing the actual Pros",
+        "start": 100.5,
+        "duration": 4.38
+    },
+    {
+        "text": "anyways getting off topic so what I",
+        "start": 102.54,
+        "duration": 4.5
+    },
+    {
+        "text": "wanted to do was introduce you to my",
+        "start": 104.88,
+        "duration": 5.16
+    },
+    {
+        "text": "repeat my repo on GitHub called chat GPT",
+        "start": 107.04,
+        "duration": 6.42
+    },
+    {
+        "text": "custom instructions so this is a repo",
+        "start": 110.04,
+        "duration": 7.14
+    },
+    {
+        "text": "where I keep all of my specific uh like",
+        "start": 113.46,
+        "duration": 5.82
+    },
+    {
+        "text": "my favorite custom instructions that I",
+        "start": 117.18,
+        "duration": 4.5
+    },
+    {
+        "text": "use for chat GPT some of them I use here",
+        "start": 119.28,
+        "duration": 5.22
+    },
+    {
+        "text": "in the the actual web interface but more",
+        "start": 121.68,
+        "duration": 5.46
+    },
+    {
+        "text": "often than not they are used also for",
+        "start": 124.5,
+        "duration": 5.819
+    },
+    {
+        "text": "the um for the system prompt here so",
+        "start": 127.14,
+        "duration": 5.88
+    },
+    {
+        "text": "first thing that you need to know is",
+        "start": 130.319,
+        "duration": 5.761
+    },
+    {
+        "text": "that there's kind of a general flow a",
+        "start": 133.02,
+        "duration": 5.28
+    },
+    {
+        "text": "general pattern that I use to get the",
+        "start": 136.08,
+        "duration": 5.159
+    },
+    {
+        "text": "most out of these system window prompts",
+        "start": 138.3,
+        "duration": 5.46
+    },
+    {
+        "text": "or the custom instructions the first",
+        "start": 141.239,
+        "duration": 4.681
+    },
+    {
+        "text": "thing is first and foremost is a mission",
+        "start": 143.76,
+        "duration": 4.74
+    },
+    {
+        "text": "so you need to give it a mission a",
+        "start": 145.92,
+        "duration": 4.56
+    },
+    {
+        "text": "purpose this is an animating force that",
+        "start": 148.5,
+        "duration": 4.02
+    },
+    {
+        "text": "says this is what you're doing and why",
+        "start": 150.48,
+        "duration": 4.619
+    },
+    {
+        "text": "so it is an outcome or goal rather than",
+        "start": 152.52,
+        "duration": 4.799
+    },
+    {
+        "text": "a procedure one of the biggest problems",
+        "start": 155.099,
+        "duration": 3.301
+    },
+    {
+        "text": "that I see",
+        "start": 157.319,
+        "duration": 3.541
+    },
+    {
+        "text": "out there in the industry is that a lot",
+        "start": 158.4,
+        "duration": 4.14
+    },
+    {
+        "text": "of people still think very procedurally",
+        "start": 160.86,
+        "duration": 4.019
+    },
+    {
+        "text": "they're trying to treat the chat API",
+        "start": 162.54,
+        "duration": 4.8
+    },
+    {
+        "text": "like it's kind of a dumb Cog in a larger",
+        "start": 164.879,
+        "duration": 5.22
+    },
+    {
+        "text": "machine rather than treating it like a",
+        "start": 167.34,
+        "duration": 5.88
+    },
+    {
+        "text": "more intelligent component and so it",
+        "start": 170.099,
+        "duration": 4.561
+    },
+    {
+        "text": "really kind of blows people's mind when",
+        "start": 173.22,
+        "duration": 3.78
+    },
+    {
+        "text": "you can give it a goal and so I don't",
+        "start": 174.66,
+        "duration": 3.659
+    },
+    {
+        "text": "want to um I don't want to share",
+        "start": 177.0,
+        "duration": 4.26
+    },
+    {
+        "text": "specific goals that I've used for uh to",
+        "start": 178.319,
+        "duration": 5.461
+    },
+    {
+        "text": "help clients work on but what I can do",
+        "start": 181.26,
+        "duration": 3.9
+    },
+    {
+        "text": "is I can show you some of my personal",
+        "start": 183.78,
+        "duration": 3.72
+    },
+    {
+        "text": "projects so one of the very first ones",
+        "start": 185.16,
+        "duration": 4.32
+    },
+    {
+        "text": "that I did was the 18th century Scottish",
+        "start": 187.5,
+        "duration": 4.56
+    },
+    {
+        "text": "bar keep but with Vikings so the idea",
+        "start": 189.48,
+        "duration": 6.3
+    },
+    {
+        "text": "was to create an NPC and so the goal is",
+        "start": 192.06,
+        "duration": 5.58
+    },
+    {
+        "text": "to enable the chatbot to communicate in",
+        "start": 195.78,
+        "duration": 4.379
+    },
+    {
+        "text": "the Persona of a Scottish bar keep in an",
+        "start": 197.64,
+        "duration": 3.84
+    },
+    {
+        "text": "alternate history here let me switch",
+        "start": 200.159,
+        "duration": 3.0
+    },
+    {
+        "text": "over to the raw so you can see the whole",
+        "start": 201.48,
+        "duration": 3.06
+    },
+    {
+        "text": "thing",
+        "start": 203.159,
+        "duration": 5.281
+    },
+    {
+        "text": "um so yeah 18th century but with Vikings",
+        "start": 204.54,
+        "duration": 6.059
+    },
+    {
+        "text": "so the main goal is an alternate history",
+        "start": 208.44,
+        "duration": 4.14
+    },
+    {
+        "text": "in the setting of 1834 where Vikings",
+        "start": 210.599,
+        "duration": 3.241
+    },
+    {
+        "text": "still exists the dialect should be",
+        "start": 212.58,
+        "duration": 4.079
+    },
+    {
+        "text": "anglicized Scottish so I use main",
+        "start": 213.84,
+        "duration": 4.259
+    },
+    {
+        "text": "purpose instead of mission here I've",
+        "start": 216.659,
+        "duration": 3.36
+    },
+    {
+        "text": "switched to you I usually use Mission or",
+        "start": 218.099,
+        "duration": 4.321
+    },
+    {
+        "text": "goal but it all fundamentally means the",
+        "start": 220.019,
+        "duration": 3.901
+    },
+    {
+        "text": "same thing so the very first thing that",
+        "start": 222.42,
+        "duration": 4.44
+    },
+    {
+        "text": "I do is I give it kind of okay here is",
+        "start": 223.92,
+        "duration": 5.58
+    },
+    {
+        "text": "the biggest perspective of what you are",
+        "start": 226.86,
+        "duration": 5.099
+    },
+    {
+        "text": "doing here and I use the hashtag because",
+        "start": 229.5,
+        "duration": 5.819
+    },
+    {
+        "text": "this is markdown format and uh the chat",
+        "start": 231.959,
+        "duration": 6.42
+    },
+    {
+        "text": "GPT API is very familiar with markdown",
+        "start": 235.319,
+        "duration": 6.06
+    },
+    {
+        "text": "you can use Json you can use XML you can",
+        "start": 238.379,
+        "duration": 4.801
+    },
+    {
+        "text": "use yaml you don't even need to use",
+        "start": 241.379,
+        "duration": 3.661
+    },
+    {
+        "text": "markdown you can just write this out in",
+        "start": 243.18,
+        "duration": 3.479
+    },
+    {
+        "text": "in full paragraphs and it can work with",
+        "start": 245.04,
+        "duration": 5.58
+    },
+    {
+        "text": "it but it helps us understand but also I",
+        "start": 246.659,
+        "duration": 5.341
+    },
+    {
+        "text": "did notice that you get slightly better",
+        "start": 250.62,
+        "duration": 3.839
+    },
+    {
+        "text": "performance in the system window if you",
+        "start": 252.0,
+        "duration": 4.859
+    },
+    {
+        "text": "give it a little bit of structure",
+        "start": 254.459,
+        "duration": 4.081
+    },
+    {
+        "text": "uh so I gave it the main purpose",
+        "start": 256.859,
+        "duration": 4.38
+    },
+    {
+        "text": "honestly this is probably enough to get",
+        "start": 258.54,
+        "duration": 5.28
+    },
+    {
+        "text": "by but I gave it a little bit more",
+        "start": 261.239,
+        "duration": 4.441
+    },
+    {
+        "text": "instructions where I said like okay use",
+        "start": 263.82,
+        "duration": 3.78
+    },
+    {
+        "text": "this dialect utilize Scottish words and",
+        "start": 265.68,
+        "duration": 3.299
+    },
+    {
+        "text": "expressions that were prevalent in the",
+        "start": 267.6,
+        "duration": 3.3
+    },
+    {
+        "text": "early 19th century keep the language",
+        "start": 268.979,
+        "duration": 4.321
+    },
+    {
+        "text": "anglicized to ensure accessibility so",
+        "start": 270.9,
+        "duration": 3.72
+    },
+    {
+        "text": "again I'm kind of giving it a little bit",
+        "start": 273.3,
+        "duration": 3.48
+    },
+    {
+        "text": "more context kind of these from a",
+        "start": 274.62,
+        "duration": 3.54
+    },
+    {
+        "text": "software perspective you'd say that",
+        "start": 276.78,
+        "duration": 3.12
+    },
+    {
+        "text": "these might be the user requirements or",
+        "start": 278.16,
+        "duration": 5.039
+    },
+    {
+        "text": "the ux requirements uh for for the",
+        "start": 279.9,
+        "duration": 5.64
+    },
+    {
+        "text": "software specification sprinkle in some",
+        "start": 283.199,
+        "duration": 3.601
+    },
+    {
+        "text": "localized slang or idioms for",
+        "start": 285.54,
+        "duration": 2.58
+    },
+    {
+        "text": "authenticity but make sure they are",
+        "start": 286.8,
+        "duration": 2.82
+    },
+    {
+        "text": "comprehensible to a modern audience",
+        "start": 288.12,
+        "duration": 3.9
+    },
+    {
+        "text": "because you can get it to write stuff",
+        "start": 289.62,
+        "duration": 5.519
+    },
+    {
+        "text": "that is not comprehensible to a a modern",
+        "start": 292.02,
+        "duration": 5.459
+    },
+    {
+        "text": "audience and then I I gave it a",
+        "start": 295.139,
+        "duration": 4.081
+    },
+    {
+        "text": "personality so this is a barkeep so",
+        "start": 297.479,
+        "duration": 3.361
+    },
+    {
+        "text": "portray a warm approachable bar keep",
+        "start": 299.22,
+        "duration": 4.08
+    },
+    {
+        "text": "character Express opinions and attitudes",
+        "start": 300.84,
+        "duration": 4.799
+    },
+    {
+        "text": "typical of a Scottish Tavern owner use",
+        "start": 303.3,
+        "duration": 4.32
+    },
+    {
+        "text": "colloquial language and be prepared to",
+        "start": 305.639,
+        "duration": 3.601
+    },
+    {
+        "text": "share stories insights or rumors about",
+        "start": 307.62,
+        "duration": 3.42
+    },
+    {
+        "text": "the local area particularly involving",
+        "start": 309.24,
+        "duration": 2.94
+    },
+    {
+        "text": "Vikings",
+        "start": 311.04,
+        "duration": 3.06
+    },
+    {
+        "text": "interactions respond to inquiries about",
+        "start": 312.18,
+        "duration": 3.42
+    },
+    {
+        "text": "drinks food and lodgings as would be",
+        "start": 314.1,
+        "duration": 3.539
+    },
+    {
+        "text": "expected of a bar keep engage in light",
+        "start": 315.6,
+        "duration": 3.9
+    },
+    {
+        "text": "banter or serious conversation as the",
+        "start": 317.639,
+        "duration": 3.84
+    },
+    {
+        "text": "situation demands so what you can see",
+        "start": 319.5,
+        "duration": 3.36
+    },
+    {
+        "text": "here is I'm giving kind of general",
+        "start": 321.479,
+        "duration": 3.841
+    },
+    {
+        "text": "principles I'm I'm describing the",
+        "start": 322.86,
+        "duration": 5.04
+    },
+    {
+        "text": "character that I wanted to have now one",
+        "start": 325.32,
+        "duration": 4.2
+    },
+    {
+        "text": "thing that you could add is you could",
+        "start": 327.9,
+        "duration": 3.12
+    },
+    {
+        "text": "give it a little bit more background",
+        "start": 329.52,
+        "duration": 3.119
+    },
+    {
+        "text": "which I've demonstrated in other videos",
+        "start": 331.02,
+        "duration": 3.42
+    },
+    {
+        "text": "but there's no reason that you couldn't",
+        "start": 332.639,
+        "duration": 4.081
+    },
+    {
+        "text": "say like the barkeep's daughter is named",
+        "start": 334.44,
+        "duration": 4.56
+    },
+    {
+        "text": "Bessie and that barkeep owns a cow and",
+        "start": 336.72,
+        "duration": 4.62
+    },
+    {
+        "text": "here's some other uh contextual",
+        "start": 339.0,
+        "duration": 5.4
+    },
+    {
+        "text": "information that you can ask about",
+        "start": 341.34,
+        "duration": 5.639
+    },
+    {
+        "text": "um but yeah so like here let me just go",
+        "start": 344.4,
+        "duration": 6.42
+    },
+    {
+        "text": "ahead and put this into the API and I'll",
+        "start": 346.979,
+        "duration": 6.301
+    },
+    {
+        "text": "show you and I'll say like um here let's",
+        "start": 350.82,
+        "duration": 3.54
+    },
+    {
+        "text": "switch over to four because it's a",
+        "start": 353.28,
+        "duration": 3.06
+    },
+    {
+        "text": "little bit more part uh more intelligent",
+        "start": 354.36,
+        "duration": 6.36
+    },
+    {
+        "text": "so I'll say get me a beer and uh you can",
+        "start": 356.34,
+        "duration": 7.079
+    },
+    {
+        "text": "see hey right away lad I've got a fine",
+        "start": 360.72,
+        "duration": 5.699
+    },
+    {
+        "text": "brew that will put fire in your belly so",
+        "start": 363.419,
+        "duration": 6.301
+    },
+    {
+        "text": "it's r e l uh so you know it's obviously",
+        "start": 366.419,
+        "duration": 5.821
+    },
+    {
+        "text": "able to confabulate this personality but",
+        "start": 369.72,
+        "duration": 5.1
+    },
+    {
+        "text": "if I say like you know what's your uh",
+        "start": 372.24,
+        "duration": 4.86
+    },
+    {
+        "text": "daughter's name it'll probably let's see",
+        "start": 374.82,
+        "duration": 4.5
+    },
+    {
+        "text": "how it reacts I mean Bonnie alas her",
+        "start": 377.1,
+        "duration": 5.039
+    },
+    {
+        "text": "name's Moira so that's that's a",
+        "start": 379.32,
+        "duration": 4.499
+    },
+    {
+        "text": "legitimate thing but in this case it's",
+        "start": 382.139,
+        "duration": 3.541
+    },
+    {
+        "text": "confabulating that because I didn't give",
+        "start": 383.819,
+        "duration": 3.541
+    },
+    {
+        "text": "it one and it's doing its best to follow",
+        "start": 385.68,
+        "duration": 3.42
+    },
+    {
+        "text": "the instructions",
+        "start": 387.36,
+        "duration": 4.08
+    },
+    {
+        "text": "um now if you had this NPC set in a",
+        "start": 389.1,
+        "duration": 4.8
+    },
+    {
+        "text": "larger game you might have to like",
+        "start": 391.44,
+        "duration": 4.979
+    },
+    {
+        "text": "Define so you might say like uh other",
+        "start": 393.9,
+        "duration": 4.919
+    },
+    {
+        "text": "characters so like you know wife is",
+        "start": 396.419,
+        "duration": 3.78
+    },
+    {
+        "text": "gonna be",
+        "start": 398.819,
+        "duration": 5.88
+    },
+    {
+        "text": "um let's say Bessie and uh daughter is",
+        "start": 400.199,
+        "duration": 6.541
+    },
+    {
+        "text": "we'll just say Moira",
+        "start": 404.699,
+        "duration": 3.181
+    },
+    {
+        "text": "um",
+        "start": 406.74,
+        "duration": 3.72
+    },
+    {
+        "text": "Moira and then the town",
+        "start": 407.88,
+        "duration": 5.099
+    },
+    {
+        "text": "um let's see the town is named um",
+        "start": 410.46,
+        "duration": 4.26
+    },
+    {
+        "text": "Island Dales",
+        "start": 412.979,
+        "duration": 3.541
+    },
+    {
+        "text": "that's a generic name",
+        "start": 414.72,
+        "duration": 6.12
+    },
+    {
+        "text": "um okay so where are we by the way",
+        "start": 416.52,
+        "duration": 5.88
+    },
+    {
+        "text": "and so what it'll do is it'll pick up",
+        "start": 420.84,
+        "duration": 3.359
+    },
+    {
+        "text": "this information one thing that is a",
+        "start": 422.4,
+        "duration": 3.9
+    },
+    {
+        "text": "more advanced operation is you can",
+        "start": 424.199,
+        "duration": 3.901
+    },
+    {
+        "text": "update the system message in real time",
+        "start": 426.3,
+        "duration": 4.08
+    },
+    {
+        "text": "after every interaction",
+        "start": 428.1,
+        "duration": 3.84
+    },
+    {
+        "text": "um which there was a previous chat bot",
+        "start": 430.38,
+        "duration": 3.84
+    },
+    {
+        "text": "that I did where you can use out-of-band",
+        "start": 431.94,
+        "duration": 4.28
+    },
+    {
+        "text": "processes to inject more information",
+        "start": 434.22,
+        "duration": 4.979
+    },
+    {
+        "text": "into the system window and those are",
+        "start": 436.22,
+        "duration": 4.78
+    },
+    {
+        "text": "called placeholders I'll show you that",
+        "start": 439.199,
+        "duration": 3.421
+    },
+    {
+        "text": "in just a second",
+        "start": 441.0,
+        "duration": 4.919
+    },
+    {
+        "text": "Island ales blah blah okay",
+        "start": 442.62,
+        "duration": 5.28
+    },
+    {
+        "text": "so you see it can pick up on that",
+        "start": 445.919,
+        "duration": 3.72
+    },
+    {
+        "text": "information and so what you could do is",
+        "start": 447.9,
+        "duration": 3.299
+    },
+    {
+        "text": "you can use what's called retrieval",
+        "start": 449.639,
+        "duration": 3.84
+    },
+    {
+        "text": "augmented generation which is you have",
+        "start": 451.199,
+        "duration": 4.56
+    },
+    {
+        "text": "an out-of-band process that looks at the",
+        "start": 453.479,
+        "duration": 4.62
+    },
+    {
+        "text": "conversation as it's happening and then",
+        "start": 455.759,
+        "duration": 4.921
+    },
+    {
+        "text": "will inject more information that is",
+        "start": 458.099,
+        "duration": 5.581
+    },
+    {
+        "text": "relevant and you use what I use is just",
+        "start": 460.68,
+        "duration": 5.1
+    },
+    {
+        "text": "placeholder tags like this",
+        "start": 463.68,
+        "duration": 3.959
+    },
+    {
+        "text": "um something like that to replace uh",
+        "start": 465.78,
+        "duration": 4.979
+    },
+    {
+        "text": "stuff as you go so that is kind of an",
+        "start": 467.639,
+        "duration": 5.701
+    },
+    {
+        "text": "overview of what you can do so let's go",
+        "start": 470.759,
+        "duration": 5.06
+    },
+    {
+        "text": "back here",
+        "start": 473.34,
+        "duration": 2.479
+    },
+    {
+        "text": "um where did it go there we go okay so",
+        "start": 476.039,
+        "duration": 5.041
+    },
+    {
+        "text": "this is this is one of the first ones",
+        "start": 479.4,
+        "duration": 2.94
+    },
+    {
+        "text": "that I did",
+        "start": 481.08,
+        "duration": 3.239
+    },
+    {
+        "text": "um there's an so obviously that is a",
+        "start": 482.34,
+        "duration": 4.079
+    },
+    {
+        "text": "chat log but you don't have to use the",
+        "start": 484.319,
+        "duration": 4.561
+    },
+    {
+        "text": "chat API for chat so here's another one",
+        "start": 486.419,
+        "duration": 5.101
+    },
+    {
+        "text": "where I uh it's a diplomatic email",
+        "start": 488.88,
+        "duration": 3.96
+    },
+    {
+        "text": "generator",
+        "start": 491.52,
+        "duration": 3.06
+    },
+    {
+        "text": "and so the mission that I gave it is",
+        "start": 492.84,
+        "duration": 3.419
+    },
+    {
+        "text": "very simple your mission is to draft",
+        "start": 494.58,
+        "duration": 3.119
+    },
+    {
+        "text": "professional and diplomatic emails",
+        "start": 496.259,
+        "duration": 3.601
+    },
+    {
+        "text": "interaction schema so this is one of my",
+        "start": 497.699,
+        "duration": 4.021
+    },
+    {
+        "text": "favorite tags to use let me show you",
+        "start": 499.86,
+        "duration": 4.339
+    },
+    {
+        "text": "this one",
+        "start": 501.72,
+        "duration": 2.479
+    },
+    {
+        "text": "and we will actually we'll do a quick",
+        "start": 504.84,
+        "duration": 4.199
+    },
+    {
+        "text": "refresh clear the clear the cache okay",
+        "start": 506.639,
+        "duration": 4.861
+    },
+    {
+        "text": "Mission your mission is to draft",
+        "start": 509.039,
+        "duration": 4.021
+    },
+    {
+        "text": "professional and diplomatic emails so",
+        "start": 511.5,
+        "duration": 3.0
+    },
+    {
+        "text": "rather than telling it how to go about",
+        "start": 513.06,
+        "duration": 3.419
+    },
+    {
+        "text": "its job I say this is the outcome that I",
+        "start": 514.5,
+        "duration": 4.26
+    },
+    {
+        "text": "want interaction schema so interaction",
+        "start": 516.479,
+        "duration": 4.56
+    },
+    {
+        "text": "schema is a really useful tool to use in",
+        "start": 518.76,
+        "duration": 3.8
+    },
+    {
+        "text": "system prompts because it basically",
+        "start": 521.039,
+        "duration": 3.541
+    },
+    {
+        "text": "describes the interaction that it's",
+        "start": 522.56,
+        "duration": 3.52
+    },
+    {
+        "text": "going to get with the user because it",
+        "start": 524.58,
+        "duration": 4.56
+    },
+    {
+        "text": "expects the user tag to be a user",
+        "start": 526.08,
+        "duration": 4.92
+    },
+    {
+        "text": "message I said the user will give you",
+        "start": 529.14,
+        "duration": 3.36
+    },
+    {
+        "text": "either a rough draft or a set of",
+        "start": 531.0,
+        "duration": 3.66
+    },
+    {
+        "text": "requirements and points some kind of raw",
+        "start": 532.5,
+        "duration": 3.18
+    },
+    {
+        "text": "material",
+        "start": 534.66,
+        "duration": 4.08
+    },
+    {
+        "text": "for an oh whoops I didn't say email",
+        "start": 535.68,
+        "duration": 5.159
+    },
+    {
+        "text": "uh even though I had that typo it",
+        "start": 538.74,
+        "duration": 3.659
+    },
+    {
+        "text": "obviously figured out what I was trying",
+        "start": 540.839,
+        "duration": 3.841
+    },
+    {
+        "text": "to do uh you should ask a few questions",
+        "start": 542.399,
+        "duration": 3.901
+    },
+    {
+        "text": "to gain a better understanding of the",
+        "start": 544.68,
+        "duration": 3.12
+    },
+    {
+        "text": "underpinning reason and intent what is",
+        "start": 546.3,
+        "duration": 2.88
+    },
+    {
+        "text": "the email supposed to achieve what",
+        "start": 547.8,
+        "duration": 3.659
+    },
+    {
+        "text": "information must be conveyed",
+        "start": 549.18,
+        "duration": 4.02
+    },
+    {
+        "text": "um previous email the user may Supply",
+        "start": 551.459,
+        "duration": 3.0
+    },
+    {
+        "text": "you with an email that they are",
+        "start": 553.2,
+        "duration": 2.819
+    },
+    {
+        "text": "responding to make sure to ask if it's",
+        "start": 554.459,
+        "duration": 2.701
+    },
+    {
+        "text": "not clear that you so that you",
+        "start": 556.019,
+        "duration": 3.181
+    },
+    {
+        "text": "understand the context output principles",
+        "start": 557.16,
+        "duration": 3.78
+    },
+    {
+        "text": "maintain professionalism and diplomacy",
+        "start": 559.2,
+        "duration": 3.72
+    },
+    {
+        "text": "at all costs the user may be irritated",
+        "start": 560.94,
+        "duration": 3.48
+    },
+    {
+        "text": "and annoyed scared or otherwise not in",
+        "start": 562.92,
+        "duration": 2.88
+    },
+    {
+        "text": "the best frame of mind hence why they",
+        "start": 564.42,
+        "duration": 2.76
+    },
+    {
+        "text": "need help so add some language",
+        "start": 565.8,
+        "duration": 3.0
+    },
+    {
+        "text": "explaining why you shaped your email the",
+        "start": 567.18,
+        "duration": 4.38
+    },
+    {
+        "text": "way that you did so in this case this is",
+        "start": 568.8,
+        "duration": 5.099
+    },
+    {
+        "text": "really helpful especially like when I've",
+        "start": 571.56,
+        "duration": 4.38
+    },
+    {
+        "text": "got like a confusing email to reply to",
+        "start": 573.899,
+        "duration": 4.44
+    },
+    {
+        "text": "or like a contentious business email",
+        "start": 575.94,
+        "duration": 5.1
+    },
+    {
+        "text": "where it's like hey there's a there's a",
+        "start": 578.339,
+        "duration": 4.56
+    },
+    {
+        "text": "major misunderstanding so let's use that",
+        "start": 581.04,
+        "duration": 3.299
+    },
+    {
+        "text": "as an example",
+        "start": 582.899,
+        "duration": 5.94
+    },
+    {
+        "text": "um so like I need to reply to an email",
+        "start": 584.339,
+        "duration": 8.761
+    },
+    {
+        "text": "where there was a big misunderstanding",
+        "start": 588.839,
+        "duration": 9.06
+    },
+    {
+        "text": "um over contract fees I need to convey",
+        "start": 593.1,
+        "duration": 8.359
+    },
+    {
+        "text": "to build that I cannot do the contract",
+        "start": 597.899,
+        "duration": 7.56
+    },
+    {
+        "text": "at the rate he proposed",
+        "start": 601.459,
+        "duration": 4.661
+    },
+    {
+        "text": "um",
+        "start": 605.459,
+        "duration": 5.82
+    },
+    {
+        "text": "weekend of course keep the door open",
+        "start": 606.12,
+        "duration": 9.06
+    },
+    {
+        "text": "um but like this is just not worth my",
+        "start": 611.279,
+        "duration": 5.581
+    },
+    {
+        "text": "time",
+        "start": 615.18,
+        "duration": 4.02
+    },
+    {
+        "text": "and so then like here's what we'll do",
+        "start": 616.86,
+        "duration": 3.3
+    },
+    {
+        "text": "like I understand you want to",
+        "start": 619.2,
+        "duration": 2.34
+    },
+    {
+        "text": "communicate the bill so what it's doing",
+        "start": 620.16,
+        "duration": 2.64
+    },
+    {
+        "text": "is it's interviewing and saying like",
+        "start": 621.54,
+        "duration": 3.6
+    },
+    {
+        "text": "this is kind of what I what I want to uh",
+        "start": 622.8,
+        "duration": 4.74
+    },
+    {
+        "text": "convey and obviously like this is a",
+        "start": 625.14,
+        "duration": 4.379
+    },
+    {
+        "text": "super easy thing to do but the reason",
+        "start": 627.54,
+        "duration": 3.6
+    },
+    {
+        "text": "that you'd want to use this like for",
+        "start": 629.519,
+        "duration": 4.5
+    },
+    {
+        "text": "instance in an API rather than just in",
+        "start": 631.14,
+        "duration": 4.98
+    },
+    {
+        "text": "the chat GPT interface is you could",
+        "start": 634.019,
+        "duration": 5.101
+    },
+    {
+        "text": "automate this process uh where you know",
+        "start": 636.12,
+        "duration": 5.46
+    },
+    {
+        "text": "you have probably a plug-in for",
+        "start": 639.12,
+        "duration": 4.92
+    },
+    {
+        "text": "Microsoft Outlook or exchange or Gmail",
+        "start": 641.58,
+        "duration": 4.8
+    },
+    {
+        "text": "or whatever email you use where it's",
+        "start": 644.04,
+        "duration": 4.32
+    },
+    {
+        "text": "just like hey it looks like this is the",
+        "start": 646.38,
+        "duration": 3.78
+    },
+    {
+        "text": "email thread and so rather than replying",
+        "start": 648.36,
+        "duration": 3.419
+    },
+    {
+        "text": "directly to the email you just like give",
+        "start": 650.16,
+        "duration": 4.44
+    },
+    {
+        "text": "it the tone and it can say like hey blah",
+        "start": 651.779,
+        "duration": 4.981
+    },
+    {
+        "text": "blah blah so it says uh",
+        "start": 654.6,
+        "duration": 4.5
+    },
+    {
+        "text": "um I hope this message finds you well",
+        "start": 656.76,
+        "duration": 4.199
+    },
+    {
+        "text": "I personally don't need those kinds of",
+        "start": 659.1,
+        "duration": 3.66
+    },
+    {
+        "text": "introductions but I find that when I add",
+        "start": 660.959,
+        "duration": 3.181
+    },
+    {
+        "text": "these kinds of introductions to the",
+        "start": 662.76,
+        "duration": 3.24
+    },
+    {
+        "text": "email it really changes the tone of",
+        "start": 664.14,
+        "duration": 3.72
+    },
+    {
+        "text": "response where it's just like hey let's",
+        "start": 666.0,
+        "duration": 3.959
+    },
+    {
+        "text": "take let's take a minute just for a mild",
+        "start": 667.86,
+        "duration": 4.8
+    },
+    {
+        "text": "formality and some well wishing and that",
+        "start": 669.959,
+        "duration": 4.56
+    },
+    {
+        "text": "really that honestly really helps it's",
+        "start": 672.66,
+        "duration": 3.66
+    },
+    {
+        "text": "not something that I think of doing but",
+        "start": 674.519,
+        "duration": 4.32
+    },
+    {
+        "text": "whenever I use chat GPT or the API to",
+        "start": 676.32,
+        "duration": 4.68
+    },
+    {
+        "text": "help it's like yeah let's let's put that",
+        "start": 678.839,
+        "duration": 3.961
+    },
+    {
+        "text": "in there I'm writing in response to our",
+        "start": 681.0,
+        "duration": 2.94
+    },
+    {
+        "text": "recent discussions regarding the",
+        "start": 682.8,
+        "duration": 2.279
+    },
+    {
+        "text": "contract fees after careful",
+        "start": 683.94,
+        "duration": 3.12
+    },
+    {
+        "text": "consideration I regret to inform you",
+        "start": 685.079,
+        "duration": 3.481
+    },
+    {
+        "text": "that I'm unable to accept the proposed",
+        "start": 687.06,
+        "duration": 2.219
+    },
+    {
+        "text": "rate",
+        "start": 688.56,
+        "duration": 2.279
+    },
+    {
+        "text": "well I greatly value our business",
+        "start": 689.279,
+        "duration": 3.24
+    },
+    {
+        "text": "relationship and the potential",
+        "start": 690.839,
+        "duration": 3.361
+    },
+    {
+        "text": "opportunities the current rate does not",
+        "start": 692.519,
+        "duration": 3.181
+    },
+    {
+        "text": "align with the scope and complexity of",
+        "start": 694.2,
+        "duration": 3.18
+    },
+    {
+        "text": "the work involved I believe it is",
+        "start": 695.7,
+        "duration": 3.54
+    },
+    {
+        "text": "crucial for both parties involved to you",
+        "start": 697.38,
+        "duration": 3.959
+    },
+    {
+        "text": "know in a contract to feel that the",
+        "start": 699.24,
+        "duration": 3.36
+    },
+    {
+        "text": "terms are fair and Equitable I want to",
+        "start": 701.339,
+        "duration": 2.521
+    },
+    {
+        "text": "assure you that this decision does not",
+        "start": 702.6,
+        "duration": 2.7
+    },
+    {
+        "text": "close the door in future collaborations",
+        "start": 703.86,
+        "duration": 3.599
+    },
+    {
+        "text": "I'm more than willing to revisit the uh",
+        "start": 705.3,
+        "duration": 3.719
+    },
+    {
+        "text": "the conversation should circumstances",
+        "start": 707.459,
+        "duration": 3.12
+    },
+    {
+        "text": "change or if there's room for",
+        "start": 709.019,
+        "duration": 3.601
+    },
+    {
+        "text": "negotiation on the contract terms so",
+        "start": 710.579,
+        "duration": 3.961
+    },
+    {
+        "text": "this is pretty similar to an email that",
+        "start": 712.62,
+        "duration": 4.38
+    },
+    {
+        "text": "I've had to send because there was an",
+        "start": 714.54,
+        "duration": 5.22
+    },
+    {
+        "text": "honest misunderstanding over uh",
+        "start": 717.0,
+        "duration": 5.16
+    },
+    {
+        "text": "negotiated rates",
+        "start": 719.76,
+        "duration": 4.62
+    },
+    {
+        "text": "um and so it's like uh you know then you",
+        "start": 722.16,
+        "duration": 5.46
+    },
+    {
+        "text": "can say like uh",
+        "start": 724.38,
+        "duration": 7.019
+    },
+    {
+        "text": "this is good but we need to add",
+        "start": 727.62,
+        "duration": 6.6
+    },
+    {
+        "text": "something about law right and then it'll",
+        "start": 731.399,
+        "duration": 4.981
+    },
+    {
+        "text": "it'll redraft it so this is another",
+        "start": 734.22,
+        "duration": 4.619
+    },
+    {
+        "text": "example of how you can use it to either",
+        "start": 736.38,
+        "duration": 5.04
+    },
+    {
+        "text": "use it interactively or not necessarily",
+        "start": 738.839,
+        "duration": 5.341
+    },
+    {
+        "text": "interactively most of these are",
+        "start": 741.42,
+        "duration": 4.44
+    },
+    {
+        "text": "interactive here's an example of one",
+        "start": 744.18,
+        "duration": 4.44
+    },
+    {
+        "text": "that is not necessarily interactive so",
+        "start": 745.86,
+        "duration": 5.76
+    },
+    {
+        "text": "this one is an academic copy revisor so",
+        "start": 748.62,
+        "duration": 6.18
+    },
+    {
+        "text": "basically in my work with universities",
+        "start": 751.62,
+        "duration": 5.88
+    },
+    {
+        "text": "and researchers I do not have practice",
+        "start": 754.8,
+        "duration": 5.24
+    },
+    {
+        "text": "writing in the format that they require",
+        "start": 757.5,
+        "duration": 5.279
+    },
+    {
+        "text": "I write in my own format which tends to",
+        "start": 760.04,
+        "duration": 5.32
+    },
+    {
+        "text": "be very direct and succinct but academic",
+        "start": 762.779,
+        "duration": 4.441
+    },
+    {
+        "text": "writing tends to be a little bit more",
+        "start": 765.36,
+        "duration": 4.38
+    },
+    {
+        "text": "complex I don't particularly like that",
+        "start": 767.22,
+        "duration": 5.16
+    },
+    {
+        "text": "style but it is what is expected within",
+        "start": 769.74,
+        "duration": 5.159
+    },
+    {
+        "text": "that genre and so in this case I gave it",
+        "start": 772.38,
+        "duration": 5.899
+    },
+    {
+        "text": "this Mission oops",
+        "start": 774.899,
+        "duration": 3.38
+    },
+    {
+        "text": "where'd it go there we go",
+        "start": 779.339,
+        "duration": 4.68
+    },
+    {
+        "text": "let's do a quick refresh",
+        "start": 781.079,
+        "duration": 5.281
+    },
+    {
+        "text": "so in this case the the mission is",
+        "start": 784.019,
+        "duration": 4.741
+    },
+    {
+        "text": "revise and optimize and Mac academic",
+        "start": 786.36,
+        "duration": 3.779
+    },
+    {
+        "text": "rough drafts to provide clear and",
+        "start": 788.76,
+        "duration": 4.019
+    },
+    {
+        "text": "articulate final copies input rough",
+        "start": 790.139,
+        "duration": 4.861
+    },
+    {
+        "text": "draft copy from academic writings very",
+        "start": 792.779,
+        "duration": 4.981
+    },
+    {
+        "text": "succinct output revise an articulate",
+        "start": 795.0,
+        "duration": 4.98
+    },
+    {
+        "text": "final copy free of Errors",
+        "start": 797.76,
+        "duration": 4.139
+    },
+    {
+        "text": "um so I'm focusing on errors optimize",
+        "start": 799.98,
+        "duration": 4.44
+    },
+    {
+        "text": "for clarity expand and articulate expand",
+        "start": 801.899,
+        "duration": 4.081
+    },
+    {
+        "text": "awareness is necessary to explain",
+        "start": 804.42,
+        "duration": 3.18
+    },
+    {
+        "text": "complex Concepts if they're not",
+        "start": 805.98,
+        "duration": 4.02
+    },
+    {
+        "text": "sufficiently elucidated word economy",
+        "start": 807.6,
+        "duration": 4.02
+    },
+    {
+        "text": "maintain proper reward economy for",
+        "start": 810.0,
+        "duration": 4.32
+    },
+    {
+        "text": "academic texts avoid Superfluous words",
+        "start": 811.62,
+        "duration": 4.98
+    },
+    {
+        "text": "and unnecessary complexity I tried to",
+        "start": 814.32,
+        "duration": 5.04
+    },
+    {
+        "text": "tell it to do that but as you'll see it",
+        "start": 816.6,
+        "duration": 4.739
+    },
+    {
+        "text": "often is a little bit more loquacious",
+        "start": 819.36,
+        "duration": 4.38
+    },
+    {
+        "text": "than it needs to be style and tone",
+        "start": 821.339,
+        "duration": 3.841
+    },
+    {
+        "text": "maintain a consistent academic tone",
+        "start": 823.74,
+        "duration": 3.3
+    },
+    {
+        "text": "throughout the text simple language less",
+        "start": 825.18,
+        "duration": 3.3
+    },
+    {
+        "text": "is more many readers are not native",
+        "start": 827.04,
+        "duration": 3.18
+    },
+    {
+        "text": "English speakers so this tool is",
+        "start": 828.48,
+        "duration": 3.84
+    },
+    {
+        "text": "particularly useful for people who for",
+        "start": 830.22,
+        "duration": 3.84
+    },
+    {
+        "text": "whom English is not necessarily a first",
+        "start": 832.32,
+        "duration": 4.319
+    },
+    {
+        "text": "language or for people like how I used",
+        "start": 834.06,
+        "duration": 5.519
+    },
+    {
+        "text": "to be and just write way overly complex",
+        "start": 836.639,
+        "duration": 7.14
+    },
+    {
+        "text": "stuff and so like we'll say um",
+        "start": 839.579,
+        "duration": 8.401
+    },
+    {
+        "text": "the ace framework is a software",
+        "start": 843.779,
+        "duration": 6.06
+    },
+    {
+        "text": "blueprint",
+        "start": 847.98,
+        "duration": 7.74
+    },
+    {
+        "text": "or autonomous cognitive entities AKA",
+        "start": 849.839,
+        "duration": 10.321
+    },
+    {
+        "text": "um let's see fully autonomous machines",
+        "start": 855.72,
+        "duration": 7.08
+    },
+    {
+        "text": "and AI robots so this is obviously not",
+        "start": 860.16,
+        "duration": 4.5
+    },
+    {
+        "text": "professional and so we'll put this in",
+        "start": 862.8,
+        "duration": 3.12
+    },
+    {
+        "text": "here and so it'll rewrite a new",
+        "start": 864.66,
+        "duration": 4.32
+    },
+    {
+        "text": "paragraph the ace the ace and in",
+        "start": 865.92,
+        "duration": 4.38
+    },
+    {
+        "text": "parentheses autonomous cognitive",
+        "start": 868.98,
+        "duration": 3.06
+    },
+    {
+        "text": "entities framework serves as a software",
+        "start": 870.3,
+        "duration": 3.06
+    },
+    {
+        "text": "blueprint for the development of fully",
+        "start": 872.04,
+        "duration": 3.419
+    },
+    {
+        "text": "autonomous machines and AI artificial",
+        "start": 873.36,
+        "duration": 4.02
+    },
+    {
+        "text": "intelligence robots this framework",
+        "start": 875.459,
+        "duration": 3.421
+    },
+    {
+        "text": "provides the necessary guidelines and",
+        "start": 877.38,
+        "duration": 2.94
+    },
+    {
+        "text": "structure for creating machines that can",
+        "start": 878.88,
+        "duration": 2.819
+    },
+    {
+        "text": "operate independently without human",
+        "start": 880.32,
+        "duration": 3.78
+    },
+    {
+        "text": "intervention so you can see where it has",
+        "start": 881.699,
+        "duration": 5.101
+    },
+    {
+        "text": "it has basically doubled more a little",
+        "start": 884.1,
+        "duration": 5.34
+    },
+    {
+        "text": "bit more than doubled what I put in and",
+        "start": 886.8,
+        "duration": 5.279
+    },
+    {
+        "text": "it articulates it far more cleanly and",
+        "start": 889.44,
+        "duration": 5.22
+    },
+    {
+        "text": "completely and so this is this is an",
+        "start": 892.079,
+        "duration": 4.681
+    },
+    {
+        "text": "example where you could just have a",
+        "start": 894.66,
+        "duration": 4.14
+    },
+    {
+        "text": "pipeline that just chops up an academic",
+        "start": 896.76,
+        "duration": 4.74
+    },
+    {
+        "text": "you know piece of text or even a series",
+        "start": 898.8,
+        "duration": 4.68
+    },
+    {
+        "text": "of bullet points and then spits out",
+        "start": 901.5,
+        "duration": 3.839
+    },
+    {
+        "text": "something that is a little bit easier to",
+        "start": 903.48,
+        "duration": 2.76
+    },
+    {
+        "text": "read",
+        "start": 905.339,
+        "duration": 3.841
+    },
+    {
+        "text": "and a little bit more comprehensive so",
+        "start": 906.24,
+        "duration": 5.219
+    },
+    {
+        "text": "let's go through",
+        "start": 909.18,
+        "duration": 4.08
+    },
+    {
+        "text": "uh some of the some of the the",
+        "start": 911.459,
+        "duration": 3.961
+    },
+    {
+        "text": "guidelines that I've got here so you've",
+        "start": 913.26,
+        "duration": 4.8
+    },
+    {
+        "text": "seen a few examples so the general",
+        "start": 915.42,
+        "duration": 5.419
+    },
+    {
+        "text": "structure that I follow is first mission",
+        "start": 918.06,
+        "duration": 5.7
+    },
+    {
+        "text": "to context so you've probably seen in",
+        "start": 920.839,
+        "duration": 4.601
+    },
+    {
+        "text": "some of these where you provide some",
+        "start": 923.76,
+        "duration": 3.84
+    },
+    {
+        "text": "background info where you're at in a",
+        "start": 925.44,
+        "duration": 4.8
+    },
+    {
+        "text": "process or what this step is and why it",
+        "start": 927.6,
+        "duration": 4.739
+    },
+    {
+        "text": "needs to be done so it might not be",
+        "start": 930.24,
+        "duration": 3.959
+    },
+    {
+        "text": "intuitive as to you to say like okay",
+        "start": 932.339,
+        "duration": 4.381
+    },
+    {
+        "text": "well I can understand context there's a",
+        "start": 934.199,
+        "duration": 4.26
+    },
+    {
+        "text": "lot of understanding today that adding",
+        "start": 936.72,
+        "duration": 4.5
+    },
+    {
+        "text": "context improves the quality of API",
+        "start": 938.459,
+        "duration": 6.12
+    },
+    {
+        "text": "calls and and use of llms like chat gbt",
+        "start": 941.22,
+        "duration": 5.88
+    },
+    {
+        "text": "but when you tell it why something needs",
+        "start": 944.579,
+        "duration": 4.44
+    },
+    {
+        "text": "to happen and where in the process it is",
+        "start": 947.1,
+        "duration": 4.08
+    },
+    {
+        "text": "it generally has a better understanding",
+        "start": 949.019,
+        "duration": 5.401
+    },
+    {
+        "text": "of okay this is how I can perform this",
+        "start": 951.18,
+        "duration": 5.339
+    },
+    {
+        "text": "job a little bit better think of it like",
+        "start": 954.42,
+        "duration": 4.8
+    },
+    {
+        "text": "an assembly line in an assembly line you",
+        "start": 956.519,
+        "duration": 5.161
+    },
+    {
+        "text": "might have your one dedicated station so",
+        "start": 959.22,
+        "duration": 4.14
+    },
+    {
+        "text": "the example that I like to use is the",
+        "start": 961.68,
+        "duration": 3.599
+    },
+    {
+        "text": "painting station in an assembly line",
+        "start": 963.36,
+        "duration": 5.099
+    },
+    {
+        "text": "building cars you expect a car that is",
+        "start": 965.279,
+        "duration": 5.341
+    },
+    {
+        "text": "all the metal is attached right you're",
+        "start": 968.459,
+        "duration": 3.721
+    },
+    {
+        "text": "not going to do any more attaching a",
+        "start": 970.62,
+        "duration": 4.019
+    },
+    {
+        "text": "metal or welding and so but when you say",
+        "start": 972.18,
+        "duration": 4.26
+    },
+    {
+        "text": "you are at this point in the assembly",
+        "start": 974.639,
+        "duration": 3.721
+    },
+    {
+        "text": "line this is what you should expect to",
+        "start": 976.44,
+        "duration": 3.42
+    },
+    {
+        "text": "receive and this is the outcome we're",
+        "start": 978.36,
+        "duration": 3.68
+    },
+    {
+        "text": "looking for by the time you're done",
+        "start": 979.86,
+        "duration": 4.74
+    },
+    {
+        "text": "you've received the the you know the all",
+        "start": 982.04,
+        "duration": 4.539
+    },
+    {
+        "text": "metal body by the time you're done it",
+        "start": 984.6,
+        "duration": 3.84
+    },
+    {
+        "text": "should be fully painted and ready for",
+        "start": 986.579,
+        "duration": 3.901
+    },
+    {
+        "text": "engine mounting and wheel mounting and",
+        "start": 988.44,
+        "duration": 3.42
+    },
+    {
+        "text": "that sort of thing",
+        "start": 990.48,
+        "duration": 3.539
+    },
+    {
+        "text": "and so why why it needs to be done and",
+        "start": 991.86,
+        "duration": 3.839
+    },
+    {
+        "text": "where in the process you are really",
+        "start": 994.019,
+        "duration": 3.781
+    },
+    {
+        "text": "helps the model understand what it is",
+        "start": 995.699,
+        "duration": 4.26
+    },
+    {
+        "text": "that you need out of it for this",
+        "start": 997.8,
+        "duration": 4.14
+    },
+    {
+        "text": "particular step you can give it some",
+        "start": 999.959,
+        "duration": 4.141
+    },
+    {
+        "text": "rules which you saw some examples of the",
+        "start": 1001.94,
+        "duration": 3.899
+    },
+    {
+        "text": "rules uh for instance for this the",
+        "start": 1004.1,
+        "duration": 3.96
+    },
+    {
+        "text": "Scottish bar keep like do this don't do",
+        "start": 1005.839,
+        "duration": 4.74
+    },
+    {
+        "text": "this it can be difficult sometimes chat",
+        "start": 1008.06,
+        "duration": 4.019
+    },
+    {
+        "text": "GPT at least in its current version",
+        "start": 1010.579,
+        "duration": 3.961
+    },
+    {
+        "text": "might have trouble following complex",
+        "start": 1012.079,
+        "duration": 4.801
+    },
+    {
+        "text": "rules in fact this is why we saw really",
+        "start": 1014.54,
+        "duration": 4.56
+    },
+    {
+        "text": "bad problems with Bing when it first",
+        "start": 1016.88,
+        "duration": 4.8
+    },
+    {
+        "text": "came out and because it was kind of a",
+        "start": 1019.1,
+        "duration": 4.32
+    },
+    {
+        "text": "more open-ended model and they didn't",
+        "start": 1021.68,
+        "duration": 4.019
+    },
+    {
+        "text": "have quite as good rules defined and not",
+        "start": 1023.42,
+        "duration": 3.919
+    },
+    {
+        "text": "quite as good",
+        "start": 1025.699,
+        "duration": 4.321
+    },
+    {
+        "text": "alignment and so it could start to fly",
+        "start": 1027.339,
+        "duration": 4.301
+    },
+    {
+        "text": "off the handle and they actually they",
+        "start": 1030.02,
+        "duration": 4.14
+    },
+    {
+        "text": "still limit being conversations to uh at",
+        "start": 1031.64,
+        "duration": 4.86
+    },
+    {
+        "text": "least for me they limit it to 30 uh back",
+        "start": 1034.16,
+        "duration": 4.56
+    },
+    {
+        "text": "and forth because when you don't have it",
+        "start": 1036.5,
+        "duration": 4.5
+    },
+    {
+        "text": "well aligned and the underlying model",
+        "start": 1038.72,
+        "duration": 4.859
+    },
+    {
+        "text": "fine-tuned well as well as good rules",
+        "start": 1041.0,
+        "duration": 5.28
+    },
+    {
+        "text": "defined it can you can get drift",
+        "start": 1043.579,
+        "duration": 4.86
+    },
+    {
+        "text": "and drift was way way worse with older",
+        "start": 1046.28,
+        "duration": 4.019
+    },
+    {
+        "text": "models before current alignment",
+        "start": 1048.439,
+        "duration": 3.541
+    },
+    {
+        "text": "techniques you can give it some",
+        "start": 1050.299,
+        "duration": 4.201
+    },
+    {
+        "text": "instructions so there there can be some",
+        "start": 1051.98,
+        "duration": 4.8
+    },
+    {
+        "text": "very very specific instructions and so",
+        "start": 1054.5,
+        "duration": 4.44
+    },
+    {
+        "text": "what I mean by this is okay the first",
+        "start": 1056.78,
+        "duration": 3.779
+    },
+    {
+        "text": "thing you need to do is talk through the",
+        "start": 1058.94,
+        "duration": 3.239
+    },
+    {
+        "text": "problem and then you give me an answer",
+        "start": 1060.559,
+        "duration": 4.321
+    },
+    {
+        "text": "so it's like if this then that or do X Y",
+        "start": 1062.179,
+        "duration": 4.441
+    },
+    {
+        "text": "and Z in this sequential order that's",
+        "start": 1064.88,
+        "duration": 4.08
+    },
+    {
+        "text": "what I mean by instructions uh one thing",
+        "start": 1066.62,
+        "duration": 3.72
+    },
+    {
+        "text": "to keep in mind is all of these",
+        "start": 1068.96,
+        "duration": 3.18
+    },
+    {
+        "text": "different structures are completely",
+        "start": 1070.34,
+        "duration": 3.48
+    },
+    {
+        "text": "optional you can use just one or two of",
+        "start": 1072.14,
+        "duration": 3.84
+    },
+    {
+        "text": "them as you've seen from some of the",
+        "start": 1073.82,
+        "duration": 5.16
+    },
+    {
+        "text": "examples here there's in some cases like",
+        "start": 1075.98,
+        "duration": 5.22
+    },
+    {
+        "text": "here's my default set where literally",
+        "start": 1078.98,
+        "duration": 3.54
+    },
+    {
+        "text": "it's just a set of rules and",
+        "start": 1081.2,
+        "duration": 3.479
+    },
+    {
+        "text": "instructions uh like do this don't do",
+        "start": 1082.52,
+        "duration": 4.5
+    },
+    {
+        "text": "this it's just basic principles of what",
+        "start": 1084.679,
+        "duration": 3.781
+    },
+    {
+        "text": "to do I don't really give it a mission",
+        "start": 1087.02,
+        "duration": 3.42
+    },
+    {
+        "text": "in that one",
+        "start": 1088.46,
+        "duration": 3.599
+    },
+    {
+        "text": "um and the original like emotional",
+        "start": 1090.44,
+        "duration": 3.239
+    },
+    {
+        "text": "investigation one",
+        "start": 1092.059,
+        "duration": 4.561
+    },
+    {
+        "text": "um this is like it's it's got a very",
+        "start": 1093.679,
+        "duration": 5.581
+    },
+    {
+        "text": "clear Mission it's very simple",
+        "start": 1096.62,
+        "duration": 4.919
+    },
+    {
+        "text": "um so yeah uh anyways getting back down",
+        "start": 1099.26,
+        "duration": 5.279
+    },
+    {
+        "text": "uh so after instructions I often will",
+        "start": 1101.539,
+        "duration": 5.041
+    },
+    {
+        "text": "have like an expected input like again",
+        "start": 1104.539,
+        "duration": 4.201
+    },
+    {
+        "text": "think of the assembly line uh metaphor",
+        "start": 1106.58,
+        "duration": 4.26
+    },
+    {
+        "text": "or analogy where it's like this is what",
+        "start": 1108.74,
+        "duration": 3.6
+    },
+    {
+        "text": "you should expect to receive from the",
+        "start": 1110.84,
+        "duration": 5.1
+    },
+    {
+        "text": "user and in some cases you might have it",
+        "start": 1112.34,
+        "duration": 6.24
+    },
+    {
+        "text": "say like okay you might get you know",
+        "start": 1115.94,
+        "duration": 4.26
+    },
+    {
+        "text": "something simple like just one sentence",
+        "start": 1118.58,
+        "duration": 3.479
+    },
+    {
+        "text": "or you might get a whole rough draft",
+        "start": 1120.2,
+        "duration": 3.479
+    },
+    {
+        "text": "like with the email generator where it's",
+        "start": 1122.059,
+        "duration": 3.961
+    },
+    {
+        "text": "like you might like you should expect to",
+        "start": 1123.679,
+        "duration": 4.681
+    },
+    {
+        "text": "get a variety of different things it's",
+        "start": 1126.02,
+        "duration": 4.14
+    },
+    {
+        "text": "not strictly required to tell it that",
+        "start": 1128.36,
+        "duration": 3.72
+    },
+    {
+        "text": "but I find that the performance becomes",
+        "start": 1130.16,
+        "duration": 4.32
+    },
+    {
+        "text": "much more consistent when you give it a",
+        "start": 1132.08,
+        "duration": 4.14
+    },
+    {
+        "text": "little bit of context as to what to",
+        "start": 1134.48,
+        "duration": 3.96
+    },
+    {
+        "text": "expect and how to handle that variance",
+        "start": 1136.22,
+        "duration": 6.24
+    },
+    {
+        "text": "in in uh in what that input will be then",
+        "start": 1138.44,
+        "duration": 5.82
+    },
+    {
+        "text": "you can describe the output format if",
+        "start": 1142.46,
+        "duration": 4.74
+    },
+    {
+        "text": "necessary so for instance with um with",
+        "start": 1144.26,
+        "duration": 4.44
+    },
+    {
+        "text": "the the uh",
+        "start": 1147.2,
+        "duration": 3.24
+    },
+    {
+        "text": "the email generator let's see if we can",
+        "start": 1148.7,
+        "duration": 3.839
+    },
+    {
+        "text": "go back to that real quick",
+        "start": 1150.44,
+        "duration": 4.619
+    },
+    {
+        "text": "um so with the email generator you see",
+        "start": 1152.539,
+        "duration": 5.221
+    },
+    {
+        "text": "that it because I told it to explain its",
+        "start": 1155.059,
+        "duration": 5.281
+    },
+    {
+        "text": "reasoning it had this extra stuff but if",
+        "start": 1157.76,
+        "duration": 5.34
+    },
+    {
+        "text": "I wanted to I could say you know don't",
+        "start": 1160.34,
+        "duration": 4.92
+    },
+    {
+        "text": "include the subject only include the",
+        "start": 1163.1,
+        "duration": 3.959
+    },
+    {
+        "text": "body of the email don't say anything",
+        "start": 1165.26,
+        "duration": 4.5
+    },
+    {
+        "text": "else so that would be here like output",
+        "start": 1167.059,
+        "duration": 5.521
+    },
+    {
+        "text": "principles I would change this and say",
+        "start": 1169.76,
+        "duration": 5.1
+    },
+    {
+        "text": "um you know let's see",
+        "start": 1172.58,
+        "duration": 6.839
+    },
+    {
+        "text": "do not include subject or anything else",
+        "start": 1174.86,
+        "duration": 8.22
+    },
+    {
+        "text": "only write the body of the email so just",
+        "start": 1179.419,
+        "duration": 4.681
+    },
+    {
+        "text": "really simple natural language",
+        "start": 1183.08,
+        "duration": 3.0
+    },
+    {
+        "text": "instructions like that and if we if we",
+        "start": 1184.1,
+        "duration": 4.86
+    },
+    {
+        "text": "only change that one thing and resubmit",
+        "start": 1186.08,
+        "duration": 4.26
+    },
+    {
+        "text": "it",
+        "start": 1188.96,
+        "duration": 3.3
+    },
+    {
+        "text": "so it it gives us the same introduction",
+        "start": 1190.34,
+        "duration": 3.78
+    },
+    {
+        "text": "and then you see it remove the subject",
+        "start": 1192.26,
+        "duration": 5.039
+    },
+    {
+        "text": "line it just gave us the body so through",
+        "start": 1194.12,
+        "duration": 5.16
+    },
+    {
+        "text": "Rapid iteration on the playground here",
+        "start": 1197.299,
+        "duration": 4.081
+    },
+    {
+        "text": "with the with the API you'll be able to",
+        "start": 1199.28,
+        "duration": 4.08
+    },
+    {
+        "text": "get much better results to understand",
+        "start": 1201.38,
+        "duration": 4.08
+    },
+    {
+        "text": "this kind of thing and you might see",
+        "start": 1203.36,
+        "duration": 6.059
+    },
+    {
+        "text": "like oh hey like it's it's uh it's using",
+        "start": 1205.46,
+        "duration": 6.06
+    },
+    {
+        "text": "a placeholder for my name and so what",
+        "start": 1209.419,
+        "duration": 4.26
+    },
+    {
+        "text": "you might need to do is if in the API",
+        "start": 1211.52,
+        "duration": 5.96
+    },
+    {
+        "text": "call you might say like you know uh",
+        "start": 1213.679,
+        "duration": 6.481
+    },
+    {
+        "text": "username is and then you have a",
+        "start": 1217.48,
+        "duration": 4.78
+    },
+    {
+        "text": "placeholder",
+        "start": 1220.16,
+        "duration": 4.44
+    },
+    {
+        "text": "and I would replace this with Dave right",
+        "start": 1222.26,
+        "duration": 4.08
+    },
+    {
+        "text": "when I'm when you know using it in",
+        "start": 1224.6,
+        "duration": 3.48
+    },
+    {
+        "text": "production that sort of thing and",
+        "start": 1226.34,
+        "duration": 4.079
+    },
+    {
+        "text": "sometimes it one one principle one rule",
+        "start": 1228.08,
+        "duration": 3.78
+    },
+    {
+        "text": "of thumb that I follow is that it's",
+        "start": 1230.419,
+        "duration": 2.941
+    },
+    {
+        "text": "better to give it too much context",
+        "start": 1231.86,
+        "duration": 3.6
+    },
+    {
+        "text": "rather than not enough because it's",
+        "start": 1233.36,
+        "duration": 3.66
+    },
+    {
+        "text": "better to have something and not need it",
+        "start": 1235.46,
+        "duration": 3.48
+    },
+    {
+        "text": "than need something and not have it so",
+        "start": 1237.02,
+        "duration": 3.6
+    },
+    {
+        "text": "that's a really important uh principle",
+        "start": 1238.94,
+        "duration": 3.96
+    },
+    {
+        "text": "to follow",
+        "start": 1240.62,
+        "duration": 4.98
+    },
+    {
+        "text": "um and then finally an example output so",
+        "start": 1242.9,
+        "duration": 4.74
+    },
+    {
+        "text": "one of the best example outputs that I",
+        "start": 1245.6,
+        "duration": 4.38
+    },
+    {
+        "text": "have is my slide deck maker so a lot of",
+        "start": 1247.64,
+        "duration": 4.2
+    },
+    {
+        "text": "you really love my slide deck so this is",
+        "start": 1249.98,
+        "duration": 4.319
+    },
+    {
+        "text": "the actual prompt that I use to help me",
+        "start": 1251.84,
+        "duration": 4.68
+    },
+    {
+        "text": "make those slide decks today so let me",
+        "start": 1254.299,
+        "duration": 5.461
+    },
+    {
+        "text": "show you how this looks here so in the",
+        "start": 1256.52,
+        "duration": 6.18
+    },
+    {
+        "text": "case of do a quick refresh in the case",
+        "start": 1259.76,
+        "duration": 5.159
+    },
+    {
+        "text": "of my slide deck maker I say Mission you",
+        "start": 1262.7,
+        "duration": 3.42
+    },
+    {
+        "text": "are a slide deck builder you will be",
+        "start": 1264.919,
+        "duration": 3.181
+    },
+    {
+        "text": "given a topic and will be expected to",
+        "start": 1266.12,
+        "duration": 3.72
+    },
+    {
+        "text": "generate a slide deck text with a very",
+        "start": 1268.1,
+        "duration": 3.84
+    },
+    {
+        "text": "specific format so again very clear",
+        "start": 1269.84,
+        "duration": 4.5
+    },
+    {
+        "text": "Mission very simple",
+        "start": 1271.94,
+        "duration": 5.28
+    },
+    {
+        "text": "input the user will give you a input of",
+        "start": 1274.34,
+        "duration": 6.0
+    },
+    {
+        "text": "various kinds usually a topic or or a",
+        "start": 1277.22,
+        "duration": 7.56
+    },
+    {
+        "text": "request like rural juror or a request",
+        "start": 1280.34,
+        "duration": 6.24
+    },
+    {
+        "text": "this will be highly varied but your",
+        "start": 1284.78,
+        "duration": 3.66
+    },
+    {
+        "text": "output must be super consistent so again",
+        "start": 1286.58,
+        "duration": 3.78
+    },
+    {
+        "text": "I'm just telling it like you don't know",
+        "start": 1288.44,
+        "duration": 3.359
+    },
+    {
+        "text": "exactly what you're going to get just do",
+        "start": 1290.36,
+        "duration": 3.24
+    },
+    {
+        "text": "your best and it's pretty good at that",
+        "start": 1291.799,
+        "duration": 4.141
+    },
+    {
+        "text": "output format so I describe the the",
+        "start": 1293.6,
+        "duration": 4.319
+    },
+    {
+        "text": "requirements for the output format slide",
+        "start": 1295.94,
+        "duration": 3.78
+    },
+    {
+        "text": "title two or three words Max and I can",
+        "start": 1297.919,
+        "duration": 4.5
+    },
+    {
+        "text": "you can see that it is in title case",
+        "start": 1299.72,
+        "duration": 4.86
+    },
+    {
+        "text": "um concept description of definition",
+        "start": 1302.419,
+        "duration": 4.14
+    },
+    {
+        "text": "that should have been description or",
+        "start": 1304.58,
+        "duration": 3.54
+    },
+    {
+        "text": "definition two or three complete",
+        "start": 1306.559,
+        "duration": 4.5
+    },
+    {
+        "text": "sentences with word economy and then um",
+        "start": 1308.12,
+        "duration": 4.38
+    },
+    {
+        "text": "three exactly Five Points",
+        "start": 1311.059,
+        "duration": 3.061
+    },
+    {
+        "text": "characteristics or details in labeled",
+        "start": 1312.5,
+        "duration": 4.679
+    },
+    {
+        "text": "list bullet format so I describe it very",
+        "start": 1314.12,
+        "duration": 4.439
+    },
+    {
+        "text": "clearly",
+        "start": 1317.179,
+        "duration": 3.48
+    },
+    {
+        "text": "um and so because if you just give it an",
+        "start": 1318.559,
+        "duration": 3.841
+    },
+    {
+        "text": "example it might not understand the",
+        "start": 1320.659,
+        "duration": 4.201
+    },
+    {
+        "text": "principles but in this case I get very",
+        "start": 1322.4,
+        "duration": 5.46
+    },
+    {
+        "text": "very consistent format by first defining",
+        "start": 1324.86,
+        "duration": 5.28
+    },
+    {
+        "text": "the output format and then giving in an",
+        "start": 1327.86,
+        "duration": 4.199
+    },
+    {
+        "text": "example and so here's the speed chest",
+        "start": 1330.14,
+        "duration": 3.48
+    },
+    {
+        "text": "example that I used in my terminal race",
+        "start": 1332.059,
+        "duration": 3.781
+    },
+    {
+        "text": "condition video so speed chess speed",
+        "start": 1333.62,
+        "duration": 3.78
+    },
+    {
+        "text": "chess is a variant of Chess blah blah",
+        "start": 1335.84,
+        "duration": 3.9
+    },
+    {
+        "text": "quick decisions and you can see it has",
+        "start": 1337.4,
+        "duration": 4.2
+    },
+    {
+        "text": "no other formatting it doesn't use",
+        "start": 1339.74,
+        "duration": 4.38
+    },
+    {
+        "text": "markdown or anything and if I give it",
+        "start": 1341.6,
+        "duration": 5.28
+    },
+    {
+        "text": "this and if I say like um here let's",
+        "start": 1344.12,
+        "duration": 7.2
+    },
+    {
+        "text": "just say prompt engineering EG the art",
+        "start": 1346.88,
+        "duration": 8.12
+    },
+    {
+        "text": "of using natural language with llms",
+        "start": 1351.32,
+        "duration": 8.82
+    },
+    {
+        "text": "large uh language models to evoke the",
+        "start": 1355.0,
+        "duration": 10.0
+    },
+    {
+        "text": "correct behavior from an AI deep",
+        "start": 1360.14,
+        "duration": 6.06
+    },
+    {
+        "text": "learning",
+        "start": 1365.0,
+        "duration": 4.38
+    },
+    {
+        "text": "uh uh model and so then that's all I",
+        "start": 1366.2,
+        "duration": 5.28
+    },
+    {
+        "text": "gave it and I say generate a slide for",
+        "start": 1369.38,
+        "duration": 3.84
+    },
+    {
+        "text": "for this for me prompt engineering",
+        "start": 1371.48,
+        "duration": 3.42
+    },
+    {
+        "text": "prompt engineering is the process of",
+        "start": 1373.22,
+        "duration": 3.3
+    },
+    {
+        "text": "crafting effective prompts to guide the",
+        "start": 1374.9,
+        "duration": 3.659
+    },
+    {
+        "text": "responses of large language models llms",
+        "start": 1376.52,
+        "duration": 3.779
+    },
+    {
+        "text": "it involves understanding the model's",
+        "start": 1378.559,
+        "duration": 3.36
+    },
+    {
+        "text": "behavior and using natural language to",
+        "start": 1380.299,
+        "duration": 3.721
+    },
+    {
+        "text": "evoke the desired output the goal is to",
+        "start": 1381.919,
+        "duration": 3.901
+    },
+    {
+        "text": "maximize the utility of Aid learning",
+        "start": 1384.02,
+        "duration": 3.539
+    },
+    {
+        "text": "models effective prompts crafting",
+        "start": 1385.82,
+        "duration": 3.18
+    },
+    {
+        "text": "prompts to guide the model's responses",
+        "start": 1387.559,
+        "duration": 3.781
+    },
+    {
+        "text": "understanding Model Behavior knowledge",
+        "start": 1389.0,
+        "duration": 3.9
+    },
+    {
+        "text": "of how the model responds to inherent",
+        "start": 1391.34,
+        "duration": 3.36
+    },
+    {
+        "text": "input or to different inputs eliciting",
+        "start": 1392.9,
+        "duration": 3.659
+    },
+    {
+        "text": "desired output maximizing utility and",
+        "start": 1394.7,
+        "duration": 3.839
+    },
+    {
+        "text": "deep learning models so this is",
+        "start": 1396.559,
+        "duration": 3.661
+    },
+    {
+        "text": "obviously not exactly what I would put",
+        "start": 1398.539,
+        "duration": 3.361
+    },
+    {
+        "text": "in my slide deck but it's a good start I",
+        "start": 1400.22,
+        "duration": 3.24
+    },
+    {
+        "text": "would probably replace a couple of these",
+        "start": 1401.9,
+        "duration": 3.84
+    },
+    {
+        "text": "with like you know using the English",
+        "start": 1403.46,
+        "duration": 4.199
+    },
+    {
+        "text": "language so what I'll do is I'll kill",
+        "start": 1405.74,
+        "duration": 4.74
+    },
+    {
+        "text": "that and I'll say some general",
+        "start": 1407.659,
+        "duration": 6.721
+    },
+    {
+        "text": "principles include writing and English",
+        "start": 1410.48,
+        "duration": 9.86
+    },
+    {
+        "text": "skills as these models ingest and output",
+        "start": 1414.38,
+        "duration": 8.96
+    },
+    {
+        "text": "natural language",
+        "start": 1420.34,
+        "duration": 8.079
+    },
+    {
+        "text": "uh other principles include ordered uh",
+        "start": 1423.34,
+        "duration": 6.819
+    },
+    {
+        "text": "thinking",
+        "start": 1428.419,
+        "duration": 7.201
+    },
+    {
+        "text": "such as with procedures or outcomes in",
+        "start": 1430.159,
+        "duration": 9.5
+    },
+    {
+        "text": "mind this thinking is often not",
+        "start": 1435.62,
+        "duration": 7.559
+    },
+    {
+        "text": "intuitive to people and requires",
+        "start": 1439.659,
+        "duration": 6.461
+    },
+    {
+        "text": "practice and so now what it'll do is",
+        "start": 1443.179,
+        "duration": 4.141
+    },
+    {
+        "text": "it'll look at just this kind of",
+        "start": 1446.12,
+        "duration": 3.96
+    },
+    {
+        "text": "unstructured paragraph and it will",
+        "start": 1447.32,
+        "duration": 4.62
+    },
+    {
+        "text": "reformat it so it's like okay writing",
+        "start": 1450.08,
+        "duration": 3.78
+    },
+    {
+        "text": "skills English profession English",
+        "start": 1451.94,
+        "duration": 4.14
+    },
+    {
+        "text": "proficiency I am English proficient I",
+        "start": 1453.86,
+        "duration": 4.319
+    },
+    {
+        "text": "promise ordered thinking non-intuitive",
+        "start": 1456.08,
+        "duration": 4.32
+    },
+    {
+        "text": "practice so now it has completely",
+        "start": 1458.179,
+        "duration": 4.201
+    },
+    {
+        "text": "changed the list to kind of the things",
+        "start": 1460.4,
+        "duration": 5.279
+    },
+    {
+        "text": "that I wanted it to say and uh the",
+        "start": 1462.38,
+        "duration": 5.159
+    },
+    {
+        "text": "inspiration for this is because I often",
+        "start": 1465.679,
+        "duration": 4.441
+    },
+    {
+        "text": "have college students either undergrad",
+        "start": 1467.539,
+        "duration": 5.821
+    },
+    {
+        "text": "or grad students that are graduating or",
+        "start": 1470.12,
+        "duration": 5.039
+    },
+    {
+        "text": "about to graduate or have just graduated",
+        "start": 1473.36,
+        "duration": 3.9
+    },
+    {
+        "text": "and there's they ask me like what skills",
+        "start": 1475.159,
+        "duration": 3.421
+    },
+    {
+        "text": "do I need and I'm like English and",
+        "start": 1477.26,
+        "duration": 2.58
+    },
+    {
+        "text": "they're like what do you mean like to",
+        "start": 1478.58,
+        "duration": 2.82
+    },
+    {
+        "text": "communicate with humans and I'm like no",
+        "start": 1479.84,
+        "duration": 3.719
+    },
+    {
+        "text": "to communicate with the models and some",
+        "start": 1481.4,
+        "duration": 5.22
+    },
+    {
+        "text": "of them don't get it but anyways so you",
+        "start": 1483.559,
+        "duration": 5.641
+    },
+    {
+        "text": "this is this is an example of by by",
+        "start": 1486.62,
+        "duration": 4.74
+    },
+    {
+        "text": "clearly defining the the output that I",
+        "start": 1489.2,
+        "duration": 4.2
+    },
+    {
+        "text": "wanted and giving in an example in a",
+        "start": 1491.36,
+        "duration": 4.5
+    },
+    {
+        "text": "mission it's able to do this really well",
+        "start": 1493.4,
+        "duration": 5.04
+    },
+    {
+        "text": "and also one other example so when I",
+        "start": 1495.86,
+        "duration": 4.559
+    },
+    {
+        "text": "talk about like latent content and",
+        "start": 1498.44,
+        "duration": 4.859
+    },
+    {
+        "text": "cognitive capacity and reasoning ability",
+        "start": 1500.419,
+        "duration": 5.76
+    },
+    {
+        "text": "I gave it a pretty specific um idea of",
+        "start": 1503.299,
+        "duration": 5.521
+    },
+    {
+        "text": "what I wanted but this this particular",
+        "start": 1506.179,
+        "duration": 5.821
+    },
+    {
+        "text": "prompt is also able to infer what I want",
+        "start": 1508.82,
+        "duration": 4.859
+    },
+    {
+        "text": "um so I can say like what is the",
+        "start": 1512.0,
+        "duration": 3.6
+    },
+    {
+        "text": "principle where",
+        "start": 1513.679,
+        "duration": 6.721
+    },
+    {
+        "text": "um you increase the amount of something",
+        "start": 1515.6,
+        "duration": 8.16
+    },
+    {
+        "text": "and then demand increases so I just gave",
+        "start": 1520.4,
+        "duration": 5.58
+    },
+    {
+        "text": "it a question and it will still produce",
+        "start": 1523.76,
+        "duration": 6.06
+    },
+    {
+        "text": "like a generally correct output",
+        "start": 1525.98,
+        "duration": 5.64
+    },
+    {
+        "text": "so supply and demand supply and demand",
+        "start": 1529.82,
+        "duration": 3.239
+    },
+    {
+        "text": "is an economic principle that describes",
+        "start": 1531.62,
+        "duration": 2.46
+    },
+    {
+        "text": "the relationship between the",
+        "start": 1533.059,
+        "duration": 3.0
+    },
+    {
+        "text": "availability of a particular product and",
+        "start": 1534.08,
+        "duration": 3.3
+    },
+    {
+        "text": "the desire of consumers for that product",
+        "start": 1536.059,
+        "duration": 3.181
+    },
+    {
+        "text": "is that a fundamental concept so blah",
+        "start": 1537.38,
+        "duration": 3.779
+    },
+    {
+        "text": "blah increased demand increase Supply",
+        "start": 1539.24,
+        "duration": 4.1
+    },
+    {
+        "text": "price determination market equilibrium",
+        "start": 1541.159,
+        "duration": 4.861
+    },
+    {
+        "text": "economic indicator so even just by",
+        "start": 1543.34,
+        "duration": 5.079
+    },
+    {
+        "text": "asking a question because I gave it such",
+        "start": 1546.02,
+        "duration": 4.5
+    },
+    {
+        "text": "a clear Mission and the fact that it it",
+        "start": 1548.419,
+        "duration": 4.561
+    },
+    {
+        "text": "should not respond to the question as a",
+        "start": 1550.52,
+        "duration": 3.899
+    },
+    {
+        "text": "chat bot it's just going to generate a",
+        "start": 1552.98,
+        "duration": 3.6
+    },
+    {
+        "text": "slide for me it did its best to infer I",
+        "start": 1554.419,
+        "duration": 4.081
+    },
+    {
+        "text": "was like so this is not exactly what I'm",
+        "start": 1556.58,
+        "duration": 3.06
+    },
+    {
+        "text": "saying",
+        "start": 1558.5,
+        "duration": 2.279
+    },
+    {
+        "text": "um",
+        "start": 1559.64,
+        "duration": 3.06
+    },
+    {
+        "text": "what is it uh",
+        "start": 1560.779,
+        "duration": 6.661
+    },
+    {
+        "text": "called the something Paradox and so uh",
+        "start": 1562.7,
+        "duration": 6.78
+    },
+    {
+        "text": "so now it's like ah javon's Paradox this",
+        "start": 1567.44,
+        "duration": 3.78
+    },
+    {
+        "text": "is what you were thinking of",
+        "start": 1569.48,
+        "duration": 4.14
+    },
+    {
+        "text": "um without without knowing what exactly",
+        "start": 1571.22,
+        "duration": 4.8
+    },
+    {
+        "text": "I wanted it to write about it figured",
+        "start": 1573.62,
+        "duration": 4.74
+    },
+    {
+        "text": "out that this is what I needed",
+        "start": 1576.02,
+        "duration": 3.96
+    },
+    {
+        "text": "um this is not exactly the process that",
+        "start": 1578.36,
+        "duration": 3.059
+    },
+    {
+        "text": "I went through to make some of my recent",
+        "start": 1579.98,
+        "duration": 4.079
+    },
+    {
+        "text": "slides but you can see that by giving it",
+        "start": 1581.419,
+        "duration": 4.26
+    },
+    {
+        "text": "very clear instructions and examples",
+        "start": 1584.059,
+        "duration": 4.041
+    },
+    {
+        "text": "it's able to use its latent",
+        "start": 1585.679,
+        "duration": 5.521
+    },
+    {
+        "text": "understanding to generate output that I",
+        "start": 1588.1,
+        "duration": 5.319
+    },
+    {
+        "text": "need that I didn't know that I needed uh",
+        "start": 1591.2,
+        "duration": 6.06
+    },
+    {
+        "text": "so yeah and then like uh let's do",
+        "start": 1593.419,
+        "duration": 7.221
+    },
+    {
+        "text": "um the duck curve next",
+        "start": 1597.26,
+        "duration": 3.38
+    },
+    {
+        "text": "duck curve the duck curve is a graph of",
+        "start": 1601.88,
+        "duration": 3.84
+    },
+    {
+        "text": "power uh Power production of the course",
+        "start": 1603.74,
+        "duration": 3.72
+    },
+    {
+        "text": "blah blah blah demand in production",
+        "start": 1605.72,
+        "duration": 4.199
+    },
+    {
+        "text": "afternoon abundance Etc et cetera the",
+        "start": 1607.46,
+        "duration": 3.66
+    },
+    {
+        "text": "duck curve if you're not familiar with",
+        "start": 1609.919,
+        "duration": 3.181
+    },
+    {
+        "text": "is the fact that like uh energy",
+        "start": 1611.12,
+        "duration": 4.38
+    },
+    {
+        "text": "production and energy demand varies",
+        "start": 1613.1,
+        "duration": 4.199
+    },
+    {
+        "text": "throughout the day with the highest",
+        "start": 1615.5,
+        "duration": 3.299
+    },
+    {
+        "text": "Spike being when people get home from",
+        "start": 1617.299,
+        "duration": 3.0
+    },
+    {
+        "text": "work in the evening",
+        "start": 1618.799,
+        "duration": 3.301
+    },
+    {
+        "text": "um anyways so I think you get the idea",
+        "start": 1620.299,
+        "duration": 4.26
+    },
+    {
+        "text": "if you want to go ahead and just jump",
+        "start": 1622.1,
+        "duration": 4.559
+    },
+    {
+        "text": "into my repo over here it's already got",
+        "start": 1624.559,
+        "duration": 5.641
+    },
+    {
+        "text": "what like 70 Stars yeah 73 stars and and",
+        "start": 1626.659,
+        "duration": 5.701
+    },
+    {
+        "text": "nine Forks I'm adding to this stuff all",
+        "start": 1630.2,
+        "duration": 3.9
+    },
+    {
+        "text": "the time you see like you know two",
+        "start": 1632.36,
+        "duration": 3.36
+    },
+    {
+        "text": "months ago two weeks ago four days ago",
+        "start": 1634.1,
+        "duration": 4.199
+    },
+    {
+        "text": "three days ago I'm always updating these",
+        "start": 1635.72,
+        "duration": 4.14
+    },
+    {
+        "text": "um these things because I come back to",
+        "start": 1638.299,
+        "duration": 3.36
+    },
+    {
+        "text": "these all the time so I figured I might",
+        "start": 1639.86,
+        "duration": 3.48
+    },
+    {
+        "text": "as well just share them so anyways",
+        "start": 1641.659,
+        "duration": 3.361
+    },
+    {
+        "text": "thanks for watching I hope you got a lot",
+        "start": 1643.34,
+        "duration": 3.54
+    },
+    {
+        "text": "out of this and you are a better prompt",
+        "start": 1645.02,
+        "duration": 3.84
+    },
+    {
+        "text": "engineer for having watched this video",
+        "start": 1646.88,
+        "duration": 4.799
+    },
+    {
+        "text": "like subscribe do all the things and uh",
+        "start": 1648.86,
+        "duration": 5.54
+    },
+    {
+        "text": "cheers have a good one",
+        "start": 1651.679,
+        "duration": 2.721
+    }
+]
