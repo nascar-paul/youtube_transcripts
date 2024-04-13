@@ -24,12 +24,13 @@ def interact_with_custom_assistant(text, assistant_id="asst_HaVkg1QI1bmlLxMFeJls
     """
     try:
         response = openai.ChatCompletion.create(
-            model=assistant_id,  # Using the custom assistant ID
+            model=assistant_id,
             messages=[
+                {"role": "system", "content": "You are now chatting with a custom model to engage with YouTube content."},
                 {"role": "user", "content": text}
             ]
         )
-        # Assuming the response contains a single message, adjust as necessary
+        # Extract the response message, assuming a standard conversation structure
         assistant_response = response['choices'][0]['message']['content'].strip()
         return assistant_response
     except Exception as e:
