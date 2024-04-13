@@ -1,6 +1,4 @@
-from openai import OpenAI
-
-client = OpenAI(api_key=api_key)
+import openai
 
 def get_api_key():
     """
@@ -15,6 +13,7 @@ def initialize_openai_client(api_key):
     Initializes the OpenAI client with the given API key.
     :param api_key: Your OpenAI API key.
     """
+    openai.api_key = api_key
 
 def interact_with_custom_assistant(text, assistant_id="asst_HaVkg1QI1bmlLxMFeJlswWrO"):
     """
@@ -24,13 +23,14 @@ def interact_with_custom_assistant(text, assistant_id="asst_HaVkg1QI1bmlLxMFeJls
     :return: The assistant's response as a string.
     """
     try:
-        response = client.chat.completions.create(model=assistant_id,
-        messages=[
-            {"role": "system", "content": "You are now chatting with a custom model to engage with YouTube content."},
-            {"role": "user", "content": text}
-        ])
-        # Extract the response message, assuming a standard conversation structure
-        assistant_response = response.choices[0].message.content.strip()
+        response = openai.ChatCompletion.create(
+            model=assistant_id,  # Note: OpenAI has replaced 'model' with 'assistant_id' in some API versions
+            messages=[
+                {"role": "user", "content": text}
+            ]
+        )
+        # Assuming the response contains a single message and correctly extracting it
+        assistant_response = response.choices[0].message['content'].strip()
         return assistant_response
     except Exception as e:
         print(f"An error occurred: {e}")
