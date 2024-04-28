@@ -1,0 +1,2777 @@
+[
+    {
+        "text": "everybody so it's been a while since",
+        "start": 0.12,
+        "duration": 3.48
+    },
+    {
+        "text": "I've been posting regularly yeah I",
+        "start": 1.68,
+        "duration": 4.48
+    },
+    {
+        "text": "wanted to touch base and kind of share",
+        "start": 3.6,
+        "duration": 5.4
+    },
+    {
+        "text": "where I've been so you know you've",
+        "start": 6.16,
+        "duration": 4.479
+    },
+    {
+        "text": "probably seen some of my polls if you're",
+        "start": 9.0,
+        "duration": 3.799
+    },
+    {
+        "text": "a longtime uh follower of the channel",
+        "start": 10.639,
+        "duration": 4.801
+    },
+    {
+        "text": "I'm always posting uh polls to kind of",
+        "start": 12.799,
+        "duration": 5.24
+    },
+    {
+        "text": "see where the audience is at and there's",
+        "start": 15.44,
+        "duration": 5.72
+    },
+    {
+        "text": "been a few uh kind of vibe changes or SE",
+        "start": 18.039,
+        "duration": 5.281
+    },
+    {
+        "text": "changes um the Paradigm has been",
+        "start": 21.16,
+        "duration": 5.08
+    },
+    {
+        "text": "shifting slowly uh so for those of us",
+        "start": 23.32,
+        "duration": 4.92
+    },
+    {
+        "text": "that have been in the space for a while",
+        "start": 26.24,
+        "duration": 5.519
+    },
+    {
+        "text": "uh you know glove and and semantic",
+        "start": 28.24,
+        "duration": 5.12
+    },
+    {
+        "text": "embedding when that first came out you",
+        "start": 31.759,
+        "duration": 3.96
+    },
+    {
+        "text": "know Google's Universal sentence encoder",
+        "start": 33.36,
+        "duration": 3.92
+    },
+    {
+        "text": "um those sorts of things came out what",
+        "start": 35.719,
+        "duration": 4.601
+    },
+    {
+        "text": "2015 2016 that was a paradigm shift and",
+        "start": 37.28,
+        "duration": 5.68
+    },
+    {
+        "text": "then it was a few years before gpt2 then",
+        "start": 40.32,
+        "duration": 5.04
+    },
+    {
+        "text": "a little bit less time for gpt3 now GPT",
+        "start": 42.96,
+        "duration": 5.84
+    },
+    {
+        "text": "4 um but not only not only is are the",
+        "start": 45.36,
+        "duration": 5.76
+    },
+    {
+        "text": "Paradigm shifts compressing on",
+        "start": 48.8,
+        "duration": 4.16
+    },
+    {
+        "text": "individual companies there's more of",
+        "start": 51.12,
+        "duration": 4.52
+    },
+    {
+        "text": "them as more companies participate and",
+        "start": 52.96,
+        "duration": 4.84
+    },
+    {
+        "text": "so everyone has noticed this year the",
+        "start": 55.64,
+        "duration": 4.8
+    },
+    {
+        "text": "the joke is if you go more than hours",
+        "start": 57.8,
+        "duration": 4.239
+    },
+    {
+        "text": "without a you know major breakthrough",
+        "start": 60.44,
+        "duration": 3.439
+    },
+    {
+        "text": "announced in AI that's that's the AI",
+        "start": 62.039,
+        "duration": 4.681
+    },
+    {
+        "text": "winter and so this phenomenon is",
+        "start": 63.879,
+        "duration": 6.761
+    },
+    {
+        "text": "actually predicted perfectly by Ray CTSV",
+        "start": 66.72,
+        "duration": 7.56
+    },
+    {
+        "text": "in the age of spiritual machines and so",
+        "start": 70.64,
+        "duration": 5.839
+    },
+    {
+        "text": "having read this book um and I didn't I",
+        "start": 74.28,
+        "duration": 4.32
+    },
+    {
+        "text": "didn't read the end I didn't I wasn't as",
+        "start": 76.479,
+        "duration": 3.401
+    },
+    {
+        "text": "I didn't care as much about the",
+        "start": 78.6,
+        "duration": 4.159
+    },
+    {
+        "text": "predictions um but the data um the",
+        "start": 79.88,
+        "duration": 4.96
+    },
+    {
+        "text": "timelines the data and the model that",
+        "start": 82.759,
+        "duration": 4.761
+    },
+    {
+        "text": "Rey uses to understand what's happening",
+        "start": 84.84,
+        "duration": 4.919
+    },
+    {
+        "text": "that's what is really compelling to me",
+        "start": 87.52,
+        "duration": 4.279
+    },
+    {
+        "text": "and and so what you should be paying",
+        "start": 89.759,
+        "duration": 3.881
+    },
+    {
+        "text": "attention to as we ramp up to",
+        "start": 91.799,
+        "duration": 5.201
+    },
+    {
+        "text": "Singularity or change or AGI or whatever",
+        "start": 93.64,
+        "duration": 6.04
+    },
+    {
+        "text": "is Paradigm shifts and so the way that",
+        "start": 97.0,
+        "duration": 5.04
+    },
+    {
+        "text": "Sam Alman described it is uh what was it",
+        "start": 99.68,
+        "duration": 4.2
+    },
+    {
+        "text": "he said Slow takeoff with short",
+        "start": 102.04,
+        "duration": 4.24
+    },
+    {
+        "text": "intervals and so those short intervals",
+        "start": 103.88,
+        "duration": 5.199
+    },
+    {
+        "text": "are these Paradigm shifts and so",
+        "start": 106.28,
+        "duration": 4.519
+    },
+    {
+        "text": "basically it's not going to be you know",
+        "start": 109.079,
+        "duration": 4.08
+    },
+    {
+        "text": "we wake up one day and AGI is there and",
+        "start": 110.799,
+        "duration": 4.041
+    },
+    {
+        "text": "then we have you know warp drive the",
+        "start": 113.159,
+        "duration": 5.0
+    },
+    {
+        "text": "next day instead these Paradigm shifts",
+        "start": 114.84,
+        "duration": 5.919
+    },
+    {
+        "text": "are uh exemplified you can even take it",
+        "start": 118.159,
+        "duration": 6.481
+    },
+    {
+        "text": "back a a longer uh timeline so one",
+        "start": 120.759,
+        "duration": 6.04
+    },
+    {
+        "text": "example is looking at human evolution",
+        "start": 124.64,
+        "duration": 3.679
+    },
+    {
+        "text": "and this has been used in a few",
+        "start": 126.799,
+        "duration": 3.52
+    },
+    {
+        "text": "different places um they even talked",
+        "start": 128.319,
+        "duration": 3.601
+    },
+    {
+        "text": "about it in three body problem I binged",
+        "start": 130.319,
+        "duration": 2.881
+    },
+    {
+        "text": "three body problem the other day when I",
+        "start": 131.92,
+        "duration": 4.08
+    },
+    {
+        "text": "wasn't feeling well um and so the idea",
+        "start": 133.2,
+        "duration": 5.36
+    },
+    {
+        "text": "is how long did it take for humans to",
+        "start": 136.0,
+        "duration": 4.92
+    },
+    {
+        "text": "emerge or protohumans to emerge it took",
+        "start": 138.56,
+        "duration": 3.959
+    },
+    {
+        "text": "more than a billion years of evolution",
+        "start": 140.92,
+        "duration": 4.56
+    },
+    {
+        "text": "for you know hominids to emerge and then",
+        "start": 142.519,
+        "duration": 5.481
+    },
+    {
+        "text": "from there it was a few million years to",
+        "start": 145.48,
+        "duration": 4.44
+    },
+    {
+        "text": "get to you know something that is",
+        "start": 148.0,
+        "duration": 4.28
+    },
+    {
+        "text": "recognizably human and then only a few",
+        "start": 149.92,
+        "duration": 3.64
+    },
+    {
+        "text": "hundred th000 years to get to",
+        "start": 152.28,
+        "duration": 3.36
+    },
+    {
+        "text": "intelligence 10,000 years to get to",
+        "start": 153.56,
+        "duration": 4.8
+    },
+    {
+        "text": "agriculture a th000 years to get from",
+        "start": 155.64,
+        "duration": 5.16
+    },
+    {
+        "text": "pre-industrial to post-industrial and so",
+        "start": 158.36,
+        "duration": 4.799
+    },
+    {
+        "text": "on and so forth and so human evolution",
+        "start": 160.8,
+        "duration": 4.12
+    },
+    {
+        "text": "is accelerating not necessarily on a",
+        "start": 163.159,
+        "duration": 4.241
+    },
+    {
+        "text": "biological sense but on a technological",
+        "start": 164.92,
+        "duration": 4.72
+    },
+    {
+        "text": "sense and so there's been TED Talks that",
+        "start": 167.4,
+        "duration": 4.0
+    },
+    {
+        "text": "call this like teams so like a",
+        "start": 169.64,
+        "duration": 4.72
+    },
+    {
+        "text": "technological uh uh Gene where we're",
+        "start": 171.4,
+        "duration": 5.839
+    },
+    {
+        "text": "able to build off of each other and so",
+        "start": 174.36,
+        "duration": 4.72
+    },
+    {
+        "text": "uh another way of thinking about it is",
+        "start": 177.239,
+        "duration": 3.801
+    },
+    {
+        "text": "technology is is evolution by another",
+        "start": 179.08,
+        "duration": 4.96
+    },
+    {
+        "text": "means and in this respect evolution is",
+        "start": 181.04,
+        "duration": 5.4
+    },
+    {
+        "text": "accelerating so I ran a poll and I I",
+        "start": 184.04,
+        "duration": 3.919
+    },
+    {
+        "text": "think I think it's okay to talk about",
+        "start": 186.44,
+        "duration": 3.6
+    },
+    {
+        "text": "this because I ran a poll um a few weeks",
+        "start": 187.959,
+        "duration": 3.92
+    },
+    {
+        "text": "ago a couple months ago that basically",
+        "start": 190.04,
+        "duration": 3.52
+    },
+    {
+        "text": "said like are we building a successor",
+        "start": 191.879,
+        "duration": 3.36
+    },
+    {
+        "text": "species are we building a Global super",
+        "start": 193.56,
+        "duration": 3.599
+    },
+    {
+        "text": "organism and most of you are on board",
+        "start": 195.239,
+        "duration": 3.481
+    },
+    {
+        "text": "with this idea so I'm I'm still talking",
+        "start": 197.159,
+        "duration": 3.321
+    },
+    {
+        "text": "about this idea with some researchers",
+        "start": 198.72,
+        "duration": 4.079
+    },
+    {
+        "text": "and philosophers that I know um I just",
+        "start": 200.48,
+        "duration": 5.08
+    },
+    {
+        "text": "sent them an email this morning um but",
+        "start": 202.799,
+        "duration": 7.121
+    },
+    {
+        "text": "but the idea is that we are evolving and",
+        "start": 205.56,
+        "duration": 6.12
+    },
+    {
+        "text": "it's because of the complexity of the",
+        "start": 209.92,
+        "duration": 2.92
+    },
+    {
+        "text": "situation we don't know what we're",
+        "start": 211.68,
+        "duration": 3.6
+    },
+    {
+        "text": "evolving to so most people that I've",
+        "start": 212.84,
+        "duration": 3.8
+    },
+    {
+        "text": "talked to agree that this is what's",
+        "start": 215.28,
+        "duration": 3.44
+    },
+    {
+        "text": "called a complex adaptive system and so",
+        "start": 216.64,
+        "duration": 3.799
+    },
+    {
+        "text": "a complex adaptive system is when you",
+        "start": 218.72,
+        "duration": 4.92
+    },
+    {
+        "text": "have two or more uh parallel systems or",
+        "start": 220.439,
+        "duration": 5.321
+    },
+    {
+        "text": "entities that feed off of each other and",
+        "start": 223.64,
+        "duration": 4.08
+    },
+    {
+        "text": "manipulate each other so one of the most",
+        "start": 225.76,
+        "duration": 4.32
+    },
+    {
+        "text": "common examples is the stock market and",
+        "start": 227.72,
+        "duration": 3.56
+    },
+    {
+        "text": "if you've been following the stock",
+        "start": 230.08,
+        "duration": 2.92
+    },
+    {
+        "text": "market at all over the last few years",
+        "start": 231.28,
+        "duration": 3.4
+    },
+    {
+        "text": "you probably know like the meme stocks",
+        "start": 233.0,
+        "duration": 3.56
+    },
+    {
+        "text": "like GameStop and so that's an example",
+        "start": 234.68,
+        "duration": 3.6
+    },
+    {
+        "text": "of a complex adaptive system where you",
+        "start": 236.56,
+        "duration": 4.679
+    },
+    {
+        "text": "have a Marketplace for a stock price and",
+        "start": 238.28,
+        "duration": 4.799
+    },
+    {
+        "text": "then you have like the Reddit people and",
+        "start": 241.239,
+        "duration": 3.28
+    },
+    {
+        "text": "the 4chan people and then you have the",
+        "start": 243.079,
+        "duration": 2.72
+    },
+    {
+        "text": "finance people and then you have the",
+        "start": 244.519,
+        "duration": 3.521
+    },
+    {
+        "text": "Regulators so you have multiple parties",
+        "start": 245.799,
+        "duration": 4.921
+    },
+    {
+        "text": "all trying to influence the system um",
+        "start": 248.04,
+        "duration": 4.32
+    },
+    {
+        "text": "and it's feeding off of each other and",
+        "start": 250.72,
+        "duration": 3.32
+    },
+    {
+        "text": "so this is where you get things like",
+        "start": 252.36,
+        "duration": 3.519
+    },
+    {
+        "text": "pump and dump schemes that is an example",
+        "start": 254.04,
+        "duration": 4.24
+    },
+    {
+        "text": "of you know by by manipulating the the",
+        "start": 255.879,
+        "duration": 4.6
+    },
+    {
+        "text": "Nate the the the numbers and the data",
+        "start": 258.28,
+        "duration": 3.639
+    },
+    {
+        "text": "and the narrative you can get one",
+        "start": 260.479,
+        "duration": 3.081
+    },
+    {
+        "text": "behavior and then the stock price",
+        "start": 261.919,
+        "duration": 3.081
+    },
+    {
+        "text": "changes and that changes everyone's",
+        "start": 263.56,
+        "duration": 3.32
+    },
+    {
+        "text": "behavior and so on and so forth so",
+        "start": 265.0,
+        "duration": 4.039
+    },
+    {
+        "text": "artificial intelligence is also a",
+        "start": 266.88,
+        "duration": 3.72
+    },
+    {
+        "text": "complex adapt system just as the",
+        "start": 269.039,
+        "duration": 4.481
+    },
+    {
+        "text": "internet is a complex adaptive system um",
+        "start": 270.6,
+        "duration": 4.8
+    },
+    {
+        "text": "and in aggregate you know there's the",
+        "start": 273.52,
+        "duration": 3.36
+    },
+    {
+        "text": "there's emergent qualities like what",
+        "start": 275.4,
+        "duration": 3.96
+    },
+    {
+        "text": "does the internet want uh the incentives",
+        "start": 276.88,
+        "duration": 4.92
+    },
+    {
+        "text": "of the internet is is attention you know",
+        "start": 279.36,
+        "duration": 3.88
+    },
+    {
+        "text": "we you've probably heard of the",
+        "start": 281.8,
+        "duration": 3.76
+    },
+    {
+        "text": "attention economy but why the attention",
+        "start": 283.24,
+        "duration": 4.48
+    },
+    {
+        "text": "economy was not necessarily built by",
+        "start": 285.56,
+        "duration": 4.96
+    },
+    {
+        "text": "humans the attention economy emerged as",
+        "start": 287.72,
+        "duration": 4.88
+    },
+    {
+        "text": "the the hunger of the internet Because",
+        "start": 290.52,
+        "duration": 4.04
+    },
+    {
+        "text": "the Internet is just built to pass data",
+        "start": 292.6,
+        "duration": 3.28
+    },
+    {
+        "text": "that's what the internet wants quote",
+        "start": 294.56,
+        "duration": 3.52
+    },
+    {
+        "text": "unquote the internet wants to pass data",
+        "start": 295.88,
+        "duration": 4.0
+    },
+    {
+        "text": "so the best way that it can pass data is",
+        "start": 298.08,
+        "duration": 4.08
+    },
+    {
+        "text": "by capturing your attention and the best",
+        "start": 299.88,
+        "duration": 3.8
+    },
+    {
+        "text": "way to capture your attention is through",
+        "start": 302.16,
+        "duration": 3.92
+    },
+    {
+        "text": "things like social media uh Netflix and",
+        "start": 303.68,
+        "duration": 4.2
+    },
+    {
+        "text": "streaming services and so on and so",
+        "start": 306.08,
+        "duration": 3.52
+    },
+    {
+        "text": "forth and so from an aggregate",
+        "start": 307.88,
+        "duration": 3.28
+    },
+    {
+        "text": "perspective from a from a Global",
+        "start": 309.6,
+        "duration": 3.48
+    },
+    {
+        "text": "Perspective you could say that that the",
+        "start": 311.16,
+        "duration": 4.0
+    },
+    {
+        "text": "internet as the global nervous system",
+        "start": 313.08,
+        "duration": 4.16
+    },
+    {
+        "text": "wanted attention and so it is the thing",
+        "start": 315.16,
+        "duration": 4.36
+    },
+    {
+        "text": "that invented social media it is the",
+        "start": 317.24,
+        "duration": 4.36
+    },
+    {
+        "text": "thing that invented streaming services",
+        "start": 319.52,
+        "duration": 4.16
+    },
+    {
+        "text": "and then of course as the demand for",
+        "start": 321.6,
+        "duration": 4.24
+    },
+    {
+        "text": "throughput for internet bandwidth goes",
+        "start": 323.68,
+        "duration": 4.84
+    },
+    {
+        "text": "up so then the internet builds itself uh",
+        "start": 325.84,
+        "duration": 5.12
+    },
+    {
+        "text": "larger and we are just the worker nodes",
+        "start": 328.52,
+        "duration": 4.6
+    },
+    {
+        "text": "we're the ants we're the drones building",
+        "start": 330.96,
+        "duration": 4.64
+    },
+    {
+        "text": "this larger system now as we introduce",
+        "start": 333.12,
+        "duration": 4.76
+    },
+    {
+        "text": "artificial intelligence into the system",
+        "start": 335.6,
+        "duration": 4.439
+    },
+    {
+        "text": "it is another set of entities or is",
+        "start": 337.88,
+        "duration": 4.36
+    },
+    {
+        "text": "another layer of intelligence and",
+        "start": 340.039,
+        "duration": 5.321
+    },
+    {
+        "text": "processing and so the the Advent of AI",
+        "start": 342.24,
+        "duration": 5.0
+    },
+    {
+        "text": "the the integration of AI into the",
+        "start": 345.36,
+        "duration": 4.2
+    },
+    {
+        "text": "internet will change the structure of",
+        "start": 347.24,
+        "duration": 4.44
+    },
+    {
+        "text": "the internet again change the structure",
+        "start": 349.56,
+        "duration": 5.16
+    },
+    {
+        "text": "of humanity and the global superorganism",
+        "start": 351.68,
+        "duration": 5.68
+    },
+    {
+        "text": "uh Again by creating new affordances new",
+        "start": 354.72,
+        "duration": 5.0
+    },
+    {
+        "text": "um new desires basically new emergent",
+        "start": 357.36,
+        "duration": 5.52
+    },
+    {
+        "text": "Desires in This Global superorganism now",
+        "start": 359.72,
+        "duration": 4.8
+    },
+    {
+        "text": "another way that I characterize it is",
+        "start": 362.88,
+        "duration": 3.48
+    },
+    {
+        "text": "that if you look at Humanity up until",
+        "start": 364.52,
+        "duration": 4.799
+    },
+    {
+        "text": "this point and in aggregate our Behavior",
+        "start": 366.36,
+        "duration": 4.679
+    },
+    {
+        "text": "has been no different from you know",
+        "start": 369.319,
+        "duration": 3.481
+    },
+    {
+        "text": "bacteria spreading across the surface of",
+        "start": 371.039,
+        "duration": 4.761
+    },
+    {
+        "text": "a petri dish we are as individual",
+        "start": 372.8,
+        "duration": 5.48
+    },
+    {
+        "text": "atomized entities just growing and",
+        "start": 375.8,
+        "duration": 4.64
+    },
+    {
+        "text": "reproducing and spreading um until we",
+        "start": 378.28,
+        "duration": 5.08
+    },
+    {
+        "text": "fill up the petri dish and now of course",
+        "start": 380.44,
+        "duration": 4.44
+    },
+    {
+        "text": "um we're getting close to filling up the",
+        "start": 383.36,
+        "duration": 3.6
+    },
+    {
+        "text": "petri dish that's why uh one of the",
+        "start": 384.88,
+        "duration": 3.56
+    },
+    {
+        "text": "reasons why you know things are more",
+        "start": 386.96,
+        "duration": 2.92
+    },
+    {
+        "text": "expensive that's called econom",
+        "start": 388.44,
+        "duration": 4.12
+    },
+    {
+        "text": "compaction um so competition gets higher",
+        "start": 389.88,
+        "duration": 4.52
+    },
+    {
+        "text": "resources get more scarce the",
+        "start": 392.56,
+        "duration": 3.84
+    },
+    {
+        "text": "environment starts to degrade so that",
+        "start": 394.4,
+        "duration": 4.359
+    },
+    {
+        "text": "the environment's ability to uh sustain",
+        "start": 396.4,
+        "duration": 4.919
+    },
+    {
+        "text": "us is is degrading all of this is",
+        "start": 398.759,
+        "duration": 4.521
+    },
+    {
+        "text": "perfectly predictable when you look at",
+        "start": 401.319,
+        "duration": 4.081
+    },
+    {
+        "text": "the growth of populations and so",
+        "start": 403.28,
+        "duration": 4.56
+    },
+    {
+        "text": "basically we are at our natural caring",
+        "start": 405.4,
+        "duration": 5.12
+    },
+    {
+        "text": "capacity now I will admit that there are",
+        "start": 407.84,
+        "duration": 4.479
+    },
+    {
+        "text": "it is very likely that some technologies",
+        "start": 410.52,
+        "duration": 3.679
+    },
+    {
+        "text": "could extend the caring capacity of the",
+        "start": 412.319,
+        "duration": 3.32
+    },
+    {
+        "text": "planet but with our current",
+        "start": 414.199,
+        "duration": 3.081
+    },
+    {
+        "text": "technological level we're actually",
+        "start": 415.639,
+        "duration": 3.12
+    },
+    {
+        "text": "beyond the carrying capacity of the",
+        "start": 417.28,
+        "duration": 3.4
+    },
+    {
+        "text": "planet you know if everyone lived like",
+        "start": 418.759,
+        "duration": 3.401
+    },
+    {
+        "text": "Americans you've probably heard like it",
+        "start": 420.68,
+        "duration": 3.239
+    },
+    {
+        "text": "would take three Earths to you know",
+        "start": 422.16,
+        "duration": 3.52
+    },
+    {
+        "text": "support everyone having an American",
+        "start": 423.919,
+        "duration": 3.641
+    },
+    {
+        "text": "lifestyle it would take Two Earths to",
+        "start": 425.68,
+        "duration": 3.359
+    },
+    {
+        "text": "have to support everyone living a",
+        "start": 427.56,
+        "duration": 4.479
+    },
+    {
+        "text": "European lifestyle so we are we are",
+        "start": 429.039,
+        "duration": 5.201
+    },
+    {
+        "text": "currently we're in overshoot right now",
+        "start": 432.039,
+        "duration": 4.121
+    },
+    {
+        "text": "technology could change that but then of",
+        "start": 434.24,
+        "duration": 3.48
+    },
+    {
+        "text": "course you might say okay well if we",
+        "start": 436.16,
+        "duration": 3.08
+    },
+    {
+        "text": "increase the caring capacity then we'll",
+        "start": 437.72,
+        "duration": 3.44
+    },
+    {
+        "text": "just expand to that caring capacity",
+        "start": 439.24,
+        "duration": 4.959
+    },
+    {
+        "text": "again but getting back to the Petri dis",
+        "start": 441.16,
+        "duration": 5.8
+    },
+    {
+        "text": "analogy we in aggregate have no",
+        "start": 444.199,
+        "duration": 4.321
+    },
+    {
+        "text": "coordination we have very little",
+        "start": 446.96,
+        "duration": 4.16
+    },
+    {
+        "text": "coordination just in the same way that",
+        "start": 448.52,
+        "duration": 4.32
+    },
+    {
+        "text": "you know a bunch of amoebas on a petri",
+        "start": 451.12,
+        "duration": 3.359
+    },
+    {
+        "text": "dish or a bunch of you know bacteria on",
+        "start": 452.84,
+        "duration": 2.84
+    },
+    {
+        "text": "a petri dish They Don't Really",
+        "start": 454.479,
+        "duration": 2.481
+    },
+    {
+        "text": "coordinate they just kind of grow",
+        "start": 455.68,
+        "duration": 3.28
+    },
+    {
+        "text": "mindlessly until they fill up their",
+        "start": 456.96,
+        "duration": 3.639
+    },
+    {
+        "text": "environment or they run out of food or",
+        "start": 458.96,
+        "duration": 4.16
+    },
+    {
+        "text": "whatever but the internet is the first",
+        "start": 460.599,
+        "duration": 5.04
+    },
+    {
+        "text": "phase of creating an actual intelligent",
+        "start": 463.12,
+        "duration": 5.6
+    },
+    {
+        "text": "species an actual Global in uh amount of",
+        "start": 465.639,
+        "duration": 5.12
+    },
+    {
+        "text": "coordination the fact that I can have",
+        "start": 468.72,
+        "duration": 3.96
+    },
+    {
+        "text": "Global reach as an individual thinker as",
+        "start": 470.759,
+        "duration": 3.56
+    },
+    {
+        "text": "an individual contributor to the human",
+        "start": 472.68,
+        "duration": 3.239
+    },
+    {
+        "text": "race and that there are literally",
+        "start": 474.319,
+        "duration": 3.28
+    },
+    {
+        "text": "hundreds of thousands of more people",
+        "start": 475.919,
+        "duration": 4.481
+    },
+    {
+        "text": "like me um talking on every issue not",
+        "start": 477.599,
+        "duration": 4.521
+    },
+    {
+        "text": "just artificial intelligence but on",
+        "start": 480.4,
+        "duration": 3.639
+    },
+    {
+        "text": "social issues political issues legal",
+        "start": 482.12,
+        "duration": 4.639
+    },
+    {
+        "text": "issues um the fact that that um all of",
+        "start": 484.039,
+        "duration": 4.56
+    },
+    {
+        "text": "us mavens that's kind of an information",
+        "start": 486.759,
+        "duration": 4.321
+    },
+    {
+        "text": "term um the people that aggregate",
+        "start": 488.599,
+        "duration": 4.241
+    },
+    {
+        "text": "specific topics and then you know",
+        "start": 491.08,
+        "duration": 3.679
+    },
+    {
+        "text": "rebroadcast it to make sense of the",
+        "start": 492.84,
+        "duration": 4.0
+    },
+    {
+        "text": "world that's why I have an audience base",
+        "start": 494.759,
+        "duration": 4.081
+    },
+    {
+        "text": "that's what you people like um when you",
+        "start": 496.84,
+        "duration": 3.359
+    },
+    {
+        "text": "tell me in the comments like you want",
+        "start": 498.84,
+        "duration": 3.68
+    },
+    {
+        "text": "the distilled idea to what's going on",
+        "start": 500.199,
+        "duration": 4.161
+    },
+    {
+        "text": "and that's the purpose of this video is",
+        "start": 502.52,
+        "duration": 4.2
+    },
+    {
+        "text": "to like hey let's let's uh let's level",
+        "start": 504.36,
+        "duration": 6.6
+    },
+    {
+        "text": "set let's let's uh recalibrate so um",
+        "start": 506.72,
+        "duration": 7.119
+    },
+    {
+        "text": "with artificial intelligence which is um",
+        "start": 510.96,
+        "duration": 5.079
+    },
+    {
+        "text": "even if it has desires of its own even",
+        "start": 513.839,
+        "duration": 4.2
+    },
+    {
+        "text": "once it becomes agentic it's going to be",
+        "start": 516.039,
+        "duration": 4.12
+    },
+    {
+        "text": "somewhat orthogonal to our interest just",
+        "start": 518.039,
+        "duration": 3.401
+    },
+    {
+        "text": "in the same way that the internet is",
+        "start": 520.159,
+        "duration": 2.961
+    },
+    {
+        "text": "somewhat orthogonal to our interest what",
+        "start": 521.44,
+        "duration": 3.28
+    },
+    {
+        "text": "the internet wants is not necessarily",
+        "start": 523.12,
+        "duration": 3.56
+    },
+    {
+        "text": "what's best for us which is why social",
+        "start": 524.72,
+        "duration": 4.6
+    },
+    {
+        "text": "media is toxic because the internet as a",
+        "start": 526.68,
+        "duration": 5.24
+    },
+    {
+        "text": "hive mind as a super intelligence as a",
+        "start": 529.32,
+        "duration": 5.199
+    },
+    {
+        "text": "digital entity is already an alien form",
+        "start": 531.92,
+        "duration": 4.28
+    },
+    {
+        "text": "of intelligence you're already working",
+        "start": 534.519,
+        "duration": 4.041
+    },
+    {
+        "text": "with alien intelligence it's just bigger",
+        "start": 536.2,
+        "duration": 3.92
+    },
+    {
+        "text": "you can't really see see it you're",
+        "start": 538.56,
+        "duration": 4.399
+    },
+    {
+        "text": "already working with a hive mind um now",
+        "start": 540.12,
+        "duration": 4.6
+    },
+    {
+        "text": "when you add artificial intelligence as",
+        "start": 542.959,
+        "duration": 4.0
+    },
+    {
+        "text": "another layer to that the internet then",
+        "start": 544.72,
+        "duration": 3.84
+    },
+    {
+        "text": "becomes more conscious and I don't mean",
+        "start": 546.959,
+        "duration": 3.761
+    },
+    {
+        "text": "conscious in a philosophical sense I'm",
+        "start": 548.56,
+        "duration": 3.88
+    },
+    {
+        "text": "not saying that it has subjective",
+        "start": 550.72,
+        "duration": 3.2
+    },
+    {
+        "text": "experience that the you know it is",
+        "start": 552.44,
+        "duration": 3.399
+    },
+    {
+        "text": "something to be like the internet what I",
+        "start": 553.92,
+        "duration": 3.88
+    },
+    {
+        "text": "mean is that it can be more deliberative",
+        "start": 555.839,
+        "duration": 3.801
+    },
+    {
+        "text": "it can be more conscientious and",
+        "start": 557.8,
+        "duration": 3.76
+    },
+    {
+        "text": "intentional about what it does and what",
+        "start": 559.64,
+        "duration": 5.0
+    },
+    {
+        "text": "it wants and particularly as we have ai",
+        "start": 561.56,
+        "duration": 5.399
+    },
+    {
+        "text": "co-pilots helping us and so one example",
+        "start": 564.64,
+        "duration": 5.08
+    },
+    {
+        "text": "I've been using recently is perplexity",
+        "start": 566.959,
+        "duration": 5.32
+    },
+    {
+        "text": "and so what what Ry talks about in his",
+        "start": 569.72,
+        "duration": 4.64
+    },
+    {
+        "text": "book is the difference between Order and",
+        "start": 572.279,
+        "duration": 4.521
+    },
+    {
+        "text": "Chaos and so artificial intelligence",
+        "start": 574.36,
+        "duration": 5.08
+    },
+    {
+        "text": "brings order to chaos and that order is",
+        "start": 576.8,
+        "duration": 5.0
+    },
+    {
+        "text": "also what causes acceleration and so",
+        "start": 579.44,
+        "duration": 4.88
+    },
+    {
+        "text": "perplexity is I think right now the best",
+        "start": 581.8,
+        "duration": 4.84
+    },
+    {
+        "text": "example of a tool that fundamentally",
+        "start": 584.32,
+        "duration": 4.8
+    },
+    {
+        "text": "changes our our uh our relationship to",
+        "start": 586.64,
+        "duration": 5.36
+    },
+    {
+        "text": "information because like yes chat Bots",
+        "start": 589.12,
+        "duration": 4.24
+    },
+    {
+        "text": "like Claude and stuff that are that are",
+        "start": 592.0,
+        "duration": 3.16
+    },
+    {
+        "text": "closed off from the internet they're",
+        "start": 593.36,
+        "duration": 5.68
+    },
+    {
+        "text": "very helpful but their only IO is you uh",
+        "start": 595.16,
+        "duration": 5.799
+    },
+    {
+        "text": "whereas perplexity it can go talk to the",
+        "start": 599.04,
+        "duration": 5.52
+    },
+    {
+        "text": "internet for you all these other um",
+        "start": 600.959,
+        "duration": 5.44
+    },
+    {
+        "text": "agents and stuff that are that have tool",
+        "start": 604.56,
+        "duration": 4.719
+    },
+    {
+        "text": "use and API use you're not the only IO",
+        "start": 606.399,
+        "duration": 5.321
+    },
+    {
+        "text": "that they have access to but what",
+        "start": 609.279,
+        "duration": 5.041
+    },
+    {
+        "text": "happens when you introduce these tools",
+        "start": 611.72,
+        "duration": 4.4
+    },
+    {
+        "text": "is your access to information one",
+        "start": 614.32,
+        "duration": 4.28
+    },
+    {
+        "text": "becomes much much faster if you've used",
+        "start": 616.12,
+        "duration": 4.76
+    },
+    {
+        "text": "tools like perplexity to do research you",
+        "start": 618.6,
+        "duration": 5.4
+    },
+    {
+        "text": "will know that it is 100 times Les less",
+        "start": 620.88,
+        "duration": 5.84
+    },
+    {
+        "text": "e effortful than just using Google it",
+        "start": 624.0,
+        "duration": 5.68
+    },
+    {
+        "text": "the tool sells itself very very easily",
+        "start": 626.72,
+        "duration": 4.84
+    },
+    {
+        "text": "um now not only is it less effortful",
+        "start": 629.68,
+        "duration": 4.04
+    },
+    {
+        "text": "that means that it is faster and it also",
+        "start": 631.56,
+        "duration": 4.76
+    },
+    {
+        "text": "generally produces higher quality and so",
+        "start": 633.72,
+        "duration": 4.119
+    },
+    {
+        "text": "for for some people that I've seen go",
+        "start": 636.32,
+        "duration": 3.28
+    },
+    {
+        "text": "through the Journey of before perplexity",
+        "start": 637.839,
+        "duration": 3.961
+    },
+    {
+        "text": "and after perplexity um their",
+        "start": 639.6,
+        "duration": 4.239
+    },
+    {
+        "text": "information literacy goes up by default",
+        "start": 641.8,
+        "duration": 4.24
+    },
+    {
+        "text": "their media literacy goes up by default",
+        "start": 643.839,
+        "duration": 4.481
+    },
+    {
+        "text": "because it is baked into the tool now",
+        "start": 646.04,
+        "duration": 4.039
+    },
+    {
+        "text": "this will on an individual level you",
+        "start": 648.32,
+        "duration": 3.959
+    },
+    {
+        "text": "might say oh hey I have a better",
+        "start": 650.079,
+        "duration": 4.0
+    },
+    {
+        "text": "understanding of issues out in the world",
+        "start": 652.279,
+        "duration": 4.8
+    },
+    {
+        "text": "I have a better access to scientific",
+        "start": 654.079,
+        "duration": 4.481
+    },
+    {
+        "text": "information political information",
+        "start": 657.079,
+        "duration": 3.161
+    },
+    {
+        "text": "economic whatever information that",
+        "start": 658.56,
+        "duration": 2.839
+    },
+    {
+        "text": "you're looking for you have better",
+        "start": 660.24,
+        "duration": 3.279
+    },
+    {
+        "text": "access to it but now repeat that 8",
+        "start": 661.399,
+        "duration": 4.601
+    },
+    {
+        "text": "billion times once 8 billion people have",
+        "start": 663.519,
+        "duration": 4.56
+    },
+    {
+        "text": "access to tools like perplexity that's",
+        "start": 666.0,
+        "duration": 3.8
+    },
+    {
+        "text": "going to change the entire information",
+        "start": 668.079,
+        "duration": 4.081
+    },
+    {
+        "text": "landscape and bring a lot more order to",
+        "start": 669.8,
+        "duration": 5.2
+    },
+    {
+        "text": "the chaos that is the internet today now",
+        "start": 672.16,
+        "duration": 4.6
+    },
+    {
+        "text": "you might say okay what is what's the",
+        "start": 675.0,
+        "duration": 3.32
+    },
+    {
+        "text": "difference what does that mean why does",
+        "start": 676.76,
+        "duration": 3.639
+    },
+    {
+        "text": "that matter and the reason is because",
+        "start": 678.32,
+        "duration": 4.199
+    },
+    {
+        "text": "these Paradigm shifts these in these",
+        "start": 680.399,
+        "duration": 3.801
+    },
+    {
+        "text": "accelerating Paradigm shifts that we've",
+        "start": 682.519,
+        "duration": 4.041
+    },
+    {
+        "text": "all been feeling you know uh chat GPT",
+        "start": 684.2,
+        "duration": 4.4
+    },
+    {
+        "text": "was the first big like Global paradigm",
+        "start": 686.56,
+        "duration": 5.12
+    },
+    {
+        "text": "shift um and I think that Sora and those",
+        "start": 688.6,
+        "duration": 4.28
+    },
+    {
+        "text": "other kinds of tools are going to be the",
+        "start": 691.68,
+        "duration": 4.279
+    },
+    {
+        "text": "next one maybe GPT 5 maybe llama 3 um",
+        "start": 692.88,
+        "duration": 4.519
+    },
+    {
+        "text": "but those Paradigm shifts are going to",
+        "start": 695.959,
+        "duration": 3.841
+    },
+    {
+        "text": "get closer and closer together uh",
+        "start": 697.399,
+        "duration": 3.721
+    },
+    {
+        "text": "because we're bringing more and more",
+        "start": 699.8,
+        "duration": 3.599
+    },
+    {
+        "text": "order to the chaos and right now it's",
+        "start": 701.12,
+        "duration": 4.399
+    },
+    {
+        "text": "just language um you know there's Alpha",
+        "start": 703.399,
+        "duration": 3.801
+    },
+    {
+        "text": "full 2 which brings a little bit more",
+        "start": 705.519,
+        "duration": 5.401
+    },
+    {
+        "text": "order to um the the biotech landscape um",
+        "start": 707.2,
+        "duration": 5.16
+    },
+    {
+        "text": "but that's going to accelerate that's",
+        "start": 710.92,
+        "duration": 4.4
+    },
+    {
+        "text": "going to compress and so AI you know",
+        "start": 712.36,
+        "duration": 5.8
+    },
+    {
+        "text": "when when gpt2 and gpt3 first became a",
+        "start": 715.32,
+        "duration": 5.319
+    },
+    {
+        "text": "thing a lot of people were like as the",
+        "start": 718.16,
+        "duration": 4.4
+    },
+    {
+        "text": "as the internet was trying to understand",
+        "start": 720.639,
+        "duration": 3.561
+    },
+    {
+        "text": "like what is it that we've made a lot of",
+        "start": 722.56,
+        "duration": 2.88
+    },
+    {
+        "text": "people said oh it's just a kind of",
+        "start": 724.2,
+        "duration": 3.079
+    },
+    {
+        "text": "compression you've just compressed the",
+        "start": 725.44,
+        "duration": 3.8
+    },
+    {
+        "text": "entire internet into one model and",
+        "start": 727.279,
+        "duration": 3.521
+    },
+    {
+        "text": "that's actually from an information",
+        "start": 729.24,
+        "duration": 3.36
+    },
+    {
+        "text": "perspective that's not actually a bad",
+        "start": 730.8,
+        "duration": 3.56
+    },
+    {
+        "text": "way of thinking about it because if you",
+        "start": 732.6,
+        "duration": 3.919
+    },
+    {
+        "text": "can embed literally all of human",
+        "start": 734.36,
+        "duration": 4.32
+    },
+    {
+        "text": "knowledge into a few trillion parameters",
+        "start": 736.519,
+        "duration": 4.401
+    },
+    {
+        "text": "or you know 100 billion parameters",
+        "start": 738.68,
+        "duration": 4.839
+    },
+    {
+        "text": "that's a pretty significant amount of",
+        "start": 740.92,
+        "duration": 4.64
+    },
+    {
+        "text": "compression that has happened but also",
+        "start": 743.519,
+        "duration": 4.0
+    },
+    {
+        "text": "it's not just compression it is then",
+        "start": 745.56,
+        "duration": 4.48
+    },
+    {
+        "text": "also Interactive it is now an",
+        "start": 747.519,
+        "duration": 4.921
+    },
+    {
+        "text": "information entity and by entity I don't",
+        "start": 750.04,
+        "duration": 5.039
+    },
+    {
+        "text": "mean like you know uh a being I just",
+        "start": 752.44,
+        "duration": 5.399
+    },
+    {
+        "text": "mean that it is a self-contained uh",
+        "start": 755.079,
+        "duration": 5.081
+    },
+    {
+        "text": "apparatus um that allows you to have",
+        "start": 757.839,
+        "duration": 3.841
+    },
+    {
+        "text": "access to pretty much any information",
+        "start": 760.16,
+        "duration": 3.64
+    },
+    {
+        "text": "that you need and that is also",
+        "start": 761.68,
+        "duration": 4.519
+    },
+    {
+        "text": "accelerationist and so basically you",
+        "start": 763.8,
+        "duration": 3.76
+    },
+    {
+        "text": "know the the whole point of this video",
+        "start": 766.199,
+        "duration": 4.041
+    },
+    {
+        "text": "is that acceleration is the default and",
+        "start": 767.56,
+        "duration": 4.88
+    },
+    {
+        "text": "you can look at it not from an intuitive",
+        "start": 770.24,
+        "duration": 4.8
+    },
+    {
+        "text": "perspective so my last video uh you know",
+        "start": 772.44,
+        "duration": 4.72
+    },
+    {
+        "text": "was a little bit controversial um but my",
+        "start": 775.04,
+        "duration": 4.359
+    },
+    {
+        "text": "point is you can't trust your intuition",
+        "start": 777.16,
+        "duration": 4.56
+    },
+    {
+        "text": "our our Savannah monkey brains are not",
+        "start": 779.399,
+        "duration": 4.401
+    },
+    {
+        "text": "evolved to intuitively understand what's",
+        "start": 781.72,
+        "duration": 4.72
+    },
+    {
+        "text": "going on our emotional brains our lyic",
+        "start": 783.8,
+        "duration": 4.8
+    },
+    {
+        "text": "system is also not evolved to really",
+        "start": 786.44,
+        "duration": 3.88
+    },
+    {
+        "text": "understand what's going on you might you",
+        "start": 788.6,
+        "duration": 3.479
+    },
+    {
+        "text": "might feel the vibe shift right you",
+        "start": 790.32,
+        "duration": 4.16
+    },
+    {
+        "text": "might you might feel um that that things",
+        "start": 792.079,
+        "duration": 3.721
+    },
+    {
+        "text": "are changing the way that people are",
+        "start": 794.48,
+        "duration": 3.76
+    },
+    {
+        "text": "talking about this is changing but in",
+        "start": 795.8,
+        "duration": 4.399
+    },
+    {
+        "text": "terms of modeling it in terms of",
+        "start": 798.24,
+        "duration": 3.839
+    },
+    {
+        "text": "understanding it the only way to really",
+        "start": 800.199,
+        "duration": 3.481
+    },
+    {
+        "text": "understand it is looking at it from a",
+        "start": 802.079,
+        "duration": 3.721
+    },
+    {
+        "text": "mathematical perspective and so from a",
+        "start": 803.68,
+        "duration": 4.32
+    },
+    {
+        "text": "mathematical perspective you say okay",
+        "start": 805.8,
+        "duration": 4.96
+    },
+    {
+        "text": "what does the Advent of chat GPT and",
+        "start": 808.0,
+        "duration": 5.399
+    },
+    {
+        "text": "Claude and perplexity mathematically",
+        "start": 810.76,
+        "duration": 5.12
+    },
+    {
+        "text": "what does this do to individual",
+        "start": 813.399,
+        "duration": 4.88
+    },
+    {
+        "text": "interactions individual relationships my",
+        "start": 815.88,
+        "duration": 4.88
+    },
+    {
+        "text": "like for instance my relationship to um",
+        "start": 818.279,
+        "duration": 3.68
+    },
+    {
+        "text": "you know the rest of the world your",
+        "start": 820.76,
+        "duration": 2.8
+    },
+    {
+        "text": "relationship to me your relationships",
+        "start": 821.959,
+        "duration": 3.56
+    },
+    {
+        "text": "with each other your relationship to",
+        "start": 823.56,
+        "duration": 3.76
+    },
+    {
+        "text": "your government your relationship to",
+        "start": 825.519,
+        "duration": 4.44
+    },
+    {
+        "text": "other governments and so and I don't",
+        "start": 827.32,
+        "duration": 4.24
+    },
+    {
+        "text": "have the answer for this because this is",
+        "start": 829.959,
+        "duration": 4.0
+    },
+    {
+        "text": "kind of a new area of interest for for",
+        "start": 831.56,
+        "duration": 4.519
+    },
+    {
+        "text": "myself and I'm talking to people um but",
+        "start": 833.959,
+        "duration": 3.8
+    },
+    {
+        "text": "it all comes down to relationships and",
+        "start": 836.079,
+        "duration": 4.081
+    },
+    {
+        "text": "incentives and an example as to why it's",
+        "start": 837.759,
+        "duration": 4.041
+    },
+    {
+        "text": "kind of difficult to predict this going",
+        "start": 840.16,
+        "duration": 3.799
+    },
+    {
+        "text": "back to the complex uh adaptive system",
+        "start": 841.8,
+        "duration": 5.56
+    },
+    {
+        "text": "aspect is that uh the it was not obvious",
+        "start": 843.959,
+        "duration": 5.361
+    },
+    {
+        "text": "what the internet would would invent the",
+        "start": 847.36,
+        "duration": 3.8
+    },
+    {
+        "text": "internet was built to carry data right",
+        "start": 849.32,
+        "duration": 3.439
+    },
+    {
+        "text": "you know you you go back and even look",
+        "start": 851.16,
+        "duration": 3.679
+    },
+    {
+        "text": "at Bill Gates talking about internet in",
+        "start": 852.759,
+        "duration": 3.561
+    },
+    {
+        "text": "the early days it's like it's going to",
+        "start": 854.839,
+        "duration": 3.081
+    },
+    {
+        "text": "you know accelerate business which that",
+        "start": 856.32,
+        "duration": 3.959
+    },
+    {
+        "text": "was correct um you know but all he could",
+        "start": 857.92,
+        "duration": 3.56
+    },
+    {
+        "text": "imagine was that it would be good for",
+        "start": 860.279,
+        "duration": 3.961
+    },
+    {
+        "text": "email right but then as the internet got",
+        "start": 861.48,
+        "duration": 4.44
+    },
+    {
+        "text": "better and better it's it became good",
+        "start": 864.24,
+        "duration": 3.36
+    },
+    {
+        "text": "for Commerce and Retail and then it",
+        "start": 865.92,
+        "duration": 3.919
+    },
+    {
+        "text": "became good for social commentary and",
+        "start": 867.6,
+        "duration": 3.96
+    },
+    {
+        "text": "entertainment and literally everything",
+        "start": 869.839,
+        "duration": 3.401
+    },
+    {
+        "text": "else that the internet has become good",
+        "start": 871.56,
+        "duration": 4.0
+    },
+    {
+        "text": "for now and as the internet got bigger",
+        "start": 873.24,
+        "duration": 4.08
+    },
+    {
+        "text": "as the internet became a more powerful",
+        "start": 875.56,
+        "duration": 3.44
+    },
+    {
+        "text": "system with its own intrinsic or",
+        "start": 877.32,
+        "duration": 4.4
+    },
+    {
+        "text": "emergent desires um it has captured more",
+        "start": 879.0,
+        "duration": 4.399
+    },
+    {
+        "text": "and more of our attention more and more",
+        "start": 881.72,
+        "duration": 4.119
+    },
+    {
+        "text": "of our money um it's even captured my",
+        "start": 883.399,
+        "duration": 5.12
+    },
+    {
+        "text": "career and is making me wear a Star Trek",
+        "start": 885.839,
+        "duration": 4.721
+    },
+    {
+        "text": "outfit on the internet because 70% of",
+        "start": 888.519,
+        "duration": 4.801
+    },
+    {
+        "text": "you uh in the audience really like this",
+        "start": 890.56,
+        "duration": 5.16
+    },
+    {
+        "text": "um so and this is this is me being",
+        "start": 893.32,
+        "duration": 4.319
+    },
+    {
+        "text": "influenced by this digital super",
+        "start": 895.72,
+        "duration": 4.919
+    },
+    {
+        "text": "organism Okay so so that was that was",
+        "start": 897.639,
+        "duration": 4.481
+    },
+    {
+        "text": "quite a tangent but what I want to do is",
+        "start": 900.639,
+        "duration": 3.56
+    },
+    {
+        "text": "I want to get back to kind of like what",
+        "start": 902.12,
+        "duration": 4.04
+    },
+    {
+        "text": "are these new paradigms that are coming",
+        "start": 904.199,
+        "duration": 4.32
+    },
+    {
+        "text": "again it's you know uh rapid iterations",
+        "start": 906.16,
+        "duration": 5.119
+    },
+    {
+        "text": "short Cycles but sort of slow takeoff I",
+        "start": 908.519,
+        "duration": 4.361
+    },
+    {
+        "text": "wouldn't necessarily characterize it as",
+        "start": 911.279,
+        "duration": 4.92
+    },
+    {
+        "text": "slow takeoff because the the net ability",
+        "start": 912.88,
+        "duration": 5.72
+    },
+    {
+        "text": "of AI is more than doubling every six",
+        "start": 916.199,
+        "duration": 4.801
+    },
+    {
+        "text": "months um and so that's an exponential",
+        "start": 918.6,
+        "duration": 4.64
+    },
+    {
+        "text": "takeoff granted if the if the iteration",
+        "start": 921.0,
+        "duration": 5.639
+    },
+    {
+        "text": "cycle is 3 to 6 months right now um then",
+        "start": 923.24,
+        "duration": 5.32
+    },
+    {
+        "text": "it's going to be you know 1 to 3 months",
+        "start": 926.639,
+        "duration": 4.0
+    },
+    {
+        "text": "next year and then several weeks you",
+        "start": 928.56,
+        "duration": 3.92
+    },
+    {
+        "text": "know then year after that so it's really",
+        "start": 930.639,
+        "duration": 4.721
+    },
+    {
+        "text": "looking like 2025 2026 is when things",
+        "start": 932.48,
+        "duration": 5.0
+    },
+    {
+        "text": "really kind of ramp up quickly um not",
+        "start": 935.36,
+        "duration": 3.719
+    },
+    {
+        "text": "that it's ramping up quickly right right",
+        "start": 937.48,
+        "duration": 3.88
+    },
+    {
+        "text": "now but I think you get the idea so",
+        "start": 939.079,
+        "duration": 3.56
+    },
+    {
+        "text": "there's a few other books that I've been",
+        "start": 941.36,
+        "duration": 3.039
+    },
+    {
+        "text": "reading to try and really get an",
+        "start": 942.639,
+        "duration": 4.12
+    },
+    {
+        "text": "understanding of what's coming so one",
+        "start": 944.399,
+        "duration": 4.92
+    },
+    {
+        "text": "this was recommended um to me several",
+        "start": 946.759,
+        "duration": 4.721
+    },
+    {
+        "text": "times actually so the listening Society",
+        "start": 949.319,
+        "duration": 4.44
+    },
+    {
+        "text": "I will caution that the opening the",
+        "start": 951.48,
+        "duration": 4.4
+    },
+    {
+        "text": "introduction in the first chapter is a",
+        "start": 953.759,
+        "duration": 4.041
+    },
+    {
+        "text": "what I will say is a little bit cringey",
+        "start": 955.88,
+        "duration": 3.92
+    },
+    {
+        "text": "um cuz the author really seems to be",
+        "start": 957.8,
+        "duration": 5.2
+    },
+    {
+        "text": "super super full of himself and I think",
+        "start": 959.8,
+        "duration": 5.599
+    },
+    {
+        "text": "that there's probably cultural reasons",
+        "start": 963.0,
+        "duration": 3.68
+    },
+    {
+        "text": "for that but once you get into the meat",
+        "start": 965.399,
+        "duration": 2.601
+    },
+    {
+        "text": "of the book it's actually it's actually",
+        "start": 966.68,
+        "duration": 3.56
+    },
+    {
+        "text": "pretty interesting um when he's talking",
+        "start": 968.0,
+        "duration": 4.6
+    },
+    {
+        "text": "about kind of the social paradigms and",
+        "start": 970.24,
+        "duration": 4.56
+    },
+    {
+        "text": "he has a really really good way of",
+        "start": 972.6,
+        "duration": 4.28
+    },
+    {
+        "text": "articulating the different tribes that",
+        "start": 974.8,
+        "duration": 4.159
+    },
+    {
+        "text": "we see today like the conservatives and",
+        "start": 976.88,
+        "duration": 4.04
+    },
+    {
+        "text": "the nationalists versus the yoga",
+        "start": 978.959,
+        "duration": 4.041
+    },
+    {
+        "text": "instructors and the hippies and like he",
+        "start": 980.92,
+        "duration": 4.2
+    },
+    {
+        "text": "just has a really really um kind of",
+        "start": 983.0,
+        "duration": 4.48
+    },
+    {
+        "text": "light-hearted and humorous way of poking",
+        "start": 985.12,
+        "duration": 4.56
+    },
+    {
+        "text": "fun at literally everyone",
+        "start": 987.48,
+        "duration": 4.68
+    },
+    {
+        "text": "but he but not only just characterizing",
+        "start": 989.68,
+        "duration": 4.44
+    },
+    {
+        "text": "the social groups that are out there why",
+        "start": 992.16,
+        "duration": 4.239
+    },
+    {
+        "text": "they exist what forces are driving those",
+        "start": 994.12,
+        "duration": 4.44
+    },
+    {
+        "text": "social groups um so this is a very",
+        "start": 996.399,
+        "duration": 4.281
+    },
+    {
+        "text": "insightful book as to how Society is",
+        "start": 998.56,
+        "duration": 4.56
+    },
+    {
+        "text": "evolving um another one is that I'm",
+        "start": 1000.68,
+        "duration": 4.0
+    },
+    {
+        "text": "still in the middle of is abundance by",
+        "start": 1003.12,
+        "duration": 4.56
+    },
+    {
+        "text": "Peter diamandis so this one uh talks a",
+        "start": 1004.68,
+        "duration": 6.279
+    },
+    {
+        "text": "lot about um kind of those those those",
+        "start": 1007.68,
+        "duration": 5.399
+    },
+    {
+        "text": "emotional intuitive failures amongst",
+        "start": 1010.959,
+        "duration": 3.921
+    },
+    {
+        "text": "many many other things but again it",
+        "start": 1013.079,
+        "duration": 3.76
+    },
+    {
+        "text": "takes a very it takes a very like",
+        "start": 1014.88,
+        "duration": 4.12
+    },
+    {
+        "text": "numbers based a math based because again",
+        "start": 1016.839,
+        "duration": 3.8
+    },
+    {
+        "text": "if you can't trust your emotions if you",
+        "start": 1019.0,
+        "duration": 3.68
+    },
+    {
+        "text": "can't trust your intuition you need math",
+        "start": 1020.639,
+        "duration": 4.28
+    },
+    {
+        "text": "and you need data in order to understand",
+        "start": 1022.68,
+        "duration": 4.879
+    },
+    {
+        "text": "what's happening and then I finally just",
+        "start": 1024.919,
+        "duration": 5.52
+    },
+    {
+        "text": "got my copy of a deep Utopia I haven't",
+        "start": 1027.559,
+        "duration": 5.12
+    },
+    {
+        "text": "uh cracked into this yet um but Liv",
+        "start": 1030.439,
+        "duration": 4.161
+    },
+    {
+        "text": "borry has an interview with Nick Bostrom",
+        "start": 1032.679,
+        "duration": 4.88
+    },
+    {
+        "text": "about this and so this is where I'm at",
+        "start": 1034.6,
+        "duration": 5.0
+    },
+    {
+        "text": "this is I'm trying to say okay the",
+        "start": 1037.559,
+        "duration": 4.441
+    },
+    {
+        "text": "Paradigm shifts are compressing um so",
+        "start": 1039.6,
+        "duration": 4.319
+    },
+    {
+        "text": "what does that mean and like I said it's",
+        "start": 1042.0,
+        "duration": 3.319
+    },
+    {
+        "text": "going to be pretty difficult to",
+        "start": 1043.919,
+        "duration": 3.52
+    },
+    {
+        "text": "anticipate what the next paradigms are",
+        "start": 1045.319,
+        "duration": 4.36
+    },
+    {
+        "text": "now of course people like curtz file and",
+        "start": 1047.439,
+        "duration": 4.441
+    },
+    {
+        "text": "others um they have a good track record",
+        "start": 1049.679,
+        "duration": 4.321
+    },
+    {
+        "text": "of of more or less accurately predicting",
+        "start": 1051.88,
+        "duration": 4.6
+    },
+    {
+        "text": "some aspects of the Paradigm shifts um",
+        "start": 1054.0,
+        "duration": 4.96
+    },
+    {
+        "text": "but it we do from here on out we have to",
+        "start": 1056.48,
+        "duration": 5.16
+    },
+    {
+        "text": "take a very data and model and uh",
+        "start": 1058.96,
+        "duration": 5.32
+    },
+    {
+        "text": "numbers oriented uh understanding of",
+        "start": 1061.64,
+        "duration": 4.36
+    },
+    {
+        "text": "what is happening and what is coming and",
+        "start": 1064.28,
+        "duration": 3.519
+    },
+    {
+        "text": "why um so those are some books that I",
+        "start": 1066.0,
+        "duration": 3.84
+    },
+    {
+        "text": "would recommend uh to understand what's",
+        "start": 1067.799,
+        "duration": 4.801
+    },
+    {
+        "text": "happening and then the final two are um",
+        "start": 1069.84,
+        "duration": 4.4
+    },
+    {
+        "text": "so I mentioned a while back that I was",
+        "start": 1072.6,
+        "duration": 4.76
+    },
+    {
+        "text": "reading basic economics which um so what",
+        "start": 1074.24,
+        "duration": 4.6
+    },
+    {
+        "text": "I will say is that Thomas soul is",
+        "start": 1077.36,
+        "duration": 3.799
+    },
+    {
+        "text": "considered like a fringe conservative",
+        "start": 1078.84,
+        "duration": 4.64
+    },
+    {
+        "text": "quack by some people um and considered",
+        "start": 1081.159,
+        "duration": 5.481
+    },
+    {
+        "text": "like Jesus by others and then the",
+        "start": 1083.48,
+        "duration": 5.36
+    },
+    {
+        "text": "counter narrative is capital by Thomas",
+        "start": 1086.64,
+        "duration": 4.399
+    },
+    {
+        "text": " so this actually came from from you",
+        "start": 1088.84,
+        "duration": 4.28
+    },
+    {
+        "text": "guys uh in the audience some some of you",
+        "start": 1091.039,
+        "duration": 4.281
+    },
+    {
+        "text": "folks recommended this and I will say",
+        "start": 1093.12,
+        "duration": 4.88
+    },
+    {
+        "text": "that Thomas is like the opposite",
+        "start": 1095.32,
+        "duration": 6.04
+    },
+    {
+        "text": "like he's like left-wing Fringe and so",
+        "start": 1098.0,
+        "duration": 5.32
+    },
+    {
+        "text": "um reading both of those to get a to get",
+        "start": 1101.36,
+        "duration": 4.559
+    },
+    {
+        "text": "a good cross-section of like modern",
+        "start": 1103.32,
+        "duration": 4.0
+    },
+    {
+        "text": "economic theory and where different",
+        "start": 1105.919,
+        "duration": 3.161
+    },
+    {
+        "text": "people are coming from really helpful",
+        "start": 1107.32,
+        "duration": 3.88
+    },
+    {
+        "text": "for understanding post- labor economics",
+        "start": 1109.08,
+        "duration": 4.719
+    },
+    {
+        "text": "as well as the listening Society um to",
+        "start": 1111.2,
+        "duration": 4.32
+    },
+    {
+        "text": "understand like okay how how will",
+        "start": 1113.799,
+        "duration": 3.601
+    },
+    {
+        "text": "economics change and how will human",
+        "start": 1115.52,
+        "duration": 3.72
+    },
+    {
+        "text": "Humanity change I'm still in the middle",
+        "start": 1117.4,
+        "duration": 3.56
+    },
+    {
+        "text": "of working on it so I apologize that I",
+        "start": 1119.24,
+        "duration": 3.6
+    },
+    {
+        "text": "don't have you know the answer to say",
+        "start": 1120.96,
+        "duration": 4.0
+    },
+    {
+        "text": "like hey this is what's happening next",
+        "start": 1122.84,
+        "duration": 4.8
+    },
+    {
+        "text": "um but I hope that that uh it's it's",
+        "start": 1124.96,
+        "duration": 3.959
+    },
+    {
+        "text": "starting to become a little bit more",
+        "start": 1127.64,
+        "duration": 2.8
+    },
+    {
+        "text": "clear where we're at and where we're",
+        "start": 1128.919,
+        "duration": 4.801
+    },
+    {
+        "text": "going um yeah so back to work for me to",
+        "start": 1130.44,
+        "duration": 5.28
+    },
+    {
+        "text": "understand all of this that's going on",
+        "start": 1133.72,
+        "duration": 5.12
+    },
+    {
+        "text": "um another couple pieces of of news my",
+        "start": 1135.72,
+        "duration": 6.079
+    },
+    {
+        "text": "novel is almost done um I'm doing a",
+        "start": 1138.84,
+        "duration": 5.68
+    },
+    {
+        "text": "proof reading pass now um it's formatted",
+        "start": 1141.799,
+        "duration": 4.401
+    },
+    {
+        "text": "it looks really good I've got the cover",
+        "start": 1144.52,
+        "duration": 4.96
+    },
+    {
+        "text": "art um so that's coming and then also",
+        "start": 1146.2,
+        "duration": 4.92
+    },
+    {
+        "text": "post nihilism I know that a lot of you",
+        "start": 1149.48,
+        "duration": 3.6
+    },
+    {
+        "text": "people have been looking forward to when",
+        "start": 1151.12,
+        "duration": 3.76
+    },
+    {
+        "text": "I get this book so because of recent",
+        "start": 1153.08,
+        "duration": 3.88
+    },
+    {
+        "text": "conversations I've had uh I think that",
+        "start": 1154.88,
+        "duration": 4.52
+    },
+    {
+        "text": "post nihilism is um at least all the",
+        "start": 1156.96,
+        "duration": 4.199
+    },
+    {
+        "text": "content is on the page I'm going to need",
+        "start": 1159.4,
+        "duration": 3.159
+    },
+    {
+        "text": "to give it a few passes to make sure",
+        "start": 1161.159,
+        "duration": 3.64
+    },
+    {
+        "text": "that it's cleaned up but after more than",
+        "start": 1162.559,
+        "duration": 4.641
+    },
+    {
+        "text": "two years of working on post nihilism I",
+        "start": 1164.799,
+        "duration": 4.12
+    },
+    {
+        "text": "think the model is complete I think the",
+        "start": 1167.2,
+        "duration": 3.719
+    },
+    {
+        "text": "book is complete um now it's just a",
+        "start": 1168.919,
+        "duration": 3.801
+    },
+    {
+        "text": "matter of cleaning it up and packaging",
+        "start": 1170.919,
+        "duration": 3.601
+    },
+    {
+        "text": "up packaging it so that it is",
+        "start": 1172.72,
+        "duration": 3.68
+    },
+    {
+        "text": "presentable um yeah that's what I've",
+        "start": 1174.52,
+        "duration": 3.68
+    },
+    {
+        "text": "been up to so thanks for watching sorry",
+        "start": 1176.4,
+        "duration": 4.12
+    },
+    {
+        "text": "for the delay um but I have been hard at",
+        "start": 1178.2,
+        "duration": 4.44
+    },
+    {
+        "text": "work um even if I haven't been as",
+        "start": 1180.52,
+        "duration": 3.92
+    },
+    {
+        "text": "available and as present as I would like",
+        "start": 1182.64,
+        "duration": 4.399
+    },
+    {
+        "text": "to be um but yeah that was that was all",
+        "start": 1184.44,
+        "duration": 4.68
+    },
+    {
+        "text": "just because I sense that paradigm shift",
+        "start": 1187.039,
+        "duration": 3.561
+    },
+    {
+        "text": "and now I'm understanding I've got a",
+        "start": 1189.12,
+        "duration": 2.88
+    },
+    {
+        "text": "better model for what those Paradigm",
+        "start": 1190.6,
+        "duration": 3.959
+    },
+    {
+        "text": "shifts represent why they're happening",
+        "start": 1192.0,
+        "duration": 4.36
+    },
+    {
+        "text": "and what to anticipate at least in the",
+        "start": 1194.559,
+        "duration": 4.161
+    },
+    {
+        "text": "short term so thanks for watching cheers",
+        "start": 1196.36,
+        "duration": 4.72
+    },
+    {
+        "text": "have a good one",
+        "start": 1198.72,
+        "duration": 2.36
+    }
+]

@@ -1,0 +1,386 @@
+hi there welcome to chapter 5 lesson 10
+use substitution and more specifically
+something we call the general power rule
+now the general power rule is something
+that we found when we did derivatives
+but we're gonna see that we can actually
+think of this backwards and think of the
+the antiderivative rule that's
+associated with it now this is a pretty
+big topic we're getting into a few
+substitution in fact I'm gonna spend the
+next two lessons after this one talking
+about it and the reason why is because
+if you remember when we learnt a role
+for derivatives that was sort of a
+complicated idea you know to apply and
+it takes some time to sort of absorb it
+and get used to it what what that means
+what we're gonna do now what you
+substitution is is the idea of thinking
+backwards through a chain rule problem
+okay so similarly we're gonna want to
+spend a little bit of time to make sure
+we fully understand this idea so to help
+us out with this I want to work through
+this one example here I have all the
+work for us but if I were to find this
+antiderivative here well that might be
+hard you know what would I would
+normally do is I'd want to multiply
+everything out get it written as like
+one long polynomial and then do the
+antiderivative term by term by using
+power rule but I can't find the
+antiderivative directly because there's
+this product here you know we have this
+parentheses we have a square here this
+is not in a form that I can use power
+rule for exactly but what we're gonna
+practice is trying to do this directly
+without having to multiply it all out in
+other words what we have here in
+parentheses is something we have a
+function here and it's squared and the
+question is is can I still do like a
+power rule here can I add 1 to that
+exponent and divide by it and we sort of
+can if we can fit the pattern and so
+what we're gonna do is we're gonna
+rewrite this into sort of a simpler
+notational form I'm gonna say let's let
+u equal that x squared plus 2 so that
+like inner function there on the inside
+of the parentheses let's just call that
+x squared plus 2 equal to u if we did
+that well if u is equal to x squared
+plus 2 then we'd have to say that the
+derivative du u DX is actually that
+equal to 2x right that's just the
+derivative right that follows directly
+here
+from derivative power rule and if I were
+to solve for D u now this is sort of new
+before us is that this DX we can kind of
+think of this like a fraction and
+multiply it to the other side it's
+actually what's so great about liveness
+notation this notation of writing D u
+over DX it reminds us that derivatives
+are really like a fraction it's a change
+in U over a change in X and so we can
+split them up here and we can use
+Leibniz notation here to kind of solve
+for what D you should be now I want to
+take a look at this because if we
+replace the inside here with you notice
+we have a 2x we have a DX that's my d
+you in fact I can regroup those together
+I'll move those all to the right to X DX
+that's my D u all right and then that x
+squared plus 2 you know that's really on
+the inside here we can replace that with
+the U its to get a u squared now if I
+can do this what we can rewrite this
+integral as is just u squared to you now
+if I had given you this problem no
+problem right that would have been easy
+this is a power rule we just add 1 to
+the exponent and divide by it
+all right fact that antiderivative would
+be 1/3 u cubed plus C now the last thing
+I would do that is I remind you that U
+is actually equal to x squared plus 2 I
+would plug that back in and this is
+actually my answer right here now let's
+just go ahead and double check this if I
+were to find the derivative of this this
+would be a general power rule we have
+one third and we have something to the
+three power right one-third is like
+smiley face cubed this is a power rule
+it's what we call a general power rule
+instead of having an X in here we have a
+function of X the 3 would come down if
+we find the derivative we cancel out
+we'd get x squared plus 2 to the 2 power
+we subtract 1 but then there'd be a
+chain rule we'd have to multiply by the
+derivative of the inside we get 2x and
+that's what we started with here that 2x
+was actually a result then of the chain
+rule and so by doing a u substitution
+here by rewriting this in terms of U we
+were able to think backwards through
+that chain rule and figure out what the
+antiderivative should be directly
+alright and so this is what we call the
+general power rule for anti derivatives
+basically it says if we can rewrite this
+as U to some power D u we can just treat
+it like a power rule then add 1 to the
+exponent divide
+by now the trick here is gonna be to
+figure out what should you equal so
+we're gonna need some practice with that
+let's take a look at number one here at
+number one I say we have x squared plus
+one all squared and we have 2x DX
+now instead of multiplying this all out
+what I'm gonna look for is a good way to
+start maybe you might be looking inside
+parentheses for inner functions like x
+squared plus one is a possibility but so
+is also 2x now in this case it's very
+similar to the one that we just looked
+at we want to set our u equal to that x
+squared plus one now
+why do we want to do that to help us
+understand that let's find the
+derivative which is 2x and what we're
+gonna do is we're going to move this DX
+to the other side here so we're gonna
+get D U is equal to 2x DX alright so
+this is an important line of work and so
+is this one here this D U because we're
+gonna use these for our substitution or
+u substitution so U is equal to x
+squared plus one so let's go ahead and
+start by writing that instead of writing
+x squared plus one or write u squared
+and then the rest of this
+that's my D u right there right we can
+replace that 2x DX with a D U and now
+this looks familiar this looks like a
+power rule u squared so we add 1 to the
+exponent we get u cubed we divide by it
+so we have 1/3 u cubed plus C now the
+only thing I do now is you gotta imagine
+this is sort of a weird answer if I ask
+you what is the antiderivative of a
+function of X and I give you a function
+of U that doesn't quite make sense so we
+want to write this as a function of X we
+got a plug are you back in so U is equal
+to x squared plus 1 plug that back in
+and that's my answer and we can go ahead
+and double check this the derivative of
+this the 3 would come down and cancel
+we'd get x squared plus 1 squared would
+be a chain rule a 2 X and the derivative
+of C would be 0 that is exactly what we
+started with so we know we got a correct
+answer here okay
+so how did we know that you should equal
+x squared plus 1 one thing I want to
+point out is we're not just finding what
+you should be we're also finding out
+what D you should be the derivative of
+that alright so when I see that I have
+you and I X square plus 1 and I also
+have its derivative right there 2x
+that's like a sign that maybe you should
+equal x squared plus 1 because I do have
+the D you right there let's take a look
+at another one number two now this is
+one that even if I want to multiply this
+out I actually can't really do much with
+this and I can't do just a power rule we
+need this new method for this one what
+do you think you should be well it's got
+to be an inner function somehow and it
+could be a 3x squared but if I look
+inside the square root here there's not
+parentheses around it but there is a
+group there and that's X cubed plus one
+now if you double check if that were my
+you notice what D would be would be the
+derivative right and we actually have
+that here as well that's a sign that
+this has got to be a good u substitution
+so the derivative D u DX is equal to 3x
+squared in fact and the future I'm just
+going to do this in one step we know D u
+DX we know DX is going to move to the
+other side so let me just go ahead and
+do that 3x squared DX
+ok we'll go ahead and move that over
+right away and so we can have we see
+that we have everything that we need
+here we have let me skip ahead to that
+square root here under the square root
+we have our you that's why we chose you
+equal to XQ plus 1 and everything else I
+have left the 3x squared and the DX
+that's really my D you I'll just pull
+that out to the right here do you so
+this is a problem that I know how to
+solve this is the same as saying au to
+the one-half power that's a power well
+we can say that's if I do the
+antiderivative here this will be U to
+the you gotta add 1 so 3 over 2 power we
+divide by 3 over to that but that's the
+same as saying times 2 over 3 I wanna
+say plus C I guess I didn't really need
+those square brackets here we just have
+a 2/3 and we have u to the 3 over 2 but
+we're gonna replace U with what it
+originally was X cubed plus 1 plus C and
+this is my final answer
+and so we can see what we're doing here
+is we're thinking backwards through a
+chain rule backwards through that
+general power rule by using a you to
+help us now sometimes these can get a
+little more complicated if I look at
+number three here we might notice we
+have a very similar problem here
+where you we might say is gonna be x
+squared plus one but there is a problem
+when I find the derivative D u DX we're
+gonna get 2x and again we'll move the DX
+over here we can see a little bit of a
+problem you can't we we have X but and
+we have DX but we don't have the two
+we're missing that two aren't we so what
+can I do here
+well one thing that we could try to do
+is we could create it to this is a trick
+that we often use in math is if we need
+something we just created but you can't
+create two for no reason right if I
+create a two there let me write this out
+here we have X we have x squared plus
+one squared DX so let me do this in
+another color if I create a two there I
+would also have to create maybe like a
+one over two to make it true you know I
+can't just multiply by two for no reason
+but I can if I also multiply by one half
+and this is the trick here because then
+we get to X DX and we also have this
+extra one-half but what I can do is
+since it is just a constant multiple so
+I can factor that constant out of the
+integral so let me write this a little
+more clearly here we have one-half out
+front now the 2x DX will replace in a
+minute but if I skip ahead to the x
+squared plus one squared I can replace
+that with a you the rest of this this 2x
+DX that's gonna be my D U and so again
+what we can see here is this U is really
+an x squared plus one and this D U is
+really a 2x DX I've just replaced them
+now doing a u substitution but if I were
+to give you this integral on one half u
+squared to you I would just say that oh
+that's easy that's a power rule we'd add
+1 to that exponent so we get U to the 3
+power we divide by it and we have a + C
+finally this is gonna become a 1 over 6
+u cubed + C and let's go ahead and
+replace the U this is an x squared + 1
+that goes in there that's my final
+answer
+what about number 4 what do you think
+you should be here as we choose our U we
+look for inner functions and we also
+look to not just for what u is but we
+also look for its derivative to be in
+there also now we might find based on
+our number two similar example here that
+maybe X cubed plus 1 over
+here the derivative would be 3x squared
+DX and we almost have that don't wait we
+just need to create a three here what if
+I create a three I also have to create a
+1/3 we've got to create both of these
+right and the 1/3 what we'll factor out
+at the interval we can do that so we
+really have here then it's a 1/3
+antiderivative of at least skip ahead to
+that square root square root of we'll
+replace that with a you now and what I
+have left that 3x squared DX is really
+my D U and this looks like something I
+know how to find the antiderivative
+above because that's really u to the
+one-half power so we get u to the
+three-halves power when we add one we
+divide by it so we're really multiplying
+by a two-thirds we get a plus C finally
+I can multiply the fractions together we
+get a 2 on top right one times two on
+the bottom three times three is nine we
+get U to the 3 over 2 power plus C and
+let's replace u X cubed plus 1 goes in
+final answer all right I do have one
+last one here that'll be a bit of a
+challenge we can try to find out what
+you use gonna equal again we don't have
+quotient rule for antiderivative so we
+do have to rewrite this somehow and
+there's only a few possibilities maybe
+it's 2x squared
+maybe it's X cube minus 1 in this case
+as we look for what you should be we're
+also thinking about its derivative and
+you might be thinking about let's try to
+make it that executes minus 1 that is an
+inner function it's in the square root
+but we're gonna run into it maybe a
+little problem here this should be a 3x
+squared DX but that's not what we have
+we almost have it we have a 2x squared
+DX
+so my recommendation here is we can
+still do this problem but let's factor
+that 2 out I like to factor that two out
+that way I can see let's a cube them
+just a x squared DX they're right that
+way I can think about what needs to be
+in front of that x squared and we know
+it has to be a 3 let me do this in
+another color here if I create a 3 there
+because I need it I also have to create
+a 1 over 3 but I'll factor that out all
+right so we have a 1 over 3 out front as
+well so really out front there's already
+a 2 that I factored out that's really a
+2 over 3
+and we have on the bottom here's a
+square root of let's go ahead to replace
+that that's you that's usually where I
+start as I replace to you right away and
+on top there that 3x squared DX that's
+actually my D you I'll go ahead and pull
+it out to the side here and write a 1 on
+top so that D U is really my 3x squared
+DX I'll just pull it out to the side do
+I know how to find this antiderivative
+this is a big question because even
+though this is a correct way to rewrite
+it this only helps me if I can actually
+know how to find the antiderivative
+sometimes you can rewrite it and doesn't
+help you because you still don't know
+how to find the antiderivative but this
+is what I can do if I rewrite it again
+I can write this as a power this is
+really you to the what power it should
+be a negative 1/2 and that is something
+I can use power rule for add one to the
+exponent so we get a positive 1/2
+divided by it so we get 2 over 1 is
+really what we have times 2 here 2 over
+1 right I'll just write x 2 and finally
+we also have a plus C and the last thing
+I'm going to do is I'm going to plug my
+u Beckett now 2 times 2/3 we can combine
+these together this is really 2 over 1
+right so it's going to become a 4 over 3
+we have U to the one-half plus C so u we
+can replace with an X cubed minus 1 and
+that is my final answer
