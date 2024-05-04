@@ -21,27 +21,31 @@ def write_transcript_to_file(video_id, transcript, output_format):
     Writes the YouTube video transcript to a file in the specified format.
     :param video_id: The YouTube video ID.
     :param transcript: The transcript data.
-    :param output_format: The format to write the transcript ('text' or 'json').
+    :param output_format: The format to write the transcript ('text', 'json', or 'both').
     """
     video = YouTube(f'https://www.youtube.com/watch?v={video_id}')
     video_title = video.title
     valid_chars = "-_.() %s%s" % (string.ascii_letters, string.digits)
     video_title_clean = ''.join(c for c in video_title if c in valid_chars)
-    
-    if output_format == 'json':
-        filename = f'{video_title_clean}.json'
-        with open(filename, 'w') as json_file:
+
+    # Create filename base without extension
+    filename_base = f'{video_title_clean}'
+
+    if output_format == 'json' or output_format == 'both':
+        json_filename = f'{filename_base}.json'
+        with open(json_filename, 'w') as json_file:
             json.dump(transcript, json_file, indent=4)
-    else:
-        filename = f'{video_title_clean}.txt'
-        with open(filename, 'w') as file:
+
+    if output_format == 'text' or output_format == 'both':
+        text_filename = f'{filename_base}.txt'
+        with open(text_filename, 'w') as file:
             for entry in transcript:
                 file.write(entry['text'] + '\n')
 
 video_id = input("Enter the YouTube video ID: ")
-output_format = input("Enter the output format (text or json): ").lower()
+output_format = input("Enter the output format (text, json or both): ").lower()
 
-if output_format not in ['text', 'json']:
+if output_format not in ['text', 'json', 'both']:
     print("Invalid output format selected. Defaulting to text.")
     output_format = 'text'
 
