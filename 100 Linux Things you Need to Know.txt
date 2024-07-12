@@ -1,0 +1,371 @@
+statistically 96% of the humans watching
+this video are not using Linux and
+that's just like really sad because it's
+a superior free open source operating
+system but only has a 4% share of the PC
+market luckily though 96% of the
+non-human Bots watching this video are
+using Linux because it is the dominant
+OS on the server if you're a programmer
+or developer you need to know Linux
+that's where your code will eventually
+run and fail and if you can't SSH into a
+Linux terminal and fix it you are
+screwed in today's video you'll learn
+everything you need to know about Linux
+by looking at 101 essential Concepts
+over the next 10 minutes if you survive
+until the end you should magically grow
+neck beard and be able to technobabble
+like an arch user before one can
+understand Linux though one must
+recognize what came before it Unix an
+operating system developed at AT&T Bell
+labs in the 70s its development led to a
+standardization called posix or portable
+operating system interface to ensure
+that different systems would be
+compatible with each other its influence
+remains strong today with Ma ma OS
+Android FreeBSD and most Linux dros
+being posix compliant in 1987 an OS
+called Minix for academic use was
+developed but redistribution of its code
+was restricted this inspired a Finnish
+computer science student named lonus
+torald to develop Linux in 1991
+importantly it's free open- source
+software licens under GPL 2.0 and by
+free I mean free is in Freedom it's free
+to distribute modify and make money off
+of now what I'm referring to as Linux is
+in fact not an operating system but
+rather an operating system kernel it's
+written in the C programming language
+and is the black magic that sits between
+your software applications and the
+hardware when you hit the power button
+on your computer the boot loader which
+is usually grub will load the Linux
+kernel into random access memory from
+there it detects hardware and starts the
+init system which is typically a tool
+called system D although Alternatives do
+exist once initialized the kernel will
+start up applications in user space
+which will typically bring the user to a
+login screen as the user starts doing
+stuff the kernel has a lot of respons
+ibility it allocates and deallocates
+memory for processes and can even create
+virtual memory to use more memory than
+is physically available by tapping into
+your hard drive speaking of the hard
+drive the kernel also provides a virtual
+file system to interact with files on
+different systems the fourth extended
+file system is the most common default
+on Linux but it's not the only option
+the kernel also interacts with all these
+peripheral devices via drivers pretty
+cool but you can't just walk up and mess
+around with the kernel and that's
+because it's surrounded by the cpu's
+protection ring at ring zero we have the
+kernel with the highest level of
+privilege While most of us normies in
+user space live in ring three with the
+lowest level of privilege but often
+you'll want to do something that
+requires access to the kernel like write
+a file to the file system and that's
+where system calls come in in the C code
+here you'll notice that I'm making a CIS
+call to write which will transition from
+ring three to ring zero to Output some
+text to the console however right itself
+is not a system call it's actually a
+rapper provided by GBC which is the G
+new standard library for C and provides
+all kinds of rappers for making system
+calls that can do almost anything on
+your OS but wait a minute what is gnu
+it's pronounced gnu and it's a project
+that predates the Linux kernel itself
+and was started all the way back in 1983
+by Richard stalman it provides all the
+core utilities for Linux which are all
+the software utilities that make the
+kernel useful to humans the best way to
+start exploring these core Libs is to
+open up the terminal which is a
+graphical user interface that allows you
+to send commands via the shell now they
+call this thing a shell because it
+provides a layer of protection between
+user space and the kernel there are many
+different flavors of shells but the most
+common is Bash let's say hello to the
+Linux kernel by running the ganu shell
+utility Echo and providing a string
+argument to it this command takes our
+message and prints it to the standard
+output pretty simple but what actually
+happened under the hood is that a system
+call was made to the kernel which
+checked permissions and manage drivers
+to turn those ones and zeros into pixels
+on the screen as an end user though I
+don't care my friend told me about a
+cool command called touch but I have no
+idea what it does the cool thing about
+Linux is that you can pull up the manual
+for any command by hitting up my main
+man man it looks like this command is
+used to create a new file man Isn't that
+cool let's go ahead and try it out now
+by creating a new text file it looks
+like nothing happened but I promise it
+worked I can prove it by using the ls
+command to list out the files in this
+directory and there it is and we can
+read the file contents with the cat
+command but again nothing happens
+because there's no data in this file
+however there is a bunch bunch of
+metadata like timestamps that we can
+access with the stat command is stat
+rhymes with cat and when we run it we
+know this file's birth time when it was
+modified and when it was last accessed
+that's useful but we can also get more
+information from the ls command by
+appending Flags to it like the L flag to
+list more details and the H flag to make
+them human readable when we run that
+command we can now see the exact size of
+every file and we can also combine flags
+and Linux to make this command more
+concise I don't want an empty file
+though so I'm just going to remove it
+with the RM command the cool thing about
+the Linux terminal is that it's really
+easy to combine commands like I can take
+Echo and use this angle bracket to
+redirect its output to a new file in
+addition I can flip this angle bracket
+around to also redirect the input of a
+file that's cool but pipes are even
+cooler they allow you to take the output
+of one command and pass it off to
+another command like for example if we
+have a log file of our broken code we
+might first use cat to read that file
+but then we could pipe the output to
+sort which would sort it line by line
+and then unique to remove any duplicates
+there's so much more we could do just
+from the terminal but if you find
+yourself doing the same thing over and
+over again it might be time to write a
+bash script in its own dedicated file
+but to create that file we'll use an
+interactive text editor if you have a
+few years to spare you could try
+learning Vim or if you have no life at
+all you could try emac but I'm going to
+create this file with Nano a minimal
+text editor built into most Linux dros
+at the top of the file We'll add a
+shebang that tells Linux to use the bash
+interpreter then we can add as much bash
+code as we want here like we might use
+Echo and then read to read a value from
+the standard input and then Echo to once
+again Echo it back and now if we save
+this file we can execute it by simply
+entering the file path in the terminal
+and that brings us to the halfway mark
+unfortunately 100 topics is not nearly
+enough to cover the entire Linux
+ecosystem if your goal is to become an
+apex Alpha Linux gigachad and check out
+my brand new full Linux course for
+fireship pro members the course contains
+over 30 videos of Hands-On Linux topics
+along with quizzes for regular dopamine
+hits that will help you master the
+fundamentals of Linux quickly but most
+importantly it will teach you how to
+spin up your own virtual private server
+to self-host your own applications but
+one major drawback of using Linux is
+that it might trigger an existential
+crisis and you might ask yourself who am
+I when you enter that command it's going
+to return your Linux username in
+addition every user has a unique uid
+that can be viewed with the ID command
+my ID is 1000 but there is one special
+user with a uid of zero called root AKA
+admin super user or daddy root has the
+highest level of privilege and you can
+switch to the root user with the Su
+command or prefix any command with
+pseudo to run it with elevated privilege
+any user can be granted pseudo privilege
+and you can check your privilege right
+now by running pseudo flag l in addition
+to users Linux also has groups groups
+have group IDs and make it easier to
+manage permissions for multiple users
+before we talk about permissions though
+let's explore the file system by default
+we're in our home directory which is
+like a personal workspace for the user
+you're logged in as we might make a new
+directory here using the make dur
+command then use CD to change
+directories into it now run PWD to print
+the current working directory but now
+let's venture outside of our home into
+the root of the file system by running
+cd/ if you hit LS here you'll find a
+bunch of critical directories that you
+need to know aot like boot contains the
+Linux kernel itself Dev contains
+external devices like hard drives Etc
+contains config files and VAR contains
+log files the most interesting directory
+here though is bin which holds your
+binaries and spin for system binaries
+you see when you run a command like LS
+Linux looks for an executable binary on
+your system to execute the thing is
+binaries not only live here but also
+under the user system Resources
+directory and potentially anywhere you
+want on the file system and that begs
+the question how does Linux know where
+to find the right binary well that's
+where path comes in it's a special
+environment variable that contains paths
+to directories separated by colons when
+you enter a command Linux will search
+through the path for a matching binary
+in each directory and execute the first
+one it finds its value is set on the
+system by default but it's common to
+customize it by using the export keyword
+which will set the value for an
+environment variable the most common
+technique is to update the path for an
+individual user by customizing The Bash
+RC file which itself is a script that
+will run before every terminal session
+and now that we're inside this file we
+can also do things like customize the
+PS1 environment variable to change the
+terminal prompt to look more like a mega
+hardcore hacker when coding at Starbucks
+which is a proven way to attract a mate
+as a Linux user but now it's time to
+talk about file permissions use LS flag
+L on any file to view permissions and
+notice these cryptic nine characters
+these are called symbolic permissions
+the first triplet represents the owner
+the middle the group and the last
+triplet is for everyone else each one
+contains a letter that represents read
+write and execute privileges if the
+letter is present it means access
+granted but if there's a dash it means
+permission denied these can also be
+represented as numbers in o notation for
+example 777 lets anybody do anything to
+a file I know Triple 7 is good on slot
+machines but in Linux it's generally a
+bad idea because you want to always
+follow the principle of lease privilege
+Grant access to things only when
+necessary and trust no one now you can
+modify the permissions on a file with
+the chamod command like here I'm using
+it to Grant read access to a document
+for everybody we can also change the
+owner of a file with Chon or assign
+groups with ch group and now that we
+know what all these things mean
+permissions aren't so cryp now anytime
+you run a command or execute a program
+it creates a process on the CPU which is
+managed by the Linux kernel you can view
+these processes with a command and
+notice how each one has a unique process
+ID along with the user who created it or
+better yet use htop to get an
+interactive breakdown of processes that
+can be filtered some of these are just
+system demons that run in the background
+we all have our demons in fact if you
+have a long running script you can even
+create your own background process by
+adding an Amper sand to the end of it or
+if you want a a script run on a specific
+schedule like a reminder to do something
+at 4:20 p.m. today you can accomplish
+that by adding your script to the cron
+tab that's cool but occasionally you'll
+have a bad process that needs to be
+killed the kill command can do that by
+gracefully sending a Sig term signal to
+the process if that doesn't do the trick
+though use the nine flag to forcefully
+kill it with Sig kill we've barely
+scratched the surface but so far
+everything we've looked at is pretty
+standard on most Linux machines other
+utilities you should know about include
+GP for searching through text said for
+modifying tax gzip for making files
+smaller and tar for archiving
+directories but the Linux experience
+varies wildly when talking about
+different dros a Linux distribution is
+just a complete operating system built
+on the Linux kernel and each drro has a
+highly opinionated set of default
+software for their target audience some
+are designed for beginners others for
+hardcore hackers and everything in
+between dros can have different package
+managers to install new software like a
+yum and Pac-Man and they might also have
+different release schedules like some
+have a predictable fixed release date
+While others have ruling releases that
+keep their software on The Cutting Edge
+at all times and one thing we didn't
+even talk about is desktop environments
+if using Linux as a PC your Dro will
+have a default desktop environment like
+gnome or KD plasma and that makes a huge
+difference in the experience some distro
+families you should know about include
+slackware the Original Gangster from the
+9s Debian the most popular Dro overall
+famous for its open philosophy and ease
+of use red hat the dro of choice and
+Enterprise for its long-term support
+plans and finally the arch family if
+someday you find yourself saying I use
+Arch by the way unironically it means
+you've embrace the Paradox of complexity
+and simplicity and your operating system
+is no longer just a tool but a
+reflection of your own dominance and
+Mastery over the digital world thanks
+for watching check out the full course
+if you want to go deeper and I will see
+you in the next one
