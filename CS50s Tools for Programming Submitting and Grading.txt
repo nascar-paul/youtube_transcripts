@@ -1,0 +1,1837 @@
+RONGXIN LIU: Hi, everyone.
+My name is Rongxin.
+In this section, I'm going to
+talk about some of the CS50 tools
+that we use to facilitate students
+learning throughout the CS50 journey.
+So we will cover the standardized
+programming environment,
+some of the tools that help educator
+to collect student submission and grade
+student submission.
+So to concretely, we will go
+through these tools one by one.
+So first, let's talk about the
+standardized programming environment.
+So we all know that at
+the term start, it's
+often a very challenging task
+for student, even for educator,
+to tell their student to set up their
+own programming environment so that they
+can get started with the assignment.
+It is often time that these part,
+like configuring their own programming
+environment, scares of lots of student.
+And it's really a painful
+process because we
+are dealing with different kinds of
+operating system and different operating
+system require different
+software packages in order
+to run just a Hello World program.
+So historically, over the past
+decade, we've been wanting--
+we've been providing students with
+standardized programming environment.
+In the early days, we are offering
+student on campus with a shell access.
+So each student actually has
+their own terminal access.
+They can still write code in
+the terminal user interface.
+Slowly, gradually, we start
+utilizing AWS EC2 technology.
+Once that become available,
+we quickly adopt that
+so that we will be able to
+allow student to actually run
+their code over the internet and
+get better respond interactively.
+There's a time that we
+actually literally hand student
+like a virtual machine,
+like an appliance, what
+we call the CS50 appliance.
+That student will be able to
+download this virtual machine
+image it, installing on their computer,
+like launching this virtual environment.
+So that everyone's programming
+environment is the same.
+But the problem with this
+approach is this time
+that student will periodically need to
+update their programming environments,
+just so in sync with the course
+syllabus or course content.
+Few years back, there's
+a company called Cloud9.
+Now, it's being acquired by AWS.
+We quickly also adopt the
+Cloud9 technology, which
+is a browser-based interactive
+programming environment,
+so integrated programming environment,
+so students can literally just
+visit cs50.io, and they will be able
+to access a standardized programming
+environment right from the browser.
+And then, they can start
+coding right from there.
+And the good thing about
+this browser-based approach
+is that there's not much hardware
+requirement for students.
+All they need is like a reliable
+internet access and a browser,
+and they can start doing
+their Hello World problem set.
+Now, we transition to use VS Code.
+VS Code is a very popularized
+programming environment
+for industry programmer as well.
+So we think this is a good chance,
+opportunities to switch over,
+mostly because student can get familiar
+with the integrated programming
+environment of VS Code concretely.
+That way, through the
+terms and at the end
+of the semester when
+they finish CS50, they
+can naturally transition to
+actually working in the industry
+without having to learn a new IDE, or
+they can quickly familiarize themselves
+with IDE that's similar to VS Code.
+And that's basically the
+overview of the history of the
+how CS50 provided a standardized
+programming environment to student.
+And right now, I'm just going
+to go a little bit deeper
+on how we actually make this happen and
+offer students this standardized IDE.
+And hopefully, all of you can actually
+customize your own standardized IDE
+and offer to your student to
+suit your classroom needs.
+And just to mention some of the
+solution, like in addition to VS Code,
+there's a bunch of different kinds
+of IDE available in the wild, right?
+There's an Android Studio mostly
+for developing Android apps.
+There's a IntelliJ IDE as
+well, which is also popular.
+It's a very popular IDE in the industry.
+So there's different kinds of IDE.
+You don't have to really use
+VS Code in order to teach CS50.
+But VS Code is just working great for
+us, so that's why we pick VS Code.
+There's certainly different
+kinds of IDE that are best used
+for a more narrow domain of purposes.
+In terms of virtualization
+technology, we use Docker.
+We like Docker.
+Docker is kind of like a
+lightweight virtualization
+technology compared to the traditional
+virtual machine technology.
+And on the server side, there's
+certainly different kinds of online IDE
+available to student as well.
+For example, Cloud9, I
+previously mentioned.
+And also, there's a Google Colab
+for more like a data science machine
+learning focused content.
+But we picked GitHub Codespaces.
+So GitHub Codespaces is
+essentially a VS Code
+running in the cloud backed
+by Linux virtual machine
+running on Microsoft
+Azure infrastructure.
+And this slide is actually also
+available for you to look at it closely.
+I have all the notes
+in the presenter notes
+as well that you can go
+through them at your own pace.
+So first, I'm going to talk about,
+OK, what GitHub Codespaces is.
+All the CS50 student nowadays
+will use GitHub Codespace
+to do their programming assignment.
+And the front-end of
+the GitHub Codespaces
+is actually Visual Studio Code.
+So Visual Studio Code is
+an open source online IDE,
+like an IDE developed by Microsoft.
+Codespaces is actually
+the compute environment
+that are backing the VS Code.
+So you can think of when you go visit
+cs50.dev, when you get into the VS Code
+programming environment, you're
+actually remote into a Docker container
+sitting in the Azure Cloud.
+That's called a codespace environment.
+So what does it do?
+Of course, it comes with all the
+necessary package and software
+environment that are
+required by the CS50 course.
+We also included other software
+packages, such as Java, Node.js, R,
+Ruby, as well to suit other
+needs for different curriculum.
+We definitely support C and C++.
+That's the language we
+teach at the beginning.
+So you might wonder, OK, how does
+this GitHub Codespace get provisioned?
+There's one important piece
+of the technology here.
+It's called the Dockerfile.
+As I mentioned previously
+as well, we use Docker
+as the virtualization technology.
+And Dockerfile is kind
+of like a way for you
+to customize the running environment.
+You can think of as
+provisioning your own operating
+system for this particular codespace.
+And I will go through them in
+detail in the next few slides.
+If you don't know what Dockerfile
+is, don't worry about it.
+So it looks like this.
+It's a few lines of code defining what
+the underlying operating system is.
+For example, in the following example,
+I'm going to use Ubuntu version 22.04.
+And I'm going to also
+pre-install a bunch of packages
+that I think the codespace would need.
+So it's kind of like
+a decorative approach.
+You can define your operating
+system in just one file.
+There's another piece of
+important technology here.
+It's called the devcontainer.json.
+This is basically a
+file as well, describing
+what kind of compute resources
+you want this codespace to have
+and what kind of a VS Code extension
+you want this codespace to pre-install.
+So with the Dockerfile and
+the devcontainer.json file,
+you can define your own codespace.
+And in fact, that's how we offer--
+that's how we define the CS50
+codespace for all of our students.
+We're essentially writing
+our own Dockerfile,
+writing our own devcontainer.json file,
+and pull it in student's repository
+and launch a codespace
+for student automatically.
+That way, when student
+go to CS50.dev, they
+will get the CS50 codespace
+that has everything
+they need to complete the course.
+Student can also use the native VS Code
+desktop client to perform their work.
+At the end of the day,
+it's just a VS Code.
+It's a VS Code.
+They don't have to connect to
+the VS Code, the CS50 codespace
+through the browser.
+They can also connect
+to the CS50 codespace
+through the VS Code desktop client.
+And this is basically what it looks
+like when students go to CS50.dev.
+They will get literally
+like a Login button.
+They can just one click, and it
+will load a codespace for them.
+We use GitHub for authentication, so
+all they need is a GitHub account,
+and they can access all the CS50 tools.
+And optionally, they can also choose to
+launch the codespace through the VS Code
+desktop client.
+So now, I'm going to explain what's
+happening underneath the hood
+and what you can do to create your
+own codespace for your classroom.
+So to get a codespace up and running,
+so you need a GitHub organization.
+Again, all the CS50
+tools are mostly built
+on top of the GitHub infrastructure.
+So everything is surrounding
+like GitHub services.
+So in particular, in order
+to create a codespace,
+you will want to first
+have a GitHub organization.
+And you have to enable codespace access
+for this particular organization.
+For example, if you go to
+your own GitHub organization,
+you go to the Settings page.
+You will just enable for all the
+members or for specific members or teams
+accordingly.
+So once you have that settings
+done, your organization
+will have codespace enabled.
+Of course, there are some
+billing-specific and plan-specific
+option you also need to
+pick, which is depends on how
+you want to pay for the services.
+And for educators, there's
+often a free access
+through the GitHub classroom that's
+available to all of the educators
+that you can also check out yourself.
+There's a link in the slide as
+well that you can take a look.
+So once you have this organization
+set, in order to launch a codespace,
+all the codespace needs a repository.
+Again, a repository, it's a GitHub.
+Basically, it's like a
+way you can put codes in.
+Traditionally, you store your
+codespace in a certain repository
+and on GitHub.com.
+And all the codespace needs
+a repository to launch.
+You can't launch a
+codespace without having
+a repository created in the beginning.
+So in order to create a codespace,
+you will first have a repository.
+So I'm going to walk you
+through how you can do this.
+So let's say you want to
+create a new repository.
+You literally go to your
+organization, click New.
+There's a button called New button.
+So you click that, and then it
+will bring you to this page.
+You will give your repository a name.
+For example, I'm going to name my
+repository as My Codespace for the demo.
+And I want to make sure
+it is private for now.
+And also, it's for good reason
+because for your classroom,
+once you use GitHub classroom
+to set up this codespace,
+you don't want other
+students to see what
+the other student is doing for academic
+honesty reason and for privacy reason.
+So you want to make sure it is private.
+Of course, you can set it to public
+or internal, depending on your needs.
+I'm going to set it to private for now.
+So once I have that marked, I
+can just click Create Repository.
+Now, I have a repository,
+but it's empty.
+There's nothing in it.
+First thing we need to do is
+we want to create a Dockerfile.
+As I mentioned previously, we need a
+Dockerfile and a dev container JSON
+file to create a codespace.
+Now, we're going to
+create the Dockerfile.
+Again, the Dockerfile will contain
+these four lines of text or strings.
+The first line defining the underlying
+operating system we are going to use
+is Ubuntu.
+We want to perform some update.
+We want to install
+like Git, Java Runtime.
+We want to install
+Python Runtime as well.
+And in addition, we
+also want to pre-install
+like a Python library
+called Pillow, which
+is like an image processing library.
+That's what we are creating, the
+underlying operating system image.
+So let's go back to our repository.
+Once you've finished
+creating a new repository,
+you will be brought to this page.
+Because our repository is empty,
+so GitHub basically asking you, OK,
+what would you like to do
+with this empty repository?
+If you don't understand Git
+at all, don't worry about it.
+You can all do this
+through the GUI interface.
+For example, this is
+what you will be seeing
+if you are following my instruction.
+By the way, you don't need to follow
+me in real-time for this workshop.
+All the slides have detailed
+instructions in the presenter note
+as well.
+So let's say I want
+to create a new file.
+You literally can just go to this
+place, click Creating a new file.
+You click that.
+It brings you to an editor,
+like an online text editor.
+First, because we want to create a
+Dockerfile, so we will type Dockerfile.
+Remember, it's important
+that it is case sensitive.
+So you want to capitalize
+the D for delta
+at the beginning called Dockerfile.
+For the content, you would type the
+content I mentioned in the slide.
+You can copy paste, or
+you can type it as well.
+So we're going to type
+from Ubuntu latest.
+Right now, we should
+pin the version to 22.04
+because the latest version is now 24.04.
+Some of the package might not work.
+But once you have the Dockerfile
+content ready, what you want to do
+is save, right?
+But in the repository world or
+in Git world, save means commit.
+You want to commit your changes.
+That's why you should click the
+button called Commit changes.
+You click that.
+It asks you, OK, would you
+like to pull a message?
+It automatically pull a message for you
+called Create Dockerfile, which is nice.
+That's exactly what we are doing.
+So I'm going to just go ahead and click
+Commit changes here in the dialog box.
+So I click that, it commit my changes.
+Now, I have a Dockerfile
+created in the repository.
+We need another piece, right?
+We need the dev
+container JSON file, too,
+for codespace to launch
+a codespace instance.
+So it looks like this.
+I'm going to explain what it means.
+We created the underlying
+operating system image,
+but then codespace needs some
+instruction to launch the codespace.
+That's what the
+devcontainer.json file is for.
+It's like an instruction to
+tell GitHub Codespace hey,
+this user wants to launch a codespace.
+Here's the instruction.
+So in this dev container
+JSON, it's very simple.
+We only put this particular
+line in the file.
+We basically tell
+GitHub Codespace launch
+a codespace using this Dockerfile.
+So when codespace is
+being launched, it needs
+to fire a container because the
+underlying virtualization technology
+codespace is using its Docker
+container, so it needs something
+to build the image.
+And that is the Dockerfile.
+Again, we go back to the repository.
+We want to add a new file.
+So we just click Add File.
+Create a new file.
+So for this time, we're going to
+create the devcontainer.json file.
+Now, there's a different way
+you can create this file.
+I'm just going to create this
+file at the root directory,
+at the root location-- the
+root level of my repository.
+So it has to start with--
+the file name has to
+begin with a period.
+So remember type period,
+like dot devcontainer.json.
+That's the file name.
+It has to be named like that.
+And for the content, again, you can
+copy paste the content in the slide,
+or you would type this kind of
+a JSON object notation, right?
+So build means when you
+launch the codespace,
+please build an image using
+the file called Dockerfile.
+So that's pretty much it about the
+devcontainer.json file for now.
+The file is ready.
+We also want to commit
+these changes, so we're
+going to click Commit changes again.
+We click that.
+We saved.
+We confirmed.
+It brings us back to
+the repository page.
+Now, I have these two file
+ready, the devcontainer.json file
+and the Dockerfile.
+Looks like we are good to
+go to create a codespace.
+So here, there's a green
+button called a Code button.
+When you have your codespace
+enabled for your organization,
+you should be able to
+see this green button
+as long as you have a devcontainer.json
+file present in the repository.
+GitHub knows that this is
+a codespace repository.
+So you're going to
+click the green button.
+And you can launch a codespace.
+So when you click the
+Code button, right now,
+this is the screenshot
+I took a few hours ago.
+It's pretty up-to-date.
+GitHub might add a new
+feature in the future,
+but right now, you should be able to
+find a Codespaces tab under the Code
+button.
+When you click that, you
+can choose different tabs.
+So I'm going to click the Codespace tab.
+And I'm going to click this
+Create codespace on main.
+That means you want to launch
+a codespace on the main branch.
+I won't go into the
+detail on what that means.
+Main is the default branch of
+the repository you just create.
+You can imagine you can create
+different branches for your codespace.
+And then, you can launch a
+codespace for that specific branch.
+We are only doing this
+for this main branch here.
+So I'm going to just click
+Create codespace on main.
+It brings me up to this launching place.
+It would be-- usually, it will tell you,
+OK, this is like setting up codespace.
+You just wait.
+It usually take a couple of minutes,
+depend on how complex the Dockerfile
+you are writing.
+If you are writing like
+a very simple Dockerfile,
+your codespace will likely be launched
+in 20 to 30 seconds, something
+like that.
+So I'm going to just tell you
+what's happening in this screen
+right now because we
+click Launch codespace.
+What GitHub is doing right
+now is, OK, it's now looking--
+the dev container JSON file,
+try to build the image.
+So this is the process of codespace
+trying to build the image.
+So once the image is built,
+we have the image ready.
+Then, codespace can launch a
+container based on this image.
+And you will be presented
+by this wheel as well.
+So this is basically what you will
+see after you launch the codespace.
+This is your view.
+This is the VS Code.
+It just running on the cloud.
+If you use VS Code before, it
+should look familiar to you.
+If you pay attention, you can see
+that, OK, this codespace already
+come with two files.
+Why?
+Because this codespace is
+backed by a repository.
+And the repository have been
+working on called My Codespace.
+And I created these two files.
+And that's why the codespace
+already loaded with the file.
+So all the file you are actually dealing
+with are the file on the repository.
+Now, let's quickly demo how we can write
+a program in VS Code and execute it.
+There's two ways to create a new file.
+One way is through the GUI.
+You literally just go to the
+File Explorer on the left.
+You right-click.
+You click New file, right?
+As if you are using Windows, you
+can go to Windows, right-click,
+create a new folder.
+Same thing.
+So you create a new file.
+We want to create a
+file called hello.py.
+I'm going to write a
+Hello World program.
+So I type hello.py.
+And I'm now being brought
+to the text editor.
+And you can see the cursor is now ready.
+So we can just type Hello World
+here for this Python program.
+Simple line print, Hello World.
+And you don't have to save the file.
+The way we configure the CS50
+codespaces, normally, is it
+will save automatically.
+But for this demo, if you see
+a file has empty content when
+you try to run the Python
+program, just remember
+to save the file so that
+when you execute it,
+it's the up-to-date
+file you are executing.
+So in this demo, in the
+terminal, we clearly
+see that after running this program,
+we get the Hello World back.
+That means Python Runtime is actually
+ready or installed for this programming
+environment.
+And you can actually
+start writing Python code.
+Alternatively, if you
+are a more advanced user,
+you don't want to use the
+GUI, you can literally
+go to the terminal and type code space.
+hello.java.
+It will automatically open or create
+a file called hello.java for you.
+If the file is not found at the working
+directory you are running this command,
+it will just automatically
+create a new file for you.
+So that's the way I create
+this hello.java file.
+I'm going to write the same Hello
+World program again but in Java.
+Again, we wrote a Hello
+World program here.
+And then, we tried to run it.
+And as you can see, it also able to
+print out Hello World, which also
+means the Java Runtime is installed.
+The reason why this
+programming environment already
+comes with Python and Java is because
+we define them in the Dockerfile.
+We wrote that we want to install
+those Runtime in the Dockerfile.
+And that's why this image already
+comes with the Runtime needed,
+at least for this demo.
+There's more.
+In addition to provisioning the
+underlying operating system,
+because we are working in VS Code, and
+VS Code is known for its extensibility.
+And the experience is
+also often customized
+through the VS Code extension.
+So for Python, some advanced
+programmer or normal programmer,
+when they're trying to go to a
+fancy IDE, when they write code,
+it automatically auto-complete
+the code for you,
+or even provide code suggestion for you.
+That's actually provided by a plugin,
+if you will, like a language support.
+Similar concepts also apply
+in VS code, so it's also
+often achieved through extension.
+So if you want to have
+code completion for Python,
+we need something for Python.
+And I'm just going to
+demo for how we can
+install a Python extension through
+VS Code's Extension Marketplace.
+So you click the Extension
+icon on the left.
+It brings you to this extension view.
+You can just search the
+extension you want to install.
+I want to install a Python extension.
+So I type Python.
+And often, it will give you the first
+result that has the most download.
+This one is from Microsoft.
+Looks legit.
+Let's just install it, right?
+So I'm going to install this extension
+to my programming environment.
+Once it's done, I go
+back to my Python code.
+I'm trying to import a pillow library.
+So if I type from pil
+import image, I haven't
+finished typing yet, it's
+already suggesting, OK,
+do you want to import the
+particular image module or what?
+So this extension, basically,
+provides language support for you.
+Basically, enhance your
+programming experience.
+Although we disable this
+for student for good reason.
+We want to train their muscle
+memory at the beginning.
+Similarly, we can also
+install an extension for Java,
+as well, as you can imagine.
+That will provide other language support
+capability for Java language as well.
+So as you can see, you can
+install more extensions
+to further customize the
+codespace experience.
+We actually also write our own CS50
+extension for our CS50 codespace
+just so there's some experience we
+want to provide for the student.
+For example, Style50, even the AI doc
+that's integrated to the CS50 codespace
+is achieved through
+the VS Code extensions.
+Let's talk about commit changes.
+When you are dealing with codespace,
+when you are creating file,
+when you are modifying file,
+you want the file to persist.
+Normally, if you work
+on your local computer,
+your file is persist on
+your local hard drive.
+It's automatically happening locally.
+But for codespace, because we
+are dealing with a repository,
+so everything you do within
+codespace is considered changes.
+And we need to actually
+process those changes
+by basically committing and pushing the
+changes back to the backend repository.
+Now, student actually don't need to
+worry about all this because, again,
+in CS50 codespace, we have another
+extension called Git Doc that literally
+doing the commit and pushing changes
+every 30 seconds for student,
+as a way to backup their file.
+I'm just going to explain
+why we are doing this
+so that you know what's
+actually happening
+underneath the hood
+of the CS50 codespace.
+So here, because we created
+the hollow.jar file and then
+the hollow.py file, I also
+modify the Dockerfile somehow.
+So these are the changes that
+the VS Code is telling, hey,
+you have these changes.
+Do you want to commit these changes?
+And I would like to commit the
+changes, so I click Commit.
+And I need to push these
+changes back to the repository.
+Again, everything right now is still
+happening inside this codespace.
+And codespace is just
+an instance, right?
+So if this codespace is
+being deleted or destroyed,
+all the uncommitted
+changes could be lost.
+So we don't want that.
+We actually want to persist the
+changes back to our backend repository.
+So I'm going to click
+Sync Changes and click OK.
+It will just push all the
+changes back to the repository.
+And if you go to your
+repository view, you
+will see the two files we just
+created from the codespace.
+OK, now, I'm going to dive a little
+bit deeper on how you can further
+play with this devcontainer.json.
+Again, you can go as complex as you
+want to suit your teaching needs.
+Here, I'm just going to
+do a slight modification.
+Previously, we wrote our own
+Dockerfile and then let dev container--
+well, let GitHub Codespace to build the
+image while launching the codespace.
+But actually, you don't have
+to build the image every time
+you launch a codespace.
+You can use the image being
+built by a third party.
+For example, the Python
+organization already
+have a Python image built
+remotely in the cloud.
+You can just reference it and use it.
+That way, in your dev
+container JSON file,
+you don't have to
+specify a build property.
+You will instead replace
+it with an image property.
+OK, for this codespace
+when you launch, you're
+just going to grab this Docker
+image from the Python Docker repo.
+Get that.
+Use that as the underlying
+operating system image.
+And as you can see further down, you
+see the Customization field, which
+means in this
+devcontainer.json file, you
+can further customize the behavior
+of VS Code, what extension
+you want this VS Code to pre-install.
+What kind of settings do you
+want this VS Code to have.
+That way, you can customize the
+theme, customize the font size,
+customize whether you want to
+provide students with IntelliSense.
+Meaning, do you want to give student
+the ability to use code completion?
+In CS50's scenario, we disabled
+that through this dev container
+JSON settings.
+And you can tinker with this
+setting however you want,
+as long as you follow the instruction--
+as long as you follow the
+dev container JSON guideline.
+So I'm going to actually update the
+dev container JSON file for now.
+Again, to update this dev container JSON
+file, you go to your Repository view.
+You click devcontainer.json.
+And then, I'm going to add it in place.
+So I'm going to click Edit
+mode in this GUI text editor.
+I can just copy paste
+the content I mentioned.
+First of all, I replace
+Build with image property.
+In fact, this is already a
+valid devcontainer.json file.
+If you're going to launch a codespace
+using this devcontainer.json,
+it will work.
+It will just launch a codespace with
+the bare minimum of Python Runtime,
+like a Python container.
+But we want to further customize it.
+That's why we add more things
+to this container JSON file.
+So we add customization for VS Code.
+We also want to pre-install some feature
+that offered by dev container JSON.
+Again, we need to commit these
+changes back to the repository.
+Now, the repository has
+the updated JSON file.
+What are we going to do?
+So we want to also
+launch a new codespace.
+The current codespace will stay as
+it is because it won't automatically
+update the codespace for you when you
+update the dev container JSON file.
+Again, each codespace is
+backed by a repository.
+So we want to launch a separate
+codespace using the latest dev
+container JSON file.
+So again, go to the Code tab.
+Click Launch.
+And then, you can click Create another
+codespace on main, like the Plus button
+here.
+So I'm going to click that.
+It creates another
+codespace for you, for me.
+Now, this time it looks
+a little bit different.
+It looks kind of yellowish.
+This is as expected because in
+the codespace customization,
+I specify use the theme solarized light.
+This is what the theme looks.
+And when you launch a codespace by using
+that particular dev container JSON file,
+you will get a codespace
+as you wish, because you
+define it to use this theme by default.
+This is actually a way
+for me to quickly show you
+that this new codespace is
+actually launched using the latest
+devcontainer.json file.
+And again, we can quickly verify that
+it does have the Python Runtime ready
+because we are using the Python image.
+And this is the current stable
+release version as well.
+And again, because in
+the dev container JSON
+file I already specify that I want it to
+have the Python extension pre-installed,
+it already comes with
+the Python extension.
+That way, you don't need to manually
+go and install the extension every time
+you launch your codespace.
+You can literally just define everything
+you need in that devcontainer.json
+file or a recipe, if you will.
+You write everything there.
+You define it, and then you run it.
+And then, you will have a codespace
+that exactly has those settings.
+And that's exactly what cs50.dev
+is doing underneath the hood.
+This complication, we don't
+want students to actually know
+what's happening underneath the hood.
+We just automate the
+process for the student.
+And you are actually seeing
+how this being done manually.
+We can also verify that the
+feature called the GitHub command
+line features already pre-installed
+as well through the feature property.
+Now, you might wonder, OK, this
+is actually kind of inconvenient.
+Every time you update some config,
+you need to launch a new Codespace.
+Can we do that without actually
+launching a new codespace?
+In fact, you could.
+There's a thing called Rebuild Codespace
+as a way to update your codespace.
+Let's say we don't want to
+use the Python image anymore.
+We want to switch to Java because
+I have a Java course to teach.
+What you need to do is to modify
+your existing dev container
+JSON file to use the Java Runtime image.
+You also want to switch the Python
+extension to the Java extension
+because it doesn't make sense to use
+a Python extension for Java program.
+I also want to change
+the theme to dark theme.
+If I do that, let's say
+I go to the codespace.
+I live edit the dev
+container JSON file here.
+This is the old devcontainer.json
+file still using the Python Runtime.
+Let's change this to the Java Runtime
+and then change the extension to Java
+and then change the theme to dark.
+Once you save the changes,
+codespace immediately notify you.
+Hey, you make some changes to
+the dev container configuration.
+Would you want to rebuild?
+Rebuild means would you want
+GitHub to apply the new updated
+settings for the codespace?
+So yes, we want to
+apply this new settings.
+So we'll just click Review.
+And then, you can click
+Review or Full Review.
+Detail explanation on what the
+difference is is also in the notes.
+So I'm just going to review.
+Review means, OK, GitHub is
+now launching a new container
+using the updated configuration.
+And now, you can see that
+the new codespace actually
+switched to dark mode, and it
+has the Java Runtime installed.
+It also has the Java
+extension installed.
+So that's basically a
+quick overview on how
+you can create a codespace, customize
+codespace for your classroom need.
+Again, CS50 is doing
+exactly similar thing,
+but we are doing it through GitHub API.
+We roll our own web app to automate
+this entire process for students.
+So all students need is one
+click Login, and they will
+have a CS50 codespace ready for them.
+But if you don't want
+to use CS50 codespace,
+you want to use something
+else, that's the steps you
+might need to go through to provision
+a codespace for your classroom.
+There are also more additional
+resources in the slide as well.
+OK, that's a lot.
+We finish get through the first two.
+So I'm going to talk about
+the rest of the two quickly.
+So now that students have the
+standardized programming environment,
+they can start writing code.
+What's next?
+They need to submit.
+And as an educator or a
+teacher, you want to grade them.
+Now, we're talking about
+what tools CS50 available
+provided to student and teacher
+so that they can submit their code
+and then teacher can
+grade their submission.
+And all of the tools and how the usage
+of the tools are available at this URL
+called cs50.readthedocs.io.
+The first tool I'm going to
+briefly mention is called check50.
+So check50 is a command line
+tool for running automated tests
+on students' code.
+It's mostly for correctness test.
+So students write some code.
+They follow like a specification.
+They implemented it.
+How do we know if the student
+actually meet the requirement?
+So they can run check50 for
+a particular problem set.
+Let's say the student is working
+on P set week six, DNA problem set.
+The student can actually run this
+command right within the CS50 codespace
+to know how well they're doing
+with their current problem set.
+They run check50.
+They get a live feedback
+in the terminal telling,
+OK, your dna.py seems
+to be looking good,
+but it doesn't pass the first check.
+Then, the student can
+actually look into, OK,
+correct that code a little bit.
+Modify that code a little bit.
+Rerun check50 again to see if
+they can pass all the check.
+So this is kind of
+like a tool we provide
+to student to help their learning.
+That way, if they can pass all the
+checks, they know for sure they pass--
+their implementation,
+meet all the requirements.
+We are also running this in the cloud.
+So when student run
+check50, what's happening
+is we auto-commit the code to a
+repository that's owned by us.
+We then have a grading cluster that
+automatically downloads students' code
+and run the correctness
+check in the cluster.
+And then, we send back the
+result to the terminal.
+So again, this is all
+maintained and managed by us
+and offered free to student to use.
+For example, in codespace, this is what
+the student will be looking at actually.
+So the student write their code
+right in the VS Code text editor.
+They write the dna.py.
+They finish writing the code.
+They're going to run check50.
+And that's check50.
+And then space cs50/problem/2024/x/dna.
+I'm going to explain what
+that is in a later slides,
+but that's the command
+that we need to run.
+And we actually provide
+all the command they
+need to run in order to
+run the correctness check.
+We also provide a web view for
+their correctness check result.
+They can also go to a
+URL that's automatically
+generated for each check50 run.
+They can just go see their
+result there as well.
+Alternatively, they can
+also run it locally.
+That way, they don't need to send
+the code to our grading cluster.
+They can just run it in
+their environment locally.
+This is a scenario that happened when
+student doesn't have a reliable internet
+access.
+They don't have a way to
+access the CS50 codespace.
+We actually provide offline
+version for the CS50 codespace
+so they can actually run check50
+in an offline way sort of.
+That way, they don't need
+an internet connection.
+All they need is the
+check50 auto-grading code,
+and then it will run the
+check within their machine
+or within their compute
+environment locally,
+but they do need to install
+the check50 library as well.
+So to summarize what check50
+is, automated testing.
+It's standardized test case.
+So everyone running the
+same check50 command
+will actually get their
+code graded the same way.
+You'll get immediate response in
+the terminal, right in the terminal.
+What your program did right, what
+your program didn't do right.
+Occasionally, in the check50,
+we actually provide hints.
+So if you run into some error, we
+do have customized error message
+provided to student.
+So the student might know or might get
+the aha moment, OK, maybe something
+they should need to fix.
+And then, hopefully,
+they can pass the check.
+Although, passing the check50
+check is not the goal of learning.
+It's just a tool we offer for them.
+They should not be relying on
+check50 to do their learning.
+We understand that sometimes students
+just want to get past all the grades
+and then they keep running check50.
+That's something to be mindful of.
+And so what's the role GitHub
+play in this check50 situation?
+So again, when you run
+check50 in the online version,
+we actually automatically commit
+their code to our repository.
+All the online student, all
+the student using this check50
+will have their own repository
+storing all their code.
+And that's what GitHub's
+role is played here.
+Again, it's for storing students' code.
+OK, so what does this
+command mean exactly?
+And how you can actually
+write your own check50 checks.
+So in the universe of
+check50 and submit50,
+there's a thing called submission slug.
+You can think of it as an identifier
+that identify a particular problem set.
+And again, this is an infrastructure or
+an experience we build on top of GitHub.
+So it actually has some meaning.
+The first half, cs50/problem,
+represent the GitHub repository.
+So we are actually using
+GitHub repositories
+to store all the check50 checks.
+That way, all the educators,
+all the people using check50
+can use that check50 check
+to check against their code.
+The second part is a branch.
+You have lots of problem set, but
+you want to organize them by branch,
+meaning by different year could be.
+It could be by course.
+That's up to you how
+you want to categorize
+the check50 checks they are writing.
+So we are using branch as a way
+to categorize or group checks.
+And then, OK, within that particular
+group or category, what kind of problem
+set this check belong to?
+There's a folder called the DNA.
+And again, if I show you what
+it looks like in the repository,
+it looks like this.
+So this is actually a
+public available repository.
+So if you go to gitHub.com/cs50/problem,
+this is actually the repository that
+hosts all the checks we use for
+CS50 in the past year to date.
+So as you can see,
+you need a repository,
+which is the problems repository
+under the CS50 organization.
+In your case, it would be
+your own personal account.
+And then, you create a repository.
+And then, you store
+all the checks there.
+And you notice here there's a branch.
+We call it 2024/x.
+This is for the EdX course or
+for the CS50x course in general.
+So in that particular
+branch, we have problems,
+lots of different problems
+for different weeks.
+And then, for week six,
+we have DNA problems.
+And that's how it being
+structured in the repository.
+And if you look at the repository, this
+is all the file necessary for check50
+to run.
+And I will explain what that means.
+OK, you would want to know
+how to write your own checks.
+First of all, if you are adopting
+CS50, if you are teaching CS50,
+you can already use our
+check50 checks automatically.
+You don't need to do anything.
+You can just use the check we
+pre-written without any changes.
+But sometimes you want
+to modify the check.
+You want to write some new
+checks for your classroom.
+We do allow educators to do that.
+To achieve it, you will need two
+files in the check50 folder--
+the check50 check folder.
+So the first file is
+called the cs50.yaml file.
+It's like a configuration file
+that check50 would understand.
+This is just our rule of
+writing this configuration.
+So you just need to follow
+the rule we specify.
+Again, if you don't understand how
+to actually write this YAML file,
+there's a detailed instruction in
+cs50.reader.io available for you.
+So I'm just going to quickly go
+through what this YAML file is doing.
+So it defines we want to
+exclude everything first.
+Basically, we don't want
+to collect everything
+that the student has in their
+codespace or in their folder
+while working on their problem.
+We only need the dna.py for this
+particular example for this DNA problem
+set.
+That's the file we care.
+That's a file check50 care.
+You might want other
+file to be collected.
+So you can define them
+in this YAML file.
+You want to collect
+more file, that's fine.
+Once you have this defined, you
+also need to write the actual check.
+So to write the actual check, you
+will put it in the init.py file.
+And then, you would just
+write your check50 check
+by following our instruction
+for all the test case.
+For example, I'm writing a very
+simple input output test here.
+This is just a declaration function
+that we require you to write.
+Meaning, the following
+function is it's a test case.
+So once you have that written,
+you can also specify, OK,
+what this test case is actually doing.
+So when student run check50,
+they will see the feedback.
+And they will see what this
+check is actually doing.
+And this is the actual check.
+The code will be executed
+when running check50.
+This is actually a C program the
+student are expected to write.
+It's a C program, right?
+All it needs to do is it
+takes an input called WADL,
+and then it just output an exact
+same input as WADL as well.
+So we are looking for that.
+We are expecting an input from students'
+code, so we will call STD, standard in.
+Basically, we are now sending
+Waldo to students' code.
+So if the student code
+doesn't even take input,
+it will fail the check automatically.
+If the student does take
+standard in, then we
+want to check if the output actually
+matches the expected output.
+In this case, we expect it to
+output the same thing we sent in.
+So if it pass this check
+as well, the program
+should exit gracefully
+with a status code zero.
+That's the thing we require student
+to do, at least for this check.
+So if everything is in order, the
+student should pass this check.
+And this is an example of how you can
+write a traffic check for a problem set.
+So again, you have some
+level of flexibility here.
+So you can even bring in the
+dependencies you want to use.
+You just need to define them in the
+check50 check configuration file.
+And the underlying environment
+that you are running check50
+should have those dependencies.
+So if you are running check50
+locally in your machine,
+you want to write
+check for Java program,
+I believe most of the Java dependency
+we have in the cloud version.
+But if you have some other
+typical like dependency
+that you need to facilitate
+your check, then you
+need to have those dependencies
+installed in your environment.
+And check50 will be able
+to handle that as well.
+Again, if you are unsure
+or this is too much,
+you can still refer to
+the documentation to see
+how to actually write check50 checks.
+Another tool I want to talk
+about is called style50.
+When grading students' work,
+we grade them in correctness.
+We also grade them in the style accent.
+So we want to know if they are
+writing code in a formatted way.
+So let's say I have a Python code, but,
+for example, this particular Python code
+indentation is not correct.
+Sometimes it has a one tab
+indentation, but for this code here
+it has two tab indentation
+versus here it's only one tab.
+So this is considered not a good style.
+Your style should be consistent.
+And that's actually the
+requirement we provide to students.
+They should write a code with
+good format and readable.
+And so we wrote a tool called style50
+that basically checks the style
+and show what improvements students need
+to do to improve their code formatting
+or style in general.
+So when you click style50
+in the VS Code top right,
+if your code doesn't look
+good, it will show you, OK,
+on the left is the code you are writing.
+On the right is the code we
+think, or the formatter think,
+it should be formatted properly.
+So here, a student will be able to
+see, oh, I should erase the extra tab.
+I should make that changes
+to make my code look good.
+In fact, like indentation is a thing
+for Python program, but for C program,
+you don't need any indentation.
+You can write however you want.
+You can even write like a complex
+one line 1,000 character program.
+That's fine, but no one's going
+to understand what you're writing.
+So we want to promote good
+style in writing code.
+But again, there's a different view.
+We also have this different
+view on a narrow window.
+We also provide students
+like a different view.
+So the student can clearly see
+what changes they need to make.
+If the student still don't understand
+what it means because sometimes it
+could be confusing, by
+utilizing AI, we were
+able to integrate our CS50
+duck into the codespace.
+So when they click Explain Changes, they
+will get back a human readable or plain
+text response from the GPT4
+to explain what changes you
+need to make to improve your code.
+This is all achieved
+through VS Code extensions.
+Again, this is just to highlight
+the extensibility of VS Code,
+but that's the tool we
+are providing for student.
+This is style50 in particular.
+OK, now that the student
+finished writing their code,
+finished formatting their
+code, they want to submit.
+How are they going to submit this code?
+One way we offer to all the students
+in the CS50 online ecosystem
+is they can use a tool called submit50
+to submit their assignment to us.
+Again, similar to
+check50, essentially, what
+submit50 does is it
+automatically commit the file
+or push the student's
+assignment to a repository,
+again, managed by us, but student
+can also access that repository.
+So it's just going to push the code
+within that particular folder that
+has the problem set file
+to their remote repository.
+Again, the command is similar.
+This time, it's submit50
+cs50/problem/2024/x/dna.
+So we are asking students
+to submit the DNA
+problem set for the 2024 CS50x course.
+So once the student execute that in
+the command line, it will ask you,
+OK, these are the files
+that will be submitted.
+If we have more files that wasn't
+specified in the configuration
+file I previously mentioned,
+those file will be ignored.
+We only care about what the
+problem set actually need.
+It will also prompt student
+do mind the academic honesty.
+Are you sure you want to submit?
+Because once you submit
+this file to us, we
+will assume this is the
+file written by you.
+If it's written by someone
+else, you are clearly
+violating academic honesty policy.
+So we do prompt student every
+time they run this command.
+They have to either provide yes or no.
+So if I provide yes, I
+did write a code, I think.
+So I type, yes.
+And I will submit the code to a
+repository that actually named like
+me50/ My GitHub username.
+It will be submitted to
+this particular repository.
+And in fact, when a student joins
+CS50x or CS50 course online,
+we will automatically
+provision everything
+that the student need, including
+creating this particular repository.
+And as you can see, if I go
+to my student repository,
+I will see that I
+submitted the DNA here.
+And if you pay attention, I
+also run check50 previously.
+So it actually has a commit message
+says automated commit by check50.
+Because every time you run check50,
+you're actually also committing file,
+but you are not submitting file.
+So we are not going to grade
+your check50 run as a submission.
+Only when you run submit50 do we
+actually count that as a submission.
+So what happen is
+after you run submit50,
+essentially, you push the
+code to this repository.
+We use GitHub Webhook.
+We basically notify our grading cluster
+by telling the grading cluster, hey,
+this student submits some file.
+Go check it.
+So the grading cluster
+will basically go in
+and grab the student's submitted file.
+Run check50 again remotely and then
+send back the response to our database.
+That's how we complete the
+auto-grading for the submission.
+And the question naturally
+led to, OK, where do
+students actually see the submission?
+Because the GitHub repository
+shouldn't be something
+the student interact with frequently.
+So we actually had an application
+for student and teacher
+called submit.cs50.io.
+You can think of it as a learning
+management system like Canvas.
+It's just something we
+wrote for our CS50 workflow.
+You don't have to use it,
+but we provide this for you.
+So students can see all their
+submissions through submit.cs50.io.
+And teachers can also see the submission
+from their student on submit.cs50.io.
+So as a teacher, you
+are now concerning, OK,
+then how can I create a course for
+my student in the CS50 universe?
+To do that, you go to
+submit.cs50.io/courses/new.
+You will be presented by this page.
+In this demo, I'm just going to
+create a course called Workshop 2024.
+Once you type the
+name, you click Create.
+It takes some time.
+What's happening is we
+also automate the process
+of creating some GitHub teams
+underneath the hood as a way
+to represent a course in the CS50.
+Again, everything is built on
+top of GitHub's infrastructure.
+So once you finish
+creating a course, you
+will be brought to this Settings page.
+You can further
+customize, OK, how do you
+want to name the course, or
+any description for the course
+you want to provide.
+The most important piece is you want to
+get your student enrolled to the course.
+So there's an invite link.
+You can copy paste this link
+to the email or to somewhere,
+so that all your student can go
+there and join your course on CS50.
+That's how you get student
+enrolled to your course.
+That's actually the same thing we
+are doing for all the CS50x course.
+Once you get the student enrolled--
+now, actually, let's take a look at
+what's happening when student actually
+click the invite link.
+So for example, I'm a student.
+I'm joining the workshop
+taught by the Rubber Duck.
+That's the teacher.
+That's the main instructor
+for this course.
+So this is what I'm seeing.
+I agree to join the course.
+Meaning the teacher will be able
+to access everything I submit.
+And now, the part is, OK, what kind
+of assignment you want to collect?
+Again, I previously mentioned the
+submission slug is an important piece
+in working with the CS50 ecosystem.
+OK, I only want to collect
+this particular DNA
+problem set for this course.
+So if student working on other problem
+set using different submission slug,
+it won't show up in your submission
+because you are not collecting those.
+But if you want, you can add more here.
+You can also use a prefix.
+For example, if you want to
+collect everything that CS50 offer,
+you can just write CS50/problems/, then
+everything that matches that branch
+prefix will be collected if student
+ever submitted those problem set.
+And again, you can also invite
+other teachers or GitHub user
+to be your course teacher.
+It could be your teaching
+assistant, course assistant.
+So that's up to you.
+So you can create an invite
+link and send to your TA.
+Each invite link only work once.
+So if you want to
+invite like five TA, you
+will want to create five invite
+links for security purposes, reason.
+So let's say my course, the Rubber
+Duck course, has three students.
+They use the invite
+link to join the course.
+We now have these
+three amazing students.
+And they submitted the DNA problem set.
+It looks good.
+I feel like they already do
+a good job with their style.
+They are getting almost a
+perfect grade on the style,
+but one student seem to
+having issue with the check50
+with the correctness check.
+So you would want to see, OK, what
+happened to that particular submission?
+So in fact, you can actually
+go and click the check50
+to see what's happened to their
+code as a way to find out,
+OK, maybe some things
+student need to improve.
+So I click on that.
+I see that, OK, this
+is what's happening.
+The correctness check is expecting
+like a Bob output for the first check.
+But this student actually
+went above and beyond.
+Like, they give you what is
+actually happening in its code
+and also providing actual output.
+So the student actually
+doing a good job,
+but it's not passing the auto-grader.
+That's fine.
+That's the reality of correctness
+check because it's not AI, right?
+It doesn't know how to
+account for this scenario.
+But maybe something
+that you can actually
+customize your check50 check to
+accommodate this particular output
+to mark it as a correct answer.
+But anyway, this is how you can
+also access the check50 result
+for a particular student.
+We also have another tool
+called the compare50.
+It's mostly to determine
+code similarity.
+You can use it to resolve some academic
+honesty cases when using this tool.
+So if you collect all the
+submissions from the submit.cs50.io,
+you can run compare50
+on all the submissions.
+And then, it tells you
+what submissions are
+similar to the other
+submission by a score, right?
+And then, you can zoom in and narrow
+down, OK, these two submissions
+look very similar.
+You are curious of what's happening.
+And you want to take
+some action against it.
+That's up to you, but this
+is the tool we also provide
+you to perform similarity check.
+So yeah, that basically--
+yeah, OK, again, sorry.
+This is what it looks like.
+If you want to see a
+side-by-side comparison view,
+compare50 will give you that view to
+see, gee, like these two submissions are
+identical.
+What happened?
+I don't know.
+So as an educator, you might
+want to investigate this.
+It could be an academic honesty case.
+So anyway, compare50 is a to allow
+you to perform code similarity checks,
+and it's up to you how you want to
+deal with the result it present to you.
+OK, that's a lot.
+We go through all the
+tools for the submit50,
+for the CS50 tool for grading
+and submitting and programming.
+I want to close this by
+showing you this picture.
+It's like drinking from a fire hose.
+If that's the case, I'm sorry about
+that, because, again, it's too much.
+I also understand there's
+a lot of material.
+But the slides I provide should
+have all the external resources you
+need to look at it in your own time.
+Oh, yeah, although, I do have
+one more thing to explain.
+Besides all the tool I talked to you, we
+actually have a tool called the cs50.ai.
+It's an attempt to use AI in our
+education to assists students' learning.
+So, in fact, if you go to cs50.ai,
+this is like a virtual tutor
+we provide to students for free.
+Behind the scenes it's
+using OpenAI GPT4.
+We want to provide students
+like a 24/7 teaching assistant.
+So if the student go to this web page,
+they will be presented with this view.
+And in fact, they can talk to this duck.
+Let's say, hey, I'm doing a
+live demo on you, the CS50 duck,
+in front of some amazing
+educators across the globe.
+Can you just say hello quickly?
+So yeah, the tool will be able
+to quickly generate a response.
+I'm just demoing here by
+having it say hi to you all.
+But as you can imagine,
+students can actually
+go to this tool as well to ask questions
+and to get an immediate feedback
+to assist their learning.
+OK, that's all I cover in this section.
+And I'm open to all the questions.
+And again, it's a lot.
+And if you want to
+know more, you can just
+look at the slide and presenter notes.
+I have all the detailed
+instructions written there.
