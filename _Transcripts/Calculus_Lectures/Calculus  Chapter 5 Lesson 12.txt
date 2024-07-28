@@ -1,0 +1,417 @@
+hi there welcome to Chapter five less
+than 12 and when today we're gonna
+finish up our u-substitution lesson here
+with definite integrals
+now this lesson is gonna look very
+familiar to what we started off with
+back was it less than 10 when we were
+doing and the antiderivative with you
+substitutions here we have a very
+similar example here but there's one key
+difference today we're looking at
+definite integrals and we're gonna have
+these little numbers these lower limits
+of integration the upper limits of
+integration or lower bound and upper
+bound and how do we handle that well in
+this case if I were doing an
+antiderivative
+we're probably used to doing this at
+this point now where we look inside the
+parentheses we find you should equal
+maybe x squared plus 2 notice D you the
+derivative of that is right there so
+this is really a u squared to you but
+something happens in this next step as I
+do my substitution we can see I changed
+these numbers the lower bound
+the upper bound changed and the question
+is why why did that change because back
+here this was x equals 1/2 x equals 2
+right because this is with respect to x
+but once we change this to you it's now
+with respect to you which means whatever
+values go here they need to be u values
+and so I'm what I'm basically saying is
+that that's u equals 3 and y equals 6
+but how did I get those numbers let's
+come back to this for a moment
+we knew that X was equal to 1 right here
+if X is equal to 1 what should you be
+well plug it in we created the
+definition here if X is 1 we plug it in
+and get 1 squared plus 2 that's 3 all
+right so you would equal 3 and that's
+exactly where that comes from next if
+we're gonna take this x equals 2 and
+plug it in 2 squared plus 2 so 4 plus 2
+is 6 and that's where that 6 comes from
+so basically what this is a reminder of
+is when we change everything in terms of
+U we can't forget about the those tiny
+little numbers there the lower and upper
+limits of integration we need to change
+those into u values as well and once we
+do that now we get this integral and I
+just want to point out whatever this
+equals we haven't figured it out yet
+it's just gonna be some number you could
+sort of think of it as area under a
+curve but it's gonna be a number there's
+no plus C here
+there's no X variable in our final
+answer it's gonna be a constant and it's
+gonna be the exact same constant as this
+one here or whatever this equals will be
+the exact same constant the reason I
+mentioned that is because once we do an
+antiderivative here which is a pretty
+simple one we add 1 to the exponent we
+divide by it we do not need to plug you
+back in in fact we've already changed
+everything in terms of U we can
+basically just reset our minds here and
+just figure out what is the answer to
+this definite integral whatever that
+number is will be the correct answer so
+from here we plug 6 in we plug 3 and
+then we're gonna subtract those results
+so 6 goes in 6 cubed divided by 3 is
+going to be a 72 and 3 cubed that's 27
+over 3 is going to be at 9 and us will
+get subtract 72 minus 9 again 63 and
+that will be my final answer at no point
+did I need to plug the x squared plus 2
+back in once I changed everything to you
+I could just figure out what that
+integral equals and that's my answer
+okay all right so let's take a look at a
+few examples here and see if we can get
+the big idea number one we have an
+integral from 0 to 1 we have X we have
+parentheses x squared plus 1 all cubed
+and this is gonna start to feel like the
+kind of problems we've been doing here
+we're gonna set u equal to what's the
+the function inside here should be an x
+squared plus 1 I think let's just check
+it outthe ODU would be 2 X DX now we
+don't exactly have that what are we
+missing well we can see that there
+should be a 2 there so we'll create it
+and we'll create a 1 over 2 as well
+so typically my u substitution would
+look something like this we'd have u to
+the 3 power we'd have D U but there's
+one big difference here this isn't 0 & 1
+anymore because those were X values that
+was x equals 0 and x equals 1 what we
+need are the U values now so let's
+figure it out if x is 0 what's u let's
+plug it in if x is 0 u should equal 1 if
+X is equal to 1 plug it in you get 1
+squared plus 1 that's going to be 2 so I
+need to change these into u values as
+well this is gonna be if you make some
+mistake on this promise is probably the
+most likely place you'll make a mistake
+is you'll forget to change these limits
+of integration you'll keep using the
+original 0 and 1
+all right so let's go ahead and find the
+antiderivative we add one to the
+exponent so that's to the fourth divided
+by it and then we're going to plug two
+in one and we're just gonna plug it in
+exactly you know what we have here
+there's one more thing I'm gonna do here
+though before I get started I'm actually
+gonna factor that 1/4 out this is going
+to be 1 over 8 then right we multiply
+those together now let's go ahead and is
+I find this is a nice little step to
+make the fraction math here a little
+little easier I think we put 2 in to the
+fourth is 16 minus 1 to the fourth is 1
+there's gonna be a 15 it's going to be
+in the end here 15 over 8 is our final
+answer there's no plus C there's no X
+there's no need to plug you back in ok
+once we change everything in terms of U
+we can just evaluate it let's see if we
+can do number two now what do you think
+you should equal in this case unless we
+want to multiply this out we want to
+choose you to be that inner function
+here x cubed plus a we know it's the
+right choice because the D you the
+derivative is gonna be a 3x squared and
+we know that even though we don't have 3
+we do have the more important thing
+there which is the x squared the
+constant the 3 is something we can
+always create create a 3 create a 1 over
+3 and we should be able to do a
+u-substitution so we're gonna have you
+to the 2 power we're gonna have D you
+let's plug in if X is negative 2 we got
+to change that negative 2 goes in all
+right if this negative 2 goes in what do
+we get well that's negative 8 plus 8
+that's 0 next we're gonna plug 1 in 1
+plus not 8 is 9 and let's go ahead and
+find this answer here we do an
+antiderivative so we get u cubed we
+divide by 3 we plug in 9 we plug in 0 we
+subtract now again I could factor out
+this 1/3 here that's gonna be a 1 over 9
+if I do that I'm just plugging 9 + 9
+cubed minus 0 cubed and you might know
+what that is you might not it's a little
+bit of a calculation if you don't but
+I'll point out here that we could just
+cancel out one of those 9s here and it's
+really just 9 squared isn't it so this
+is gonna be an 81 you can actually
+simplify the math a little
+that way let's take a look at number
+three
+number three again we don't have a
+quotient rule and we need to rewrite
+this somehow and one of the things is if
+instead of having this function of X
+here if we just had an X we could have
+rewritten this as a power rule that
+square root on the bottom is really like
+a negative 1/2 power we are eventually
+going to do something similar this is
+like a power rule problem but we don't
+have X there we have a function of X so
+we're gonna say u equal to that inner
+function of X 1 minus 3x do you is what
+derivative should be negative 3 DX and
+what are we missing here well let's see
+we can create that negative 3 no problem
+I just have to create a negative 1 over
+3 as well I'll bring that out front so
+we get negative 1 over 3 in front we get
+square root of U on the bottom and the D
+U I'll just pull out to the right side
+here and let me just rewrite this one
+more time because it's gonna be helpful
+to rewrite this as a power isn't it you
+can write this as u to a negative 1/2
+power and now we can do power rule power
+rule says we add 1 to the exponent so
+that's positive 1/2 divided by it so
+that's really times 2 over 1 and what if
+I've been doing I've been forgetting my
+limits of integration now we don't want
+to forget about these we do want to
+change them if X is equal to let's start
+at the bottom one here if X is equal to
+negative 1 plug it in we're gonna get 1
+minus negative 3 times negative 1 so
+that's really this is gonna be 1 plus 3
+that's 4 down there next we put 0 in
+we're gonna get a 1 here in fact if you
+wanted I know it's a little bit strange
+they have the bigger number on the
+bottom and the smaller number on top
+here if you really wanted to switch
+these around you could we just have to
+create a negative sign which would turn
+this positive if you want to do that go
+ahead I usually do I want to show you
+though that this will work even if we
+don't if I put a 1 in and a 4 in this
+will still come out to be the same
+answer and let's see what we get let's
+go ahead and factor that 2 out by the
+way I just 2 can factor out and factors
+out to the top so if we factor that out
+we just have u to the one-half left so
+that's going to be a 1 to the 1/2 right
+that's really a square root
+- four - the one I have that square root
+of four is two well we'll see as we get
+a negative one inside times the negative
+tooth there's gonna be a positive
+two-thirds okay this is the same answer
+we would have gotten if we had switched
+the lower bound and upper bound by
+creating a negative sign right but
+basically making this positive here all
+right let's take a look at number four
+now number four looks pretty complicated
+doesn't it one of the things I'm
+thinking about doing is I could multiply
+this all out I could maybe split it up
+it's gonna be pretty complicated here
+the the more obvious thing to me anyway
+seems to be what there's parentheses
+there even though there's square root
+there there is a function inside of the
+square root - but it's just X remember
+we don't ever set u equal to just X so
+what I'm really looking at is what's
+inside the parentheses right here and
+that's gonna be square root of x - 1
+imagine that what would the derivative
+beam we know that this is really a 1/2
+power right so this is gonna be 1/2 X -
+a negative 1/2 DX and let's go ahead and
+simplify that that's 1 over 2 X - a
+positive 1/2 power
+now if you look carefully we sort of see
+that happening here don't we let me show
+you what I'm talking about
+let's take instead of dividing by square
+root of x let's sort of split this up
+here we have square root of x - 1 all
+squared and x the we can say instead of
+dividing by square root of x we can say
+times its reciprocal and let me just
+rewrite this a little bit here this is X
+to the 1/2 part can you see that all
+we're missing is a 2 right here
+right and then I have this and if I
+create that 2 on the bottom be very
+careful here I also have to create a 2
+on the top okay this is a 2 on the
+bottom this is technically like saying
+times a 1/2 power so we do need to
+create a 2 out here we create a 2 on the
+bottom and create a 2 on the top we
+factor the 2 on top out I forgot my DX
+here as well now I have my D u so we
+have - we have an antiderivative of this
+is gonna be u squared du u this is
+really just a power rule isn't it this
+is U to the 3 power divided by the 3
+plus C oh gosh I'm getting too far ahead
+of myself again it's that plus C we are
+talking about a definite integral here
+we gotta remember to change those
+numbers if X is 1 plug it in
+one minus one is zero if four goes in
+square root of four there's gonna be two
+two minus one we get one there so let me
+fill those in here again we don't need
+to do you plug you back in we can just
+plug one in directly I can take that one
+third out I do recommend doing that
+alright let's take the one third out so
+it becomes two-thirds in front one cubed
+minus zero cubed grand
+so one minus zero we just get 2/3
+strangely the same as the last problem
+here alright let's look at two last
+examples of trigonometry so we're gonna
+set u equal to what well there's a
+pretty big clue here we can see that 2x
+over 3 is in parentheses so we do have a
+function inside here this was just an X
+in here we wouldn't need u substitution
+but it's a function of X so we're gonna
+set u equal to this I'm gonna rewrite it
+slightly I'm gonna write it as 2/3 X
+because the next step is when I find the
+derivative is it's gonna be a little
+easier to write it kind of like this
+this is sort of in the form of a power
+this is just gonna be 2/3 DX now that is
+a constant and although I'm missing it I
+can always create it we just squeeze it
+in there let's create a 2/3 if I create
+a 2/3 I also have to create a 3 over 2
+which I will factor out so we have 3
+over 2 we have the antiderivative or the
+definite integral of cosine u we have D
+you also don't mean let's change the
+limits of integration let's not forget
+this time if x is 0 and if x is 0 plug
+it in and we get U is 0 in that bad if X
+is equal to PI over 2 let's plug it in
+and this one let's say the twos are
+gonna cancel out and so PI over 2 and
+we're gonna get PI over 3 instead
+alright good so we took 2 over 3 times
+pi over 2 twos cancel that we're left
+with PI over 3 and now this is kind of a
+new problem here then we're gonna try to
+evaluate this integral so what's the
+antiderivative
+well it should be sine of U I think
+derivative of sine does go back to
+cosine right you can always double check
+1 PI over 3 in plug 0 and subtract
+that's good bees ants
+so we get sine of PI over three I
+imagine where that is on the unit circle
+PI over three
+here's 0 here's PI PI over 3 must be
+that one-third of the way there and
+cosine no sorry sine is the Y value
+there this is talking about a square
+root of 3 over 2 minus sine of 0 this
+will be 0 and so finally we're gonna get
+3 square root of 3 all over 4 just
+multiply the top multiply the bottom
+together and that'll be our fraction
+answer one last problem number six we
+have secant squared of 2x this is now a
+little bit tricky here because we've
+seen before that when we get the square
+here that this has a better way to be
+written okay let me write this out here
+this is kind of like saying a secant of
+2x all squared in fact so what do we
+have here well we have a function inside
+of the function here but even the secant
+of 2x is a function inside of the square
+function so there's sort of a big
+question here of how do we do this and
+even if we could do this would we be
+able to find the antiderivative okay so
+what do we choose the trick here is
+gonna be or the I don't know the secret
+to solving this is going to be knowing
+that we do know the antiderivative of
+secant squared if this was just secant
+squared X the antiderivative is tangent
+X that's a known antiderivative that
+we've learned all right so there's a
+little bit of a clue there then that we
+don't need to think of it like this in
+fact we can just focus on the 2x right
+now if u is equal to 2x my goal is to
+try to write this as a secant squared to
+you do you because that's something I
+know the antiderivative about the
+derivative if he was equal to 2x the
+derivative would be to move the DX over
+we do need to create that and a 1/2 and
+kind of created a little separation here
+we're gonna get 1/2 we're gonna get an
+integral and we're gonna get secant
+squared you do you are we do need to
+change these limits of integration if x
+is 0 2 times 0 0 PI over 8 goes in times
+2 that's really PI over 4 this
+anti-derivative we know this is just
+gonna be tangent of you plug PI over 4
+in plug zero in and let's subtract now
+1/2 tangent of PI over 4 that's sine
+over cosine sine of PI over frontally
+write it out here over cosine of PI over
+4 actually if you recall that both of
+those are equal to square root of 2 over
+2 so that's really the same thing or the
+same thing that's just gonna be a 1
+right there
+minus sine of 0 over cosine 0 sine of 0
+is 0 cosine of 0 is 1 this whole thing
+goes to just 0 then 0 over 1 so finally
+we're left with just an answer of 1/2
+final answer

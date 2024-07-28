@@ -1,0 +1,1867 @@
+[
+    {
+        "text": "what's up guys and welcome back",
+        "start": 1.599,
+        "duration": 3.2
+    },
+    {
+        "text": "to the custodian youtube channel today",
+        "start": 3.12,
+        "duration": 2.96
+    },
+    {
+        "text": "we're going to be doing part three of",
+        "start": 4.799,
+        "duration": 2.641
+    },
+    {
+        "text": "our networking video it's going to be a",
+        "start": 6.08,
+        "duration": 2.88
+    },
+    {
+        "text": "very short and sweet video a bit like",
+        "start": 7.44,
+        "duration": 2.159
+    },
+    {
+        "text": "james",
+        "start": 8.96,
+        "duration": 3.04
+    },
+    {
+        "text": "um and we are going to do you work and",
+        "start": 9.599,
+        "duration": 3.92
+    },
+    {
+        "text": "we're going to do some troubleshooting",
+        "start": 12.0,
+        "duration": 2.48
+    },
+    {
+        "text": "we're just going to go",
+        "start": 13.519,
+        "duration": 2.32
+    },
+    {
+        "text": "on a basic level we're going to look at",
+        "start": 14.48,
+        "duration": 4.32
+    },
+    {
+        "text": "some spanning tree some tdr'ing",
+        "start": 15.839,
+        "duration": 4.481
+    },
+    {
+        "text": "check the states for some ports very",
+        "start": 18.8,
+        "duration": 3.68
+    },
+    {
+        "text": "basic level purely because this",
+        "start": 20.32,
+        "duration": 4.16
+    },
+    {
+        "text": "is not an instructional video it's just",
+        "start": 22.48,
+        "duration": 3.36
+    },
+    {
+        "text": "kind of showing you",
+        "start": 24.48,
+        "duration": 2.719
+    },
+    {
+        "text": "what diagnostics you could do with the",
+        "start": 25.84,
+        "duration": 3.04
+    },
+    {
+        "text": "setup we've done in video one and two",
+        "start": 27.199,
+        "duration": 3.761
+    },
+    {
+        "text": "so remember to stay tuned and we're",
+        "start": 28.88,
+        "duration": 15.21
+    },
+    {
+        "text": "gonna roll that intro",
+        "start": 30.96,
+        "duration": 18.529
+    },
+    {
+        "text": "[Music]",
+        "start": 44.09,
+        "duration": 5.399
+    },
+    {
+        "text": "so we're connected to the switch via",
+        "start": 58.079,
+        "duration": 3.201
+    },
+    {
+        "text": "serial connection i've got it plugged in",
+        "start": 59.68,
+        "duration": 2.16
+    },
+    {
+        "text": "here",
+        "start": 61.28,
+        "duration": 1.84
+    },
+    {
+        "text": "um and we're actually going to run some",
+        "start": 61.84,
+        "duration": 2.88
+    },
+    {
+        "text": "commands on the switch to do some basic",
+        "start": 63.12,
+        "duration": 3.28
+    },
+    {
+        "text": "diagnostics",
+        "start": 64.72,
+        "duration": 3.759
+    },
+    {
+        "text": "the first thing i'm going to show you is",
+        "start": 66.4,
+        "duration": 4.88
+    },
+    {
+        "text": "checking the status of a switch port",
+        "start": 68.479,
+        "duration": 4.64
+    },
+    {
+        "text": "and then we're gonna then we're gonna",
+        "start": 71.28,
+        "duration": 3.6
+    },
+    {
+        "text": "move on to looking at",
+        "start": 73.119,
+        "duration": 4.801
+    },
+    {
+        "text": "um cable diagnostics and spanning trees",
+        "start": 74.88,
+        "duration": 4.559
+    },
+    {
+        "text": "so",
+        "start": 77.92,
+        "duration": 3.839
+    },
+    {
+        "text": "at some point this screen will pop up in",
+        "start": 79.439,
+        "duration": 3.521
+    },
+    {
+        "text": "full screen so you can actually see what",
+        "start": 81.759,
+        "duration": 4.481
+    },
+    {
+        "text": "i'm doing okay",
+        "start": 82.96,
+        "duration": 5.839
+    },
+    {
+        "text": "so the first thing we will need to do is",
+        "start": 86.24,
+        "duration": 4.16
+    },
+    {
+        "text": "if you want to view the status of an",
+        "start": 88.799,
+        "duration": 2.64
+    },
+    {
+        "text": "interface we're going to go",
+        "start": 90.4,
+        "duration": 4.8
+    },
+    {
+        "text": "on um port 44 here this is a switch i'm",
+        "start": 91.439,
+        "duration": 5.281
+    },
+    {
+        "text": "connected to",
+        "start": 95.2,
+        "duration": 3.84
+    },
+    {
+        "text": "so you've got two types of show for the",
+        "start": 96.72,
+        "duration": 3.84
+    },
+    {
+        "text": "interfaces you've got a show run",
+        "start": 99.04,
+        "duration": 5.039
+    },
+    {
+        "text": "like this not like that like this which",
+        "start": 100.56,
+        "duration": 4.96
+    },
+    {
+        "text": "will show the running config but we",
+        "start": 104.079,
+        "duration": 3.281
+    },
+    {
+        "text": "don't want that we just want to show the",
+        "start": 105.52,
+        "duration": 5.599
+    },
+    {
+        "text": "in uh gi0444",
+        "start": 107.36,
+        "duration": 5.36
+    },
+    {
+        "text": "so what this will do is it's showing me",
+        "start": 111.119,
+        "duration": 3.68
+    },
+    {
+        "text": "the status of this",
+        "start": 112.72,
+        "duration": 5.999
+    },
+    {
+        "text": "this interface so on here",
+        "start": 114.799,
+        "duration": 7.441
+    },
+    {
+        "text": "i can see uh here",
+        "start": 118.719,
+        "duration": 5.281
+    },
+    {
+        "text": "that we've got a full duplex port and",
+        "start": 122.24,
+        "duration": 3.199
+    },
+    {
+        "text": "it's up at one gig",
+        "start": 124.0,
+        "duration": 4.959
+    },
+    {
+        "text": "here and it also tells me it's a copper",
+        "start": 125.439,
+        "duration": 6.641
+    },
+    {
+        "text": "connection we've also got that it's up",
+        "start": 128.959,
+        "duration": 7.28
+    },
+    {
+        "text": "and connected if i disconnect it",
+        "start": 132.08,
+        "duration": 7.6
+    },
+    {
+        "text": "and then run the same command",
+        "start": 136.239,
+        "duration": 3.441
+    },
+    {
+        "text": "it will say the line protocol is down",
+        "start": 140.879,
+        "duration": 3.121
+    },
+    {
+        "text": "not connected",
+        "start": 142.879,
+        "duration": 4.561
+    },
+    {
+        "text": "so the port is down but still enabled",
+        "start": 144.0,
+        "duration": 5.28
+    },
+    {
+        "text": "so this is very good for diagnostics in",
+        "start": 147.44,
+        "duration": 3.92
+    },
+    {
+        "text": "the way that we sometimes have customers",
+        "start": 149.28,
+        "duration": 3.52
+    },
+    {
+        "text": "report issues",
+        "start": 151.36,
+        "duration": 3.04
+    },
+    {
+        "text": "and when it's like this we can see that",
+        "start": 152.8,
+        "duration": 4.0
+    },
+    {
+        "text": "the port is up on our side",
+        "start": 154.4,
+        "duration": 5.76
+    },
+    {
+        "text": "the actual port itself is down and it's",
+        "start": 156.8,
+        "duration": 4.56
+    },
+    {
+        "text": "not connected",
+        "start": 160.16,
+        "duration": 2.719
+    },
+    {
+        "text": "so if i reconnect this real quick we'll",
+        "start": 161.36,
+        "duration": 3.12
+    },
+    {
+        "text": "see a few errors come up because we've",
+        "start": 162.879,
+        "duration": 5.041
+    },
+    {
+        "text": "got it plugged into another bit of kit",
+        "start": 164.48,
+        "duration": 3.44
+    },
+    {
+        "text": "just for demo purposes",
+        "start": 168.8,
+        "duration": 6.4
+    },
+    {
+        "text": "okay so going back to the original",
+        "start": 172.08,
+        "duration": 6.159
+    },
+    {
+        "text": "show int so now the protocol is up and",
+        "start": 175.2,
+        "duration": 4.24
+    },
+    {
+        "text": "it's connected",
+        "start": 178.239,
+        "duration": 3.601
+    },
+    {
+        "text": "it tells us it's gigabit ethernet gives",
+        "start": 179.44,
+        "duration": 4.96
+    },
+    {
+        "text": "us the mac address of that port",
+        "start": 181.84,
+        "duration": 4.08
+    },
+    {
+        "text": "gives us a support description which",
+        "start": 184.4,
+        "duration": 3.68
+    },
+    {
+        "text": "james said in the last video",
+        "start": 185.92,
+        "duration": 5.679
+    },
+    {
+        "text": "um keeper lives whether it's full duplex",
+        "start": 188.08,
+        "duration": 4.56
+    },
+    {
+        "text": "half duplex",
+        "start": 191.599,
+        "duration": 3.601
+    },
+    {
+        "text": "and at what speed so sometimes if you've",
+        "start": 192.64,
+        "duration": 4.64
+    },
+    {
+        "text": "got a cable that's miswired this will",
+        "start": 195.2,
+        "duration": 3.2
+    },
+    {
+        "text": "actually show",
+        "start": 197.28,
+        "duration": 4.319
+    },
+    {
+        "text": "like 100 meg half duplex whatever it",
+        "start": 198.4,
+        "duration": 4.72
+    },
+    {
+        "text": "might be",
+        "start": 201.599,
+        "duration": 5.441
+    },
+    {
+        "text": "so that's a very basic level this also",
+        "start": 203.12,
+        "duration": 5.52
+    },
+    {
+        "text": "this bit here also gives you various",
+        "start": 207.04,
+        "duration": 3.68
+    },
+    {
+        "text": "information so you've got input errors",
+        "start": 208.64,
+        "duration": 3.44
+    },
+    {
+        "text": "and crcs",
+        "start": 210.72,
+        "duration": 4.32
+    },
+    {
+        "text": "this again can be a dodgy um say copper",
+        "start": 212.08,
+        "duration": 4.32
+    },
+    {
+        "text": "and a patch panel it could be a dodgy",
+        "start": 215.04,
+        "duration": 2.4
+    },
+    {
+        "text": "cable a dodgy",
+        "start": 216.4,
+        "duration": 4.0
+    },
+    {
+        "text": "rj45 end um but here you can actually",
+        "start": 217.44,
+        "duration": 5.439
+    },
+    {
+        "text": "see everything is hunky dory",
+        "start": 220.4,
+        "duration": 5.919
+    },
+    {
+        "text": "so looking at that's a very basic level",
+        "start": 222.879,
+        "duration": 5.44
+    },
+    {
+        "text": "of understanding that",
+        "start": 226.319,
+        "duration": 4.161
+    },
+    {
+        "text": "what i'll show you now is the cable",
+        "start": 228.319,
+        "duration": 4.56
+    },
+    {
+        "text": "diagram diagnostics now james",
+        "start": 230.48,
+        "duration": 4.16
+    },
+    {
+        "text": "beside me has a pair of scissors and",
+        "start": 232.879,
+        "duration": 2.72
+    },
+    {
+        "text": "what we're actually going to do is we're",
+        "start": 234.64,
+        "duration": 2.879
+    },
+    {
+        "text": "going to cut one of the cables",
+        "start": 235.599,
+        "duration": 3.92
+    },
+    {
+        "text": "um and then we're going to rerun the",
+        "start": 237.519,
+        "duration": 4.481
+    },
+    {
+        "text": "test so you can get an idea of",
+        "start": 239.519,
+        "duration": 4.08
+    },
+    {
+        "text": "what's actually happening so if i run",
+        "start": 242.0,
+        "duration": 3.84
+    },
+    {
+        "text": "the cable diagnostics before",
+        "start": 243.599,
+        "duration": 5.28
+    },
+    {
+        "text": "um it'll do a tdr which will basically",
+        "start": 245.84,
+        "duration": 5.36
+    },
+    {
+        "text": "tell us the length and how it's wired",
+        "start": 248.879,
+        "duration": 3.681
+    },
+    {
+        "text": "whether it's wired correctly whether",
+        "start": 251.2,
+        "duration": 3.119
+    },
+    {
+        "text": "there's any short circuits",
+        "start": 252.56,
+        "duration": 3.519
+    },
+    {
+        "text": "or whether there's just wires or cores",
+        "start": 254.319,
+        "duration": 3.2
+    },
+    {
+        "text": "missing",
+        "start": 256.079,
+        "duration": 5.361
+    },
+    {
+        "text": "so we do test here with diagnostics and",
+        "start": 257.519,
+        "duration": 5.761
+    },
+    {
+        "text": "we want a tdr on this one",
+        "start": 261.44,
+        "duration": 3.759
+    },
+    {
+        "text": "so we've got test cable diagnostics tdr",
+        "start": 263.28,
+        "duration": 3.68
+    },
+    {
+        "text": "and then we need the port",
+        "start": 265.199,
+        "duration": 4.401
+    },
+    {
+        "text": "so we're on k44 apparently it's not",
+        "start": 266.96,
+        "duration": 5.28
+    },
+    {
+        "text": "playing ball",
+        "start": 269.6,
+        "duration": 2.64
+    },
+    {
+        "text": "oh of course",
+        "start": 273.44,
+        "duration": 2.8
+    },
+    {
+        "text": "okay so now it's literally telling you",
+        "start": 278.0,
+        "duration": 4.88
+    },
+    {
+        "text": "what it's going to do take a few seconds",
+        "start": 280.96,
+        "duration": 2.799
+    },
+    {
+        "text": "and then you can use",
+        "start": 282.88,
+        "duration": 4.64
+    },
+    {
+        "text": "the show cable diagnostics tdr command",
+        "start": 283.759,
+        "duration": 6.241
+    },
+    {
+        "text": "see the results so here we go show cable",
+        "start": 287.52,
+        "duration": 3.52
+    },
+    {
+        "text": "diagnostics",
+        "start": 290.0,
+        "duration": 3.52
+    },
+    {
+        "text": "tdr",
+        "start": 291.04,
+        "duration": 2.48
+    },
+    {
+        "text": "hints",
+        "start": 294.32,
+        "duration": 2.319
+    },
+    {
+        "text": "okay so you can see here everything on",
+        "start": 298.16,
+        "duration": 3.599
+    },
+    {
+        "text": "this port is normal so",
+        "start": 300.4,
+        "duration": 4.4
+    },
+    {
+        "text": "on interface gig zero four four which is",
+        "start": 301.759,
+        "duration": 4.801
+    },
+    {
+        "text": "the green cable here i don't know if the",
+        "start": 304.8,
+        "duration": 3.119
+    },
+    {
+        "text": "camera's gonna pan back but i've got",
+        "start": 306.56,
+        "duration": 2.8
+    },
+    {
+        "text": "green cable next to me",
+        "start": 307.919,
+        "duration": 4.801
+    },
+    {
+        "text": "you can see each pair it gives you",
+        "start": 309.36,
+        "duration": 5.76
+    },
+    {
+        "text": "a length it gives you a rough give or",
+        "start": 312.72,
+        "duration": 3.12
+    },
+    {
+        "text": "take",
+        "start": 315.12,
+        "duration": 3.84
+    },
+    {
+        "text": "four meters and the status",
+        "start": 315.84,
+        "duration": 6.4
+    },
+    {
+        "text": "of that pair and my legs are dying",
+        "start": 318.96,
+        "duration": 6.4
+    },
+    {
+        "text": "sat down here so it gives you the",
+        "start": 322.24,
+        "duration": 5.92
+    },
+    {
+        "text": "status of that particular cable so this",
+        "start": 325.36,
+        "duration": 5.119
+    },
+    {
+        "text": "cable is perfectly fine",
+        "start": 328.16,
+        "duration": 5.36
+    },
+    {
+        "text": "but we can make it not find cargo james",
+        "start": 330.479,
+        "duration": 7.521
+    },
+    {
+        "text": "we are sorry",
+        "start": 333.52,
+        "duration": 8.08
+    },
+    {
+        "text": "yes so if i cut this cable",
+        "start": 338.0,
+        "duration": 6.88
+    },
+    {
+        "text": "already cut it a little bit",
+        "start": 341.6,
+        "duration": 3.28
+    },
+    {
+        "text": "it only needs to be cut enough just to",
+        "start": 348.479,
+        "duration": 4.481
+    },
+    {
+        "text": "get a core that's broken and then the",
+        "start": 351.28,
+        "duration": 3.359
+    },
+    {
+        "text": "tdr will show it",
+        "start": 352.96,
+        "duration": 4.72
+    },
+    {
+        "text": "this cable here it's actually got two",
+        "start": 354.639,
+        "duration": 6.161
+    },
+    {
+        "text": "one core broken one actually split",
+        "start": 357.68,
+        "duration": 4.56
+    },
+    {
+        "text": "we just have a little manipulation of",
+        "start": 360.8,
+        "duration": 3.28
+    },
+    {
+        "text": "the cable try and touch some of course",
+        "start": 362.24,
+        "duration": 3.84
+    },
+    {
+        "text": "together again",
+        "start": 364.08,
+        "duration": 5.2
+    },
+    {
+        "text": "it might do something apparently not",
+        "start": 366.08,
+        "duration": 6.239
+    },
+    {
+        "text": "but we can now run the tdr again",
+        "start": 369.28,
+        "duration": 7.12
+    },
+    {
+        "text": "so if we rerun this tdr the g044",
+        "start": 372.319,
+        "duration": 7.201
+    },
+    {
+        "text": "again take a few seconds and then we can",
+        "start": 376.4,
+        "duration": 5.76
+    },
+    {
+        "text": "show cable diagnostics tdr the interface",
+        "start": 379.52,
+        "duration": 3.519
+    },
+    {
+        "text": "interface name",
+        "start": 382.16,
+        "duration": 3.84
+    },
+    {
+        "text": "to show the results",
+        "start": 383.039,
+        "duration": 2.961
+    },
+    {
+        "text": "which would be this one",
+        "start": 386.24,
+        "duration": 6.079
+    },
+    {
+        "text": "so it's not yet updated so it's probably",
+        "start": 389.6,
+        "duration": 3.52
+    },
+    {
+        "text": "still running its",
+        "start": 392.319,
+        "duration": 4.72
+    },
+    {
+        "text": "test i just could rerun the test because",
+        "start": 393.12,
+        "duration": 5.68
+    },
+    {
+        "text": "it apparently didn't run i think i",
+        "start": 397.039,
+        "duration": 5.681
+    },
+    {
+        "text": "um called the results too quick",
+        "start": 398.8,
+        "duration": 6.08
+    },
+    {
+        "text": "on that one so give it a little second",
+        "start": 402.72,
+        "duration": 5.36
+    },
+    {
+        "text": "more this time",
+        "start": 404.88,
+        "duration": 4.319
+    },
+    {
+        "text": "so it took a little while to get there",
+        "start": 408.08,
+        "duration": 3.04
+    },
+    {
+        "text": "but now we can actually see that",
+        "start": 409.199,
+        "duration": 6.161
+    },
+    {
+        "text": "at roughly hair d roughly one meter so",
+        "start": 411.12,
+        "duration": 5.519
+    },
+    {
+        "text": "this is a",
+        "start": 415.36,
+        "duration": 3.52
+    },
+    {
+        "text": "5 6 8 d cable so you have orange white",
+        "start": 416.639,
+        "duration": 3.68
+    },
+    {
+        "text": "orange green white blue",
+        "start": 418.88,
+        "duration": 2.8
+    },
+    {
+        "text": "white blue green and this is your brown",
+        "start": 420.319,
+        "duration": 4.16
+    },
+    {
+        "text": "white brown key",
+        "start": 421.68,
+        "duration": 4.88
+    },
+    {
+        "text": "and that is exactly what james has cut",
+        "start": 424.479,
+        "duration": 3.12
+    },
+    {
+        "text": "so",
+        "start": 426.56,
+        "duration": 3.919
+    },
+    {
+        "text": "it's saying roughly a meter there's a",
+        "start": 427.599,
+        "duration": 3.681
+    },
+    {
+        "text": "open",
+        "start": 430.479,
+        "duration": 4.321
+    },
+    {
+        "text": "path which yes it's not exactly a metre",
+        "start": 431.28,
+        "duration": 5.359
+    },
+    {
+        "text": "it's probably half a meter",
+        "start": 434.8,
+        "duration": 4.16
+    },
+    {
+        "text": "but it's guesstimating it's it's just a",
+        "start": 436.639,
+        "duration": 3.361
+    },
+    {
+        "text": "tdr function",
+        "start": 438.96,
+        "duration": 2.88
+    },
+    {
+        "text": "on a switch if you use an actual tdr",
+        "start": 440.0,
+        "duration": 3.12
+    },
+    {
+        "text": "tool you're probably getting more",
+        "start": 441.84,
+        "duration": 2.799
+    },
+    {
+        "text": "precise reading",
+        "start": 443.12,
+        "duration": 3.199
+    },
+    {
+        "text": "but this shows you that here there is a",
+        "start": 444.639,
+        "duration": 4.081
+    },
+    {
+        "text": "particular problem with that pair",
+        "start": 446.319,
+        "duration": 4.641
+    },
+    {
+        "text": "we could use this to diagnose that it's",
+        "start": 448.72,
+        "duration": 4.64
+    },
+    {
+        "text": "either a bad crimp",
+        "start": 450.96,
+        "duration": 5.04
+    },
+    {
+        "text": "someone's cut the cable maliciously",
+        "start": 453.36,
+        "duration": 3.6
+    },
+    {
+        "text": "james",
+        "start": 456.0,
+        "duration": 4.4
+    },
+    {
+        "text": "um or",
+        "start": 456.96,
+        "duration": 4.959
+    },
+    {
+        "text": "that there's just a general fault with",
+        "start": 460.4,
+        "duration": 3.12
+    },
+    {
+        "text": "the port the port itself could have a",
+        "start": 461.919,
+        "duration": 4.161
+    },
+    {
+        "text": "fault with the pins",
+        "start": 463.52,
+        "duration": 4.48
+    },
+    {
+        "text": "so this this aids in that diagonal",
+        "start": 466.08,
+        "duration": 3.2
+    },
+    {
+        "text": "diagnosis",
+        "start": 468.0,
+        "duration": 2.56
+    },
+    {
+        "text": "so the last one we're actually going to",
+        "start": 469.28,
+        "duration": 3.599
+    },
+    {
+        "text": "look at",
+        "start": 470.56,
+        "duration": 6.28
+    },
+    {
+        "text": "which i can do we're going to do port 41",
+        "start": 472.879,
+        "duration": 6.961
+    },
+    {
+        "text": "but those are part of a port channel so",
+        "start": 476.84,
+        "duration": 3.96
+    },
+    {
+        "text": "what we need to do",
+        "start": 479.84,
+        "duration": 4.079
+    },
+    {
+        "text": "is we can do show",
+        "start": 480.8,
+        "duration": 8.72
+    },
+    {
+        "text": "spanning tree and let's go vlan",
+        "start": 483.919,
+        "duration": 5.601
+    },
+    {
+        "text": "one",
+        "start": 490.84,
+        "duration": 5.24
+    },
+    {
+        "text": "okay and i'll also do vlan 2. just so",
+        "start": 492.96,
+        "duration": 5.919
+    },
+    {
+        "text": "we've got them on the same screen",
+        "start": 496.08,
+        "duration": 6.64
+    },
+    {
+        "text": "so so what i've actually got here is the",
+        "start": 498.879,
+        "duration": 4.88
+    },
+    {
+        "text": "vlan",
+        "start": 502.72,
+        "duration": 4.879
+    },
+    {
+        "text": "spanning tree information so",
+        "start": 503.759,
+        "duration": 7.44
+    },
+    {
+        "text": "so here you can see it's so from vlad",
+        "start": 507.599,
+        "duration": 3.921
+    },
+    {
+        "text": "one",
+        "start": 511.199,
+        "duration": 3.84
+    },
+    {
+        "text": "spanish is enabled it tells you the",
+        "start": 511.52,
+        "duration": 6.879
+    },
+    {
+        "text": "priority and here we've actually got",
+        "start": 515.039,
+        "duration": 6.48
+    },
+    {
+        "text": "information on where that vlan is",
+        "start": 518.399,
+        "duration": 5.601
+    },
+    {
+        "text": "sitting so if we were to do a showrun on",
+        "start": 521.519,
+        "duration": 3.921
+    },
+    {
+        "text": "interface support channel 2",
+        "start": 524.0,
+        "duration": 4.0
+    },
+    {
+        "text": "you would see that that that interface",
+        "start": 525.44,
+        "duration": 4.32
+    },
+    {
+        "text": "is having a sv lander",
+        "start": 528.0,
+        "duration": 5.04
+    },
+    {
+        "text": "so it's currently a forwarding state",
+        "start": 529.76,
+        "duration": 5.84
+    },
+    {
+        "text": "and it's got a cost it's got a priority",
+        "start": 533.04,
+        "duration": 3.52
+    },
+    {
+        "text": "and it's also",
+        "start": 535.6,
+        "duration": 2.56
+    },
+    {
+        "text": "tight that is irrelevant towards that",
+        "start": 536.56,
+        "duration": 3.12
+    },
+    {
+        "text": "moment because it works",
+        "start": 538.16,
+        "duration": 4.96
+    },
+    {
+        "text": "obviously if there was a fault with it",
+        "start": 539.68,
+        "duration": 5.52
+    },
+    {
+        "text": "then it would show us here",
+        "start": 543.12,
+        "duration": 3.52
+    },
+    {
+        "text": "different information but i don't really",
+        "start": 545.2,
+        "duration": 3.759
+    },
+    {
+        "text": "want to",
+        "start": 546.64,
+        "duration": 2.319
+    },
+    {
+        "text": "so again you've got the vlan",
+        "start": 552.72,
+        "duration": 7.44
+    },
+    {
+        "text": "vlan 2 it's also in folding on these two",
+        "start": 555.92,
+        "duration": 5.12
+    },
+    {
+        "text": "ports now",
+        "start": 560.16,
+        "duration": 3.84
+    },
+    {
+        "text": "you might think how come gig 44 is still",
+        "start": 561.04,
+        "duration": 4.239
+    },
+    {
+        "text": "in forwarding state yet the cables have",
+        "start": 564.0,
+        "duration": 2.24
+    },
+    {
+        "text": "been cut",
+        "start": 565.279,
+        "duration": 3.201
+    },
+    {
+        "text": "because the port is still up but it's",
+        "start": 566.24,
+        "duration": 3.279
+    },
+    {
+        "text": "only up at 100",
+        "start": 568.48,
+        "duration": 3.6
+    },
+    {
+        "text": "because james cut the ground twice so if",
+        "start": 569.519,
+        "duration": 3.841
+    },
+    {
+        "text": "i actually do that showing",
+        "start": 572.08,
+        "duration": 3.84
+    },
+    {
+        "text": "again on that interface you will see",
+        "start": 573.36,
+        "duration": 3.84
+    },
+    {
+        "text": "that",
+        "start": 575.92,
+        "duration": 4.24
+    },
+    {
+        "text": "first glance gig 44 is upline protocol",
+        "start": 577.2,
+        "duration": 4.639
+    },
+    {
+        "text": "is up connected perfect everything tonky",
+        "start": 580.16,
+        "duration": 2.56
+    },
+    {
+        "text": "dory",
+        "start": 581.839,
+        "duration": 4.401
+    },
+    {
+        "text": "if we come down here it's only up at 100",
+        "start": 582.72,
+        "duration": 4.96
+    },
+    {
+        "text": "meg",
+        "start": 586.24,
+        "duration": 5.36
+    },
+    {
+        "text": "so what this is telling us is",
+        "start": 587.68,
+        "duration": 6.48
+    },
+    {
+        "text": "spanning tree is working fine the port",
+        "start": 591.6,
+        "duration": 3.84
+    },
+    {
+        "text": "is up",
+        "start": 594.16,
+        "duration": 3.119
+    },
+    {
+        "text": "but you're only going to get 100 meg on",
+        "start": 595.44,
+        "duration": 3.12
+    },
+    {
+        "text": "that port",
+        "start": 597.279,
+        "duration": 5.201
+    },
+    {
+        "text": "so if that",
+        "start": 598.56,
+        "duration": 3.92
+    },
+    {
+        "text": "do you want to cut that cable completely",
+        "start": 602.56,
+        "duration": 3.279
+    },
+    {
+        "text": "completely i can't let's cut the cable",
+        "start": 605.92,
+        "duration": 3.2
+    },
+    {
+        "text": "completely because i want to",
+        "start": 607.44,
+        "duration": 5.76
+    },
+    {
+        "text": "just see what the spanning tree does",
+        "start": 609.12,
+        "duration": 4.08
+    },
+    {
+        "text": "so now that interface is actually",
+        "start": 614.16,
+        "duration": 5.2
+    },
+    {
+        "text": "completely dropped off of vlan 2 because",
+        "start": 615.44,
+        "duration": 7.44
+    },
+    {
+        "text": "it's cut so there you go",
+        "start": 619.36,
+        "duration": 4.719
+    },
+    {
+        "text": "if there was a loop it would show",
+        "start": 622.88,
+        "duration": 3.12
+    },
+    {
+        "text": "different information um we're not going",
+        "start": 624.079,
+        "duration": 2.241
+    },
+    {
+        "text": "to",
+        "start": 626.0,
+        "duration": 2.959
+    },
+    {
+        "text": "simulate loot because that's not what",
+        "start": 626.32,
+        "duration": 3.92
+    },
+    {
+        "text": "this video is about but",
+        "start": 628.959,
+        "duration": 3.12
+    },
+    {
+        "text": "so what we've talked about is the show",
+        "start": 630.24,
+        "duration": 3.92
+    },
+    {
+        "text": "interface um",
+        "start": 632.079,
+        "duration": 3.601
+    },
+    {
+        "text": "to actually tell us the states of the",
+        "start": 634.16,
+        "duration": 4.08
+    },
+    {
+        "text": "interface where there's port errors",
+        "start": 635.68,
+        "duration": 6.0
+    },
+    {
+        "text": "um it has a speed etc",
+        "start": 638.24,
+        "duration": 4.88
+    },
+    {
+        "text": "all the stuff that you're gonna need for",
+        "start": 641.68,
+        "duration": 3.2
+    },
+    {
+        "text": "a basic level of diagnostics",
+        "start": 643.12,
+        "duration": 3.839
+    },
+    {
+        "text": "we've also covered checking the spanning",
+        "start": 644.88,
+        "duration": 3.92
+    },
+    {
+        "text": "tree is actually in a folding state if",
+        "start": 646.959,
+        "duration": 3.281
+    },
+    {
+        "text": "it's not it could be in a blocking state",
+        "start": 648.8,
+        "duration": 2.32
+    },
+    {
+        "text": "because it's",
+        "start": 650.24,
+        "duration": 2.88
+    },
+    {
+        "text": "a loop or something who knows again",
+        "start": 651.12,
+        "duration": 3.52
+    },
+    {
+        "text": "that's another video",
+        "start": 653.12,
+        "duration": 4.32
+    },
+    {
+        "text": "and we've also covered doing a tdr",
+        "start": 654.64,
+        "duration": 4.56
+    },
+    {
+        "text": "diagnostics on the cable to give us",
+        "start": 657.44,
+        "duration": 5.519
+    },
+    {
+        "text": "a fault of distance what pair it's on",
+        "start": 659.2,
+        "duration": 5.84
+    },
+    {
+        "text": "obviously you would get different",
+        "start": 662.959,
+        "duration": 3.281
+    },
+    {
+        "text": "different um",
+        "start": 665.04,
+        "duration": 2.72
+    },
+    {
+        "text": "metrics if hit the fiber because you",
+        "start": 666.24,
+        "duration": 3.2
+    },
+    {
+        "text": "don't have cores",
+        "start": 667.76,
+        "duration": 3.92
+    },
+    {
+        "text": "and you'd probably use an actual otdr",
+        "start": 669.44,
+        "duration": 6.32
+    },
+    {
+        "text": "tester like rather used in his life",
+        "start": 671.68,
+        "duration": 7.12
+    },
+    {
+        "text": "in the life of a knock engineer video",
+        "start": 675.76,
+        "duration": 4.96
+    },
+    {
+        "text": "um now i'm waiting for this native elan",
+        "start": 678.8,
+        "duration": 4.08
+    },
+    {
+        "text": "mismatch to come up",
+        "start": 680.72,
+        "duration": 5.2
+    },
+    {
+        "text": "again just so it's kind of not",
+        "start": 682.88,
+        "duration": 6.32
+    },
+    {
+        "text": "filling up the screen but i'll quickly",
+        "start": 685.92,
+        "duration": 4.72
+    },
+    {
+        "text": "talk through what it's doing before it",
+        "start": 689.2,
+        "duration": 2.72
+    },
+    {
+        "text": "comes back up again i think it's coming",
+        "start": 690.64,
+        "duration": 2.639
+    },
+    {
+        "text": "up every couple of minutes",
+        "start": 691.92,
+        "duration": 4.0
+    },
+    {
+        "text": "effectively what it's doing is it is it",
+        "start": 693.279,
+        "duration": 4.321
+    },
+    {
+        "text": "literally tells you the problem",
+        "start": 695.92,
+        "duration": 3.68
+    },
+    {
+        "text": "so bonus error we've got here guys is",
+        "start": 697.6,
+        "duration": 3.04
+    },
+    {
+        "text": "we've actually",
+        "start": 699.6,
+        "duration": 5.04
+    },
+    {
+        "text": "because we cut the green cable um",
+        "start": 700.64,
+        "duration": 4.0
+    },
+    {
+        "text": "we've had to swap over the cables on",
+        "start": 704.88,
+        "duration": 3.92
+    },
+    {
+        "text": "this switch and it's actually reproduced",
+        "start": 706.88,
+        "duration": 4.0
+    },
+    {
+        "text": "the area that i wanted to talk about",
+        "start": 708.8,
+        "duration": 4.0
+    },
+    {
+        "text": "so looking at this error you've actually",
+        "start": 710.88,
+        "duration": 3.28
+    },
+    {
+        "text": "got",
+        "start": 712.8,
+        "duration": 3.839
+    },
+    {
+        "text": "quite a lot of information so it's",
+        "start": 714.16,
+        "duration": 3.84
+    },
+    {
+        "text": "giving you an error message which you",
+        "start": 716.639,
+        "duration": 2.561
+    },
+    {
+        "text": "can use to look up in",
+        "start": 718.0,
+        "duration": 5.839
+    },
+    {
+        "text": "um cisco documentation so you've got cdp",
+        "start": 719.2,
+        "duration": 7.04
+    },
+    {
+        "text": "native vlan mismatch cdp cisco discovery",
+        "start": 723.839,
+        "duration": 3.521
+    },
+    {
+        "text": "protocol and it's telling you that",
+        "start": 726.24,
+        "duration": 2.8
+    },
+    {
+        "text": "there's a vlan mismatch between the port",
+        "start": 727.36,
+        "duration": 3.039
+    },
+    {
+        "text": "on this switch and the port on the other",
+        "start": 729.04,
+        "duration": 2.32
+    },
+    {
+        "text": "switch",
+        "start": 730.399,
+        "duration": 3.68
+    },
+    {
+        "text": "um it i don't know what i'm pointing",
+        "start": 731.36,
+        "duration": 3.68
+    },
+    {
+        "text": "with my hands",
+        "start": 734.079,
+        "duration": 3.44
+    },
+    {
+        "text": "um so this is saying there's a vlan",
+        "start": 735.04,
+        "duration": 3.599
+    },
+    {
+        "text": "mismatch discovery",
+        "start": 737.519,
+        "duration": 4.161
+    },
+    {
+        "text": "ethernet 044 and it's vm2 now i know",
+        "start": 738.639,
+        "duration": 5.361
+    },
+    {
+        "text": "that this switch only has",
+        "start": 741.68,
+        "duration": 5.76
+    },
+    {
+        "text": "um like a single",
+        "start": 744.0,
+        "duration": 5.44
+    },
+    {
+        "text": "set of 48 volts it's a single slot",
+        "start": 747.44,
+        "duration": 4.8
+    },
+    {
+        "text": "switch so it's g044 and the first device",
+        "start": 749.44,
+        "duration": 4.88
+    },
+    {
+        "text": "is the one",
+        "start": 752.24,
+        "duration": 5.2
+    },
+    {
+        "text": "so if we were to log on to this router",
+        "start": 754.32,
+        "duration": 3.84
+    },
+    {
+        "text": "so",
+        "start": 757.44,
+        "duration": 2.399
+    },
+    {
+        "text": "the one that the other end is connected",
+        "start": 758.16,
+        "duration": 4.64
+    },
+    {
+        "text": "to it keeps it 435",
+        "start": 759.839,
+        "duration": 5.68
+    },
+    {
+        "text": "this and this will be back to front but",
+        "start": 762.8,
+        "duration": 4.32
+    },
+    {
+        "text": "for this one we've got vlan",
+        "start": 765.519,
+        "duration": 3.841
+    },
+    {
+        "text": "mismatches government gig zero four four",
+        "start": 767.12,
+        "duration": 4.48
+    },
+    {
+        "text": "it's currently d-day two",
+        "start": 769.36,
+        "duration": 5.52
+    },
+    {
+        "text": "and it's telling us that the other end",
+        "start": 771.6,
+        "duration": 4.96
+    },
+    {
+        "text": "which is plugged into",
+        "start": 774.88,
+        "duration": 4.8
+    },
+    {
+        "text": "435 it's currently on vlan 20 so it's",
+        "start": 776.56,
+        "duration": 5.04
+    },
+    {
+        "text": "kicking up the fuss about that",
+        "start": 779.68,
+        "duration": 3.92
+    },
+    {
+        "text": "because spanning three kind of works",
+        "start": 781.6,
+        "duration": 3.6
+    },
+    {
+        "text": "when both ends are on the same",
+        "start": 783.6,
+        "duration": 5.679
+    },
+    {
+        "text": "vlan so yeah with this",
+        "start": 785.2,
+        "duration": 6.96
+    },
+    {
+        "text": "again it could be for this particular",
+        "start": 789.279,
+        "duration": 3.521
+    },
+    {
+        "text": "video",
+        "start": 792.16,
+        "duration": 2.96
+    },
+    {
+        "text": "it's because that port is 420 it's not",
+        "start": 792.8,
+        "duration": 5.2
+    },
+    {
+        "text": "configured to do anything special",
+        "start": 795.12,
+        "duration": 5.04
+    },
+    {
+        "text": "so we've gone into the config and",
+        "start": 798.0,
+        "duration": 3.04
+    },
+    {
+        "text": "changed it",
+        "start": 800.16,
+        "duration": 3.28
+    },
+    {
+        "text": "however if this was in production you",
+        "start": 801.04,
+        "duration": 3.76
+    },
+    {
+        "text": "would need to either",
+        "start": 803.44,
+        "duration": 3.04
+    },
+    {
+        "text": "to save a spanning tree if you didn't",
+        "start": 804.8,
+        "duration": 3.839
+    },
+    {
+        "text": "need it if you didn't need spanning tree",
+        "start": 806.48,
+        "duration": 3.919
+    },
+    {
+        "text": "ensure that the correct vlan was tagged",
+        "start": 808.639,
+        "duration": 3.281
+    },
+    {
+        "text": "at those ends",
+        "start": 810.399,
+        "duration": 3.12
+    },
+    {
+        "text": "so that that alert will keep coming up",
+        "start": 811.92,
+        "duration": 3.52
+    },
+    {
+        "text": "every couple of minutes i think it comes",
+        "start": 813.519,
+        "duration": 3.361
+    },
+    {
+        "text": "up",
+        "start": 815.44,
+        "duration": 5.36
+    },
+    {
+        "text": "yeah almost every minute um so yeah",
+        "start": 816.88,
+        "duration": 5.199
+    },
+    {
+        "text": "it's just one of those errors",
+        "start": 820.8,
+        "duration": 3.36
+    },
+    {
+        "text": "occasionally you do come across",
+        "start": 822.079,
+        "duration": 3.681
+    },
+    {
+        "text": "common causes you're plugged it in and",
+        "start": 824.16,
+        "duration": 3.679
+    },
+    {
+        "text": "not configure the port that gets much",
+        "start": 825.76,
+        "duration": 4.879
+    },
+    {
+        "text": "else to cover isn't it",
+        "start": 827.839,
+        "duration": 2.8
+    },
+    {
+        "text": "okay so that concludes uh this video",
+        "start": 830.959,
+        "duration": 3.041
+    },
+    {
+        "text": "hopefully",
+        "start": 833.279,
+        "duration": 3.36
+    },
+    {
+        "text": "you all have learned something as always",
+        "start": 834.0,
+        "duration": 3.839
+    },
+    {
+        "text": "if you would like to write down in the",
+        "start": 836.639,
+        "duration": 1.681
+    },
+    {
+        "text": "bottom",
+        "start": 837.839,
+        "duration": 4.0
+    },
+    {
+        "text": "uh point out if we've missed something",
+        "start": 838.32,
+        "duration": 6.16
+    },
+    {
+        "text": "if you've got any questions let us know",
+        "start": 841.839,
+        "duration": 3.521
+    },
+    {
+        "text": "and",
+        "start": 844.48,
+        "duration": 2.4
+    },
+    {
+        "text": "i don't really have a plan for the next",
+        "start": 845.36,
+        "duration": 3.52
+    },
+    {
+        "text": "video so if anyone wants us to",
+        "start": 846.88,
+        "duration": 4.0
+    },
+    {
+        "text": "look at something very specific feel",
+        "start": 848.88,
+        "duration": 3.199
+    },
+    {
+        "text": "free to mention that",
+        "start": 850.88,
+        "duration": 3.199
+    },
+    {
+        "text": "down below we'll see you all the next",
+        "start": 852.079,
+        "duration": 3.12
+    },
+    {
+        "text": "one and",
+        "start": 854.079,
+        "duration": 3.76
+    },
+    {
+        "text": "happy labbing",
+        "start": 855.199,
+        "duration": 2.64
+    }
+]
