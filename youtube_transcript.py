@@ -5,7 +5,7 @@ from pytube import YouTube
 import json
 
 # Assuming openai_assistant.py is in the same directory
-from openai_assistant import get_api_key, initialize_openai_client, interact_with_custom_assistant
+# from openai_assistant import get_api_key, initialize_openai_client, interact_with_custom_assistant
 
 def get_transcript(video_id):
     """
