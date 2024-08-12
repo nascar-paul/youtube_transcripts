@@ -7,14 +7,20 @@ import json
 # Assuming openai_assistant.py is in the same directory
 # from openai_assistant import get_api_key, initialize_openai_client, interact_with_custom_assistant
 
+from youtube_transcript_api._errors import TranscriptsDisabled
+
 def get_transcript(video_id):
     """
     Retrieves the transcript of a YouTube video given its ID.
     :param video_id: The YouTube video ID.
-    :return: The video transcript as a list of dictionaries.
+    :return: The video transcript as a list of dictionaries or None if transcripts are disabled.
     """
-    transcript = YouTubeTranscriptApi.get_transcript(video_id)
-    return transcript
+    try:
+        transcript = YouTubeTranscriptApi.get_transcript(video_id)
+        return transcript
+    except TranscriptsDisabled:
+        print(f"Transcripts are disabled for the video with ID: {video_id}")
+        return None
 
 def write_transcript_to_file(video_id, transcript, output_format):
     """
