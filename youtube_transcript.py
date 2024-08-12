@@ -56,7 +56,10 @@ if output_format not in ['text', 'json', 'both']:
     output_format = 'text'
 
 transcript = get_transcript(video_id)
-write_transcript_to_file(video_id, transcript, output_format)
+if transcript:
+    write_transcript_to_file(video_id, transcript, output_format)
+else:
+    print("No transcript available. Exiting script.")
 
 engage_option = input("Would you like to forward this transcript to the assistant for summarization and analysis? (yes/no): ").lower()
 if engage_option == 'yes':
